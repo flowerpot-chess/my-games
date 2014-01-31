@@ -1,0 +1,90 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.01.24"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Stockfish-dd-64-modern, Level 1"]
+[Result "1-0"]
+[ECO "C40"]
+[Opening "Elephant Gambit"]
+[Variation "Maroczy"]
+[Termination "normal"]
+[PlyCount "57"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. e4 e5 2. Nf3 d5 {The Elephant Gambit! My first game (I think) against
+this opening.} 3. exd5 {White accepts the gambit. This is the main line,
+according to Wikipedia.} Ne7 {Black immediately leaves the main line. Now
+I'm on my own.} 4. Nc3 {Stockfish suggests 4.c4. I liked this move because
+it develops by Knight normally, and the Knight also covers the
+e4-square.
+
+Note that where as c2-c4 would prevent the e7-Knight from
+taking my e5-pawn outright (unless Black wants to gambit his Knight too!),
+Nc3 does not, since the Black Queen is also attacking d5 (meaning Black is
+free to take back the pawn he's lost).} Nxd5 5. Nxe5 {This is also the move
+recommended by Stockfish. I know expected Black to follow with Nxc3, giving
+me doubled pawns on the c-file after I recapture.} Nd7 {Not the expected
+move.} 6. d4 {Protects the Knight, but not a very good move (see the
+7...Nxe5 variation for an example what this move could result in). See
+variations for what Stockfish suggests here.} (6. Nxf7 6. .. Qe7+ 7. Qe2
+Qxe2+ 8. Bxe2 Kxf7 9. Nxd5 {White is two pawns up, and the Black King is
+exposed.}) (6. Qh5 Nxe5 7. Qxe5+ Be6) 6. .. Nxc3 7. bxc3 Qe7 {Pins the
+Knight. See variation for a stronger move for Black.} (7. .. Nxe5 8. dxe5
+Qxd1+ 9. Kxd1 {White is a pawn up, but the White King can no longer castle,
+and the White pawn structure is suspicious.}) 8. Be2 {Unpins the Knight,
+which is crucial to prevent ...f6, which would win the Knight. This gives
+up a pawn (after 8...Nxe5 9.dxe5 Qxe5), but I'm a pawn up so I was OK with
+that.
+
+Note that 8.Qe2 (which is what Stockfish recommends) would have
+allowed me to keep the pawn, but would also allow Black to force a Queen
+exchange, and I like my Queen :)} Nxe5 9. dxe5 Qxe5 {The epxected exchange.
+An unexpected (for me) outcome was that Black is now threatening a
+devastating ...Qxc3+.} 10. Bd2 {Considered Bb2 or a Queen move, but settled
+for Bd2. No concrete reason. Stockfish suggests Qd4. I suppose one good
+thing with that move is that a Queen exchange would undouble my pawns.} Bf5
+11. O-O {Getting my King to safety. Initially I was concerned about
+...Bxc2, since recapturing with my Queen would seemingly hang my e2-Bishop
+to the Black Queen. But then I realized that after ...Qxe2, Rfe1 would be
+pretty devastating for Black. (Hold that thought.)} Bd6 {Threatening mate
+on h2!} 12. f4 {Debated between this move and g3 (which is what Stockfish
+recommends). Decided on f4 since it felt more active, attacking the Queen.}
+Qd5 13. c4 {After I made this move I kicked myself, because a couple of
+moves back, when the Black Queen was still on the e-file, I had eyed
+Be2-b5+ as a possible chock attack after Rfe1, if Black would allow it. But
+now I've denied my Bishop that opportunity!} Qe4 14. Re1 {Lining up the
+Rook on the e-file.} Bc5+ 15. Kh1 b6 {Black blunders, and it costs him the
+game!} 16. Bf3 Qxe1+ 17. Qxe1+ Be7 18. Bxa8 Bxc2 {Thought long and hard
+about this position. I had to stop here (to go to work), but before I left
+I decided that Ba8-c6+ would be a good move, forcing the King to move and
+preventing Black from castling.
+
+When I came back to the game after work
+I suddenly thought that Bd2-b4 would be an absolute killer, but then
+realized that Black could just castle his way out of that spot. Finally I
+saw that Ba8-c6+ first, *then* Bd2-b4 would be very strong.
+
+Of course,
+White is totally winning either way (unless I blunder badly), but I really
+wanted to find the strongest possible continuation.} 19. Bc6+ Kd8 (19. ..
+Kf8 20. Bb4 h6 21. Qxe7+ Kg8) 20. Bb4 (20. Qe5 {Stockfish likes Bd2-b4, but
+found this even stronger move, which apparently is a forced mate in 10.}
+Kc8 (20. .. Re8 21. Qd5+ Bd6 22. Qxf7) 21. Qxe7) 20. .. Bd6 {This move
+surprised me. I had counted on 20...Bxb4 21.Qxb4.} 21. Qd2 {Stockfish finds
+a mate in 11 after Qh4+.} Kc8 22. Bxd6 Rd8 23. Qxc2 Rxd6 24. Qe4 {Starting
+from 21.Qd2, this was exactly the line I had calculated. In analysis,
+Stockfish pointed out to me that 23.Qd5 would provide a more forced path to
+the same (more or less) position.} Rd8 25. Bb7+ {See Re1 variation for a
+shorter (by one move) path to mate.} (25. Re1 b5 26. Qe8 Kb8 (26. .. bxc4
+27. Qxd8+ Kxd8 28. Re8#) 27. Qxd8#) 25. .. Kb8 (25. .. Kd7 26. Rd1#) 26.
+Ba6 {First I thought Ba8, followed by Qb7, would be good, but after Ba8 the
+King can escape via Kc8.} c6 27. Qxc6 Rd1+ {The threat of a back rank mate
+had been in my mind all the time, so there was no way I was going to have
+let myself be beaten that way.} 28. Rxd1 b5 29. Qb7# {A game with two
+faces. Black definitely won the opening phase, and had a strong attack
+going until he blundered his Queen. After that it was an easy win for
+White. Lesson (hopefully) learned: Play better against the Elephant Gambit
+the next time!} 1-0
+

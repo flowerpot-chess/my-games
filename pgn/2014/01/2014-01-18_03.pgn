@@ -1,0 +1,126 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.01.18"]
+[Round "3"]
+[White "Zethson, Torgil"]
+[Black "Stockfish-dd-64-modern, Level 1"]
+[Result "0-1"]
+[ECO "C44"]
+[Opening "Scotch"]
+[Variation "Lolli Variation"]
+[Termination "normal"]
+[PlyCount "30"]
+[WhiteType "human"]
+[BlackType "computer"]
+
+1. e4 Nc6 {(e7-e6 Nb1-c3 d7-d5 d2-d4 Bf8-b4 e4xd5 e6xd5 Ng1-f3 Ng8-f6
+Bf1-d3 Nb8-c6 O-O O-O Bc1-g5 Bb4xc3 b2xc3 Rf8-e8) -0.32/22 49} 2. d4 e5
+{(e7-e5 d4xe5 Nc6xe5 Ng1-f3 Ne5xf3+ Qd1xf3 Ng8-f6 Nb1-c3 Bf8-b4 Bf1-c4
+d7-d6 O-O Bc8-g4 Qf3-d3 O-O f2-f3 Bb4-c5+ Bc1-e3 Bc5xe3+ Qd3xe3 Bg4-d7
+Qe3-d4 Rf8-e8 Ra1-d1 Qd8-e7 Nc3-b5 Bd7xb5 Bc4xb5 Nf6-d7) -0.52/21 46} 3.
+Nf3 {Transposes to the Scotch Game.} Nxd4 {(e5xd4 Nf3xd4 Ng8-f6 Nd4xc6
+b7xc6 e4-e5 Qd8-e7 Qd1-e2 Nf6-d5 Nb1-d2 Nd5-f4 Qe2-e3 Nf4-d5 Qe3-e2)
+0.00/20 37 Wikipedia on the Scotch Game: "3...Nxd4 is possible, though
+rarely played today by strong players. [...] It is often described today as
+a strategic error, since after 4.Nxd4 exd4 5.Qxd4 (5.Bc4 is the Napoleon
+Gambit) White's queen stands on a central square, and is not developed too
+early since it cannot be chased away very effectively"} 4. Nxd4 Qh4 {(e5xd4
+Qd1xd4 d7-d6 Nb1-c3 a7-a6 Bc1-f4 Ng8-e7 Bf1-e2 Ne7-c6 Qd4-d3 Bf8-e7 O-O-O
+O-O Nc3-d5 Be7-g5 Bf4xg5 Qd8xg5+ Kc1-b1 Qg5-d8 f2-f4 Bc8-d7 Qd3-b3 b7-b5
+Qb3-c3 Rf8-e8) -0.76/22 40 This move took me by surprise. My choice here is
+to save the Knight (e.g. Nb5, threatening a fork on c7 btw), and loosing
+the e4-pawn to ...Qxe4+, or giving back the Knight but protecting my pawn,
+e.g. through Nc3 (following ...exd4 with Qxd4).} 5. Nb5 {I chose to keep my
+Knight.} (5. Nc3 exd4 {(e5xd4 Qd1xd4 Ng8-e7 Bf1-c4 a7-a6 O-O Ne7-c6 Qd4-d5
+Qh4-f6 Bc1-e3 Bf8-e7 Qd5-d2 Be7-d8 f2-f4 O-O e4-e5 Qf6-f5 Ra1-d1 Rf8-e8
+Bc4-d5 d7-d6 Bd5-e4 Qf5-h5 e5xd6 c7xd6) -1.47/23 57} 6. Qxd4 Nf6 {(Ng8-e7
+Qd4-d3 Ne7-c6 Bc1-e3 Bf8-b4 O-O-O Bb4xc3 Qd3xc3 O-O f2-f3 d7-d6 Kc1-b1
+Bc8-d7 Bf1-c4 Qh4-e7 Rh1-f1 Nc6-e5 Bc4-e2 Ra8-c8 h2-h3 Ne5-c6 Be2-c4 Nc6-e5
+Bc4-d5 c7-c6) -1.23/23 75} 7. Be2 h6 {(d7-d6 g2-g3 Qh4-h3 Nc3-b5 c7-c5
+Qd4-d3 Qh3-d7 Bc1-f4 Qd7-c6 Bf4xd6 c5-c4) -3.07/24 58} 8. g3 Qh3 {(Qh4-h3
+e4-e5 Bf8-e7 e5xf6 Be7xf6 Qd4-e3+ Qh3-e6 O-O c7-c6 Qe3xe6+ f7xe6 Nc3-e4
+d7-d5 Ne4xf6+ g7xf6 f2-f4 Ke8-e7 b2-b3 b7-b6 Bc1-a3+ c6-c5 Be2-f3 Bc8-b7
+Rf1-e1 h6-h5 c2-c4 Ra8-d8 Ra1-d1 Ke7-f7 f4-f5 e6xf5 c4xd5 h5-h4 Ba3-b2
+h4xg3 h2xg3) -4.02/23 63} 9. e5 Nh7 {(Bf8-e7 e5xf6 Be7xf6 Qd4-e3+ Qh3-e6
+Nc3-d5 Bf6-e5 Nd5-f4 Be5xf4 g3xf4 O-O Qe3xe6 d7xe6 Rh1-g1 Bc8-d7 Bc1-d2
+Bd7-c6 Bd2-c3 f7-f6 O-O-O Bc6-d5 a2-a3 Kg8-h7 f4-f5 c7-c5 f5xe6) -4.22/24
+65} 10. Nd5 Kd8 {(Ke8-d8 Qd4-c3 c7-c6 Nd5-f4 Qh3-f5 Be2-d3 Qf5-g4 Bd3xh7
+Rh8xh7 f2-f3 Qg4-f5 g3-g4 Bf8-b4 Qc3xb4 Qf5xe5+ Ke1-f2 b7-b6 Rh1-e1 Qe5-c5+
+Qb4xc5 b6xc5 Bc1-d2 a7-a5 Ra1-d1 c5-c4 Bd2-c3 d7-d5 Nf4-h5 f7-f5 Nh5xg7
+f5xg4 f3xg4 Bc8xg4 Rd1xd5+ c6xd5 Re1-e8+ Kd8-c7 Re8xa8 Kc7-b7) -4.66/23 59}
+11. Be3 Qe6 {(Qh3-e6 O-O-O c7-c6 Nd5-c3 f7-f6 f2-f4 Kd8-c7 Be2-c4) -3.73/22
+39} 12. O-O-O a5 {(c7-c6 Nd5-c3 f7-f6 f2-f4 Kd8-c7 Be2-c4 Qe6-e8 Nc3-e4
+f6xe5 f4xe5 b7-b5 Ne4-d6 Bf8xd6 Qd4xd6+ Kc7-b7 Bc4xb5 Qe8-e6 Qd6xe6 d7xe6
+Bb5-c4 Rh8-f8 Rh1-f1 Kb7-c7 Be3-c5) -4.08/21 62} 13. Bb5 f6 {(Ra8-a6 Qd4-c3
+Ra6-c6 Qc3xa5 Bf8-c5 Bb5xc6 Bc5xe3+ f2xe3 Qe6xc6 Rh1-f1 Nh7-g5 h2-h4 Ng5-e6
+Rf1xf7 b7-b6 Qa5-b4 Qc6-c5 Qb4-d2 Rh8-e8 Nd5xb6 Re8-e7 Rf7xe7 Qc5xe7 Nb6xc8
+Kd8xc8 Qd2-a5 Kc8-b8 Qa5-b5+ Kb8-c8 a2-a4) -6.72/23 47} 14. Qc4 c6 {(Qe6xe5
+Be3-f4 c7-c6 Bf4xe5 f6xe5 Nd5-b6 Ra8-a7 Qc4-e6 Kd8-c7 Nb6xd7 Bc8xd7 Rd1xd7+
+Kc7-b6 Bb5-e2 Nh7-f6 Rd7-f7 Bf8-b4 c2-c3 Rh8-f8 c3xb4 Rf8xf7 b4xa5+ Ra7xa5
+Qe6xf7 Kb6-a7 Qf7xg7 Nf6-e4 Rh1-d1 Ra5xa2 Qg7xh6) -15.05/24 66} 15. Bb6+
+Ke8 {(Kd8-e8 Nd5-c7+ Ke8-f7 Nc7xe6 d7xe6 Bb5xc6 Bf8-e7 Bc6-b5 Nh7-f8 Qc4-c7
+Nf8-g6 e5xf6 g7xf6 Bb6-c5 Ra8-a6 Rh1-e1 h6-h5 Bb5xa6 b7xa6 Qc7xa5 h5-h4
+Bc5xe7 Ng6xe7 g3-g4 e6-e5 Rd1-d6 Bc8xg4 Rd6xf6+) -15.23/12 0} 16. Nc7+ Kf7
+{(Ke8-f7 Nc7xe6 d7xe6 Bb5xc6 b7xc6 Qc4xc6 Bf8-e7 Qc6xa8 Rh8-e8 Rh1-e1 f6-f5
+f2-f4 Nh7-f8 Qa8-a7 Kf7-g8 Bb6xa5 g7-g5 Kc1-b1 Nf8-g6 Re1-g1 Re8-f8 Qa7-c7
+Rf8-e8 Rd1-d4 Re8-f8 Ba5-b4 Be7xb4 Rd4xb4 Bc8-a6 Qc7-d6) -15.81/26 47} 17.
+Nxe6 cxb5 {(d7xe6 Bb5xc6 b7xc6 Qc4xc6 Bf8-e7 Qc6xa8 Rh8-e8 Rh1-e1 f6-f5
+f2-f4 Nh7-f8 Qa8-a7 Kf7-g8 Bb6xa5 g7-g5 Kc1-b1 Nf8-g6 Re1-g1 Re8-f8 Qa7-c7
+Rf8-e8 Rd1-d4 Re8-f8 Ba5-b4 Be7xb4 Rd4xb4 Bc8-a6 Qc7-d6) -15.81/24 44} 18.
+Nd8+ Kg6 {(Kf7-g6 Qc4-f7+ Kg6-g5 f2-f3 h6-h5 Bb6-e3+ Kg5-f5 Rd1-d5 g7-g6
+e5xf6+) -M5/100 26 Black resigns} 19. Qf7+ Kf5 {(Kg6-f5 Rd1-d4 h6-h5
+Qf7xh5+ Nh7-g5 g3-g4+ Kf5xe5 f2-f4+) -M4/100 2 Black resigns} 20. Rd4 Kg5
+{(h6-h5 Qf7xh5+ Nh7-g5 g3-g4+ Kf5xe5 f2-f4+) -M3/100 0 Black resigns} 21.
+h4+ Kf5 {(Kg5-f5 g3-g4+ Kf5xe5 f2-f4+) -M2/100 0 Black resigns} 22. Qh5+
+(22. g4+ Kxe5 23. f4#) 22. .. g5 {(g7-g5 g3-g4+ Kf5xe5 f2-f4+) -M2/100 0
+Black resigns} 23. g4+ Kxe5 {(Kf5xe5 f2-f4+) -M1/100 0 Black resigns} 24.
+Re1#) 5. .. Qxe4+ {(Qh4xe4+ Bc1-e3 Qe4-c6 Nb5xa7 Ra8xa7 Be3xa7 b7-b6 Qd1-f3
+Qc6xc2 Nb1-c3 Qc2xb2 Ra1-b1 Qb2-a3 Bf1-c4 Ng8-h6 Nc3-b5 Qa3xf3 g2xf3 c7-c6
+Nb5-c7+ Ke8-e7 Ba7xb6 d7-d5 Bc4-a6 Bc8xa6 Nc7xa6 Ke7-e6 Rb1-c1 Bf8-d6
+Rc1xc6 Ke6-d7 Rc6-c1 Nh6-f5 Rh1-g1 Rh8-a8 Na6-c7 Ra8-c8) -3.65/26 38} 6.
+Be3 Qc6 {(Qe4-c6 Nb5xa7 Ra8xa7 Be3xa7 b7-b6 Qd1-e2 Qc6-b7 Qe2xe5+ Ke8-d8
+Nb1-c3 Qb7xa7 O-O-O Ng8-f6 Bf1-c4 Qa7-a5 Qe5-g3 Bc8-b7 Bc4xf7 h7-h6 f2-f3
+Qa5-g5+ Qg3xg5 h6xg5 h2-h3 Bf8-d6 Kc1-b1 Rh8-h4 Rh1-e1) -3.49/26 43 Stops
+the forking Nc7+.} 7. Nxa7? {Here I became greedy. I figured I would win a
+pawn at the minimum, and maybe even a pawn and a Rook for my Knight.} Rxa7
+{(Ra8xa7 Be3xa7 b7-b6 Qd1-f3 Qc6xc2 Nb1-c3 Qc2xb2 Ra1-b1 Qb2-a3 Bf1-c4
+Ng8-f6 Nc3-b5 Qa3-a5+ Ke1-f1 Bf8-c5 Nb5xc7+ Ke8-f8 Ba7-b8 h7-h5 h2-h3 e5-e4
+Qf3-f4 Bc8-b7 Nc7-b5 Kf8-g8 Bb8-d6 Qa5-a4 Qf4-c1 Bb7-a6 a2-a3 Kg8-h7 Kf1-g1
+Ba6xb5 Bc4xb5 Bc5xf2+) -3.37/26 49} 8. Bxa7 b6! {(b7-b6 Qd1-f3 Qc6xc2
+Nb1-c3 Qc2xb2 Ra1-b1 Qb2-a3 Bf1-c4 Ng8-h6 Nc3-b5 Qa3xf3 g2xf3 c7-c6 Nb5-c7+
+Ke8-e7 Ba7xb6 d7-d5 Bc4-d3 Ke7-d7 Nc7-a6 Bc8xa6 Bd3xa6 Nh6-f5 a2-a4 Bf8-d6
+Ba6-d3 Nf5-d4 Bb6xd4 e5xd4 Rb1-b7+ Kd7-e6 Ke1-d2 Rh8-a8 Rh1-e1+ Ke6-f6
+Rb7-b6) -3.53/27 102 Traps my Bishop.} 9. Qf3 {Figured I could exchange
+Queens, which would give my Bishop some respite (and Ba7-b8-xc7 might be an
+option). I would end up with doubled pawns, but figured that was an ok
+price to pay. Black, however, had other plans in mind.} Qxc2! {(Qc6xc2
+Nb1-c3 Qc2xb2 Ra1-b1 Qb2-a3 Bf1-c4 Ng8-h6 Nc3-b5 Qa3xf3 g2xf3 c7-c6 Nb5-c7+
+Ke8-e7 Ba7xb6 d7-d5 Bc4-d3 Ke7-d7 Nc7-a6 Bc8xa6 Bd3xa6 Nh6-f5 a2-a4 Bf8-d6
+Ba6-d3 Nf5-d4 Bb6xd4 e5xd4 Rb1-b7+ Kd7-e6 Ke1-d2 Rh8-a8 Rh1-e1+ Ke6-f6
+Rb7-b6) -3.53/24 47} 10. b3?? {Thought I came up with a good move, that
+saves all the threatened pieces. Was even starting to dream about Qa8, and
+the like. See variation for what I should have done.} (10. Nc3 Qxb2
+{(Qc2xb2 Ra1-b1 Qb2-a3 Bf1-c4 Ng8-f6 Nc3-b5 Qa3-a5+ Ke1-f1 Bf8-c5 Nb5xc7+
+Ke8-f8 Ba7-b8 e5-e4 Qf3-e2 Bc8-b7 Nc7-a6 Bb7xa6 Bc4xa6 Kf8-e7 Bb8-g3 d7-d5
+Ba6-b7) -3.57/20 2} 11. Rb1 Qa3 12. Bc4 Nh6 13. Nb5 Qxf3 14. gxf3 c6 15.
+Nc7+ Ke7 16. Bxb6) 10. .. Bb4+! {(Qc2-c1+ Ke1-e2 Bc8-a6+ Qf3-d3 Qc1-c2+
+Ke2-e1 Ba6xd3 Bf1xd3 Bf8-b4+ Nb1-c3 Qc2xc3+ Ke1-f1 Qc3xa1+ Kf1-e2 Qa1xh1
+g2-g3 Ng8-f6 a2-a3 Qh1-e1+ Ke2-f3 e5-e4+ Kf3-g2 e4xd3 g3-g4 Bb4xa3 Ba7xb6
+c7xb6 g4-g5 d3-d2 g5xf6 d2-d1Q Kg2-g3 Qe1-g1+ Kg3-f4 Qg1xf2+ Kf4-e4 Qd1xb3)
++43.17/25 75 This devastating move came as a complete surprise. White is
+now completely lost.} 11. Nc3 {Only choice (other than the equally impotent
+Qc3).} Bxc3+ {(Bb4xc3+ Qf3xc3 Qc2xc3+ Ke1-d1 Qc3xa1+ Kd1-d2 Qa1xa2+ Kd2-c1
+Qa2xa7 Kc1-b2 Qa7-a5 Bf1-d3 Qa5-d2+ Bd3-c2 Qd2xf2 Rh1-d1 Qf2xg2 h2-h4
+Ng8-f6 Kb2-c1 d7-d5 Rd1-d2 Qg2-h1+ Kc1-b2 e5-e4 h4-h5 Qh1xh5 Rd2-g2 Qh5-e5+
+Kb2-a2 Bc8-g4) +26.34/22 63} 12. Qxc3 {The only move.} Qxc3+ {(Qc2xc3+
+Ke1-d1 Qc3xa1+ Kd1-d2 Qa1xa2+ Kd2-c1 Qa2xa7 Kc1-b2 Qa7-a5 Bf1-d3 Qa5-d2+
+Bd3-c2 Qd2xf2 Rh1-d1 Qf2xg2 h2-h4 Ng8-f6 Kb2-c1 d7-d5 Rd1-d2 Qg2-h1+ Kc1-b2
+e5-e4 h4-h5 Qh1xh5 Rd2-g2 Qh5-e5+ Kb2-a2 Bc8-g4) +26.34/23 53} 13. Kd1
+Qxa1+ {(Qc3xa1+ Kd1-d2 Qa1xa2+ Kd2-c1 Qa2xa7 Bf1-d3 Qa7-a1+ Bd3-b1 Qa1-a3+
+Kc1-d1) +26.34/22 41} 14. Kd2 Qxa2+ {(Qa1xa2+ Kd2-c1 Qa2xa7 Bf1-d3 Qa7-a1+
+Bd3-b1 Qa1-a3+ Kc1-d1 Qa3xb3+ Bb1-c2) +26.34/17 2} 15. Kd1 Qxa7 {(Qa2xa7
+f2-f3 Ng8-f6 Kd1-d2 Qa7-a2+ Kd2-e1 Qa2-a1+ Ke1-d2 Nf6-d5 h2-h4 Qa1-d4+
+Kd2-e1 Qd4-e3+ Ke1-d1 Qe3xb3+ Kd1-e2 Qb3-e3+ Ke2-d1 Qe3-d4+ Kd1-e1 Nd5-c3
+Bf1-d3 Qd4-e3+ Ke1-f1 Qe3-c1+ Kf1-f2 Qc1xh1 h4-h5 Qh1-c1) +31.85/21 43
+White resigns} 0-1
+

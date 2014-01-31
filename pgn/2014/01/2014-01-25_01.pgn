@@ -1,0 +1,124 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.01.25"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Stockfish-dd-64-modern, Level 1"]
+[Result "1-0"]
+[ECO "B01"]
+[Opening "Scandinavian"]
+[Variation "Patzer variation"]
+[Termination "normal"]
+[PlyCount "77"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. e4 d5 {The Scandinavian defense again.} 2. exd5 Qxd5 3. Nc3 Qe5+ {This
+is the "Patzer variation". ...Qa5 is the standard move.} 4. Be2 c5 5. Nf3
+{Developing and attacking the Queen.} Qd6 6. d4 {Considered castling here,
+but realized that it would be difficult for me to contest the d4-square
+after ...Nb6.} Bf5 {Prevents 7.Ne4.} 7. Be3 {Adds support to d4 in case of
+...Nb6. Stockfish suggests Nb5 here, attacking the Queen.} cxd4 8. Nxd4
+{The correct piece to capture with (I think, and Stockfish agrees).
+Stockfish suggests another move though (see Nb5 variation).} (8. Nb5 Qd8 9.
+Qxd4 a6 10. Qxd8+ Kxd8 11. Bb6+ Kc8 12. Nc7 Ra7 13. Ne5) 8. .. Bg6 9. O-O
+{Getting my King to safety. Stockfish is still begging for Nb5. See
+variation.} (9. Ndb5 Qxd1+ 10. Rxd1 Na6 {To prevent Nc7+, forking the King
+and the Rook.} 11. Nd5 {All of a sudden threatening mate! 12.Ndc7+ Nxc7
+13.Nxc7#}) 9. .. e5 10. Bb5+ {Stockfish still wants Nb5. That move went out
+the window now that I placed my Bishop there instead} Nd7 11. Nf3
+{Retreating the Knight, and offering a Queen exchange.} (11. Qf3 {This was
+the move suggested by Stockfish. It's not clear to me why this is good for
+White after exd4, so I'll play out that variation here and see what
+happens.} exd4 12. Bf4 {After this move Stockfish says O-O-O is Black's
+best move. What happens if Black tries to safe his Queen?} Qf6 (12. .. Qc5
+13. Bxd7+ Kxd7 14. Qxb7+ Kd8 15. Qxa8+) 13. Bxd7+ Kd8 14. Qxb7 Qxf4 15. Bh3
+{Threatening mate on d7.} f5 (15. .. Nf6 16. Qxa8+ Kc7 17. Qxa7+) 16. Qxa8+
+Kd7 17. Qxf8 dxc3 18. Qxg7+ Kc6 19. Qxh8 Bf7 20. Rad1) 11. .. O-O-O 12.
+Qxd6 {Stockfish suggests keeping the Queens on the board: Qe2.} Bxd6 13.
+Bxa7 {Grabbing a pawn. My own c2 pawn is hanging to the g6-Bishop, but I
+figured it wouldn't be bad for me if Black went for it; after 13...Bxc2
+14.Rc1 B[somewhere] I now have an open file towards the Black King.} Ngf6
+(13. .. Bxc2 14. Rac1 Bg6 15. Ne4+) 14. Rfd1 {I also considered Rfe1. Went
+for this move, which attacks the hanging d6-Bishop.} e4 15. Ng5 {This move
+was based on a gross oversight from my side. My idea was that this move
+threatens both Nxf7, forking the Rooks, and Rxd6, winning the Bishop. It
+was only after the move that I realized that f7 is protected by the
+g6-Bishop! This move gave me some headache later on, since there is no good
+square for the Knight to go to.
+
+Stockfish suggests Rxd6, exchanging the
+Bishop for my Rook (see variation).} (15. Rxd6 exf3 16. Rad1 Nb8 (16. ..
+Ne5 17. Rxd8+ Rxd8 18. Rxd8+ Kxd8 19. Bd4) 17. Rxd8+ Rxd8 18. Rxd8+ Kxd8
+19. Bxb8) 15. .. Be5 16. Nd5 {Stockfish (who agrees with this move)
+evaluates this position to +0.94 for White. Since White is a pawn up, I
+suppose that means our positions are roughly equal?
+
+Before making this
+move I had calculated two lines:
+
+16...Nxd5
+17.Rxd5 Bxb2
+18.Rad1
+mounting an attack on d7.
+
+16...Bxb2
+17.Ne7+ Kc7
+18.Rab1
+B[somewhere]
+19.Nxg6. Now if ...fxg6 or hxg6, 20.Nf7 forks the Rooks.}
+Rhf8 {I had not prepared for this move.} 17. Ne7+ {Stockfish suggests Bd7+
+instead, setting off a flurry of exchanges.} (17. Bxd7+ Nxd7 18. Ne7+ Kc7
+19. Nxg6 hxg6 20. Bd4 Bxd4 21. Rxd4) 17. .. Kc7 18. Nxg6 hxg6 {If ...fxg6
+then 19.Ne6 wins a Rook.} 19. Bd4 {Here I realized that ...b6 would trap my
+Bishop (same thing happened in my bad loss on January 18, which is probably
+why I saw it this time). This is a strong move. After 19...Bxd4 20.Rxd4 I'm
+now also attacking the e4-pawn.} Bxd4 20. Rxd4 Nc5 21. Rc4 {Here I thought
+a long time. The main candidate move was Rd1, but decided to go for the
+Knight pin. Calculated a couple of lines and thought I would come out
+ahead. I also realized that from now on I had to very careful about back
+rank mates. I considered pushing a pawn to make luft, but didn't want to
+lose a tempo.} b6 22. b4! {Wins the Knight, which can't move.} e3 23. fxe3
+{Thought about this for a while, and concluded that Black's situation
+wouldn't be improved at all by me taking the e3-pawn here. The pinned
+Knight is not going anywhere. Also, this move lessens the risk of a back
+rank mate.} Nd7 24. bxc5 Nxc5 {Now Black's other Knight is pinned!} 25. Ne4
+{Adding another attacker to the pinned Knight. Figured an exchange would
+benefit me, especially since I would win the pawn as well.} Rd5 {Saw this
+move myself right after I moved my Knight. Black adds a defender to the
+pinned Knight, so can keep his pawn after an exchange.} 26. Nxc5 {Went for
+the exchange anyway, since I'm up in material. Stockfish wants a2-a4 here.}
+Rxc5 {This is a mistake. Black should have recaptured with the b-pawn
+(which is what I had anticipated). Now his Rook is pinned, and I can
+exchange it at the time of my choosing.} 27. a4 {Decided to push the
+a-pawn, and let Black initiate the exchange. I figured that the Rooks would
+be exchanged anyway, and this way I would win a tempo in getting my a-pawn
+towards promotion. Stockfish doesn't agree with me, however, and wants me
+to exchange Rooks right away here.} Rd8 28. Rxc5+ {Got nervous about the
+d8-Rook being up to some shenanigans, and decided to exchange the Rooks
+before I had time to blunder the situation away :)} bxc5 29. a5 {After this
+move it struck me that one bad thing about my position is my inactive King.
+But my extra Bishop should presumably outweigh this.} c4 {Another blunder,
+that gives away another pawn for free.} 30. Bxc4 {Grabs the offered pawn,
+and attacks the f7-pawn to boot.} Rf8 {Another questionable move. Surely it
+must be better to push the f-pawn, and keeping the Rook active.} 31. a6 Ra8
+32. a7 {Here I first considered Bd5, but that would allow Black to respond
+with ...Ra7, and things would get stuck for a while. The text leaves Black
+helpless. Move the Rook away, and my pawn gets promoted (and Black looses
+his Rook if he captures the new Queen). Leave the Rook where it is, and I
+move my Bishop to d5, unless ...Kc6, in which case I pick off the f7-pawn.}
+f6 33. Bd5 Rb8 {Here I faced another choice: a7xb8Q, or a7-a8Q. The former
+would more or less force ...Kxb8. The latter would most likely result in
+...Rxa8 34.Rxa8, ending up in the same position as the first option.
+
+I
+figured to go with the second option, due to the outside chance of Black
+not capturing my new Queen, which I figured would lead to a quicker win for
+me. 
+
+Btw, Stockfish recommends axb8Q, which apparently leads to a forced
+mate in 13.} 34. a8=Q g5 35. Qc6+ {Stockfish found a quicker mate (by one
+move): see Ra7 variation.} (35. Ra7+ Rb7 36. Qxb7+ Kd6 37. Qc6+ Ke5 38.
+Qe6#) 35. .. Kd8 36. Qd6+ Kc8 (36. .. Ke8 37. Qxb8+ Kd7 38. Ra7#) 37. Be6+
+Kb7 38. Ra6 g4 39. Qb6# 1-0
+

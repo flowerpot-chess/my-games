@@ -1,0 +1,50 @@
+[Event "Computer chess game"]
+[Site "Office / Home"]
+[Date "2014.01.27"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Stockfish-dd-64-modern, Level 1"]
+[Result "1-0"]
+[ECO "B02"]
+[Opening "Alekhine"]
+[Variation "Mokele Mbembe (Bücker) Variation"]
+[Termination "normal"]
+[PlyCount "51"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. e4 Nf6 {Another Alekhine.} 2. e5 Ne4 {Another Mokele Mbembe!} 3. d3 Nxf2
+{Woah!} 4. Kxf2 Nc6 5. d4 {Nf3 would also have been fine here, developing
+the Knight and protecting the e5-pawn.} e6 6. Nf3 f6 7. Bd3 {Wasn't sure
+how to respond to Black's pawn push. Decided to continue with my
+development.} g6 8. Nc3 {More pawns being pushed, and I keep developing my
+pieces. Stockfish recommends e5xf6 here.} d6 9. Ne4 {Eyeing the f6-pawn.
+Not a very strong outpost though. Here probaby I didn't realize that my
+e5-pawn was attacked three times, but only defended twice. Stockfish
+recommends exf6.} dxe5 {Black takes with the wrong pawn? Stockfish suggests
+...fxe5 instead.} 10. dxe5 Nxe5 11. Nxe5 fxe5 {Completes the exchange, with
+Black netting a pawn. White is now one Knight up, but two pawns down, so
+close to material equality. But Stockfish still evaluates this position to
++6 for White. Black is poorly developed, and his pawn structure is bad (I
+think). On the other hand, White's King is not in the best of places.} 12.
+Qf3 {Initiates an attack on the exposed King. Planning to double up on the
+f-file with the Rook (after moving the King out of the way).
+
+This is
+also the move recommended by Stockfish.} Be7 13. Ke2 {Serves two purposes:
+Opens up the e-file for the Rook, but also prevents a devastating pin via
+...Rf8. Stockfish suggests Bh6 here, which is another way stopping that
+pin.} Rf8 14. Qh3 {Again the best move according to Stockfish. Attacks the
+h7-pawn.} g5 15. Qh5+ Kd7 {The Black King is not only on the run, he is
+also blocking his own pieces.} 16. Bb5+ c6 17. Rd1+ Kc7 18. Rxd8 Kxd8
+{Taking with the Rook would have been better for Black. This move brings
+the King back into the line of fire.} 19. Bxg5 {I like this move. It
+sacrifices the light-squared Bishop in order to keep the attack going.}
+cxb5 {Black is lost either way, but he should probably have left that
+Bishop alone. Stockfish recommends ...Bxg5.} 20. Rd1+ {The second Rook
+swings into action.} Bd7 21. Qxh7 {Threatening Qxe7 in the next move.
+Stockfish tells me Bxe7 is better, resulting in a forced mate in 8.} Re8
+22. Nc5 {Black is now being attacked from two sides at the same time.
+Impossible to defend.} Rb8 23. Rxd7+ Kc8 24. Rxe7 Rxe7 25. Qxe7 b4 26. Qd7#
+{Qd8# another alternative.} 1-0
+

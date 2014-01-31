@@ -1,0 +1,99 @@
+[Event "Computer chess game"]
+[Site "Home / Office"]
+[Date "2014.01.29"]
+[Round "1"]
+[White "Stockfish-dd-64-modern, Level 2"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "2...Nc6 3.Nc3 g6"]
+[Termination "normal"]
+[PlyCount "100"]
+[WhiteType "program"]
+[BlackType "human"]
+
+1. e4 c5 {I wanted to try the Sicilian as Black, so I forced White to play
+e4.} 2. Nc3 {The closed Sicilian.} Nc6 3. Nf3 g6 {I was already lost and
+uncertain what to do. Got this move from 365chess.com's opening explorer -
+it is the most common move in their database for this position. Stockfish
+recommends e5 - I will try that next time.} 4. h4 {Black is completely
+veering off the main lines now.} h5 {Did not want to let the White pawn
+continue to h5. Stockfish recommends Ng8 or Bf7 here.} 5. d4 cxd4 6. Nd5
+{This move surprised me. I was expecting Nxd4.} e6 {To chase away the
+Knight.} 7. Nf4 {According to Stockfish, White is not much worse off by
+moving Qe2 instead, seemingly sacrificing the Knight. I don't understand
+why thi is - should probably investigate a couple of lines around that
+idea.} Nf6 {I'm still kind of lost in the opening, but figured a normal,
+developing move would be fine. I'm not sure what to do with my pawns,
+especially the e-pawn and d-pawn.} 8. e5 Nxe5 9. Nxe5 Qa5+ 10. c3 Qxe5+ 11.
+Qe2 Qxe2+ {Seemed to be the best choice, considering the situation with the
+d4 and c3 pawns.} 12. Kxe2 {Probably the worst possible piece to recapture
+with.} dxc3 {Missed a small tactic here: e6-e5 first, to chase away the
+Knight, then dxc3.} 13. Nd3 {Well, White decided to move his Knight anyway,
+allowing my pawn to continue on his rampage. This seems to be a common
+problem with Stockfish on low levels - I've seen the same behavior in
+previous games as well.} cxb2 {The only concern was after White recaptures
+with his Bishop, I'm forced to move Bf8-g7 since the Knight is hanging (and
+moving the Knight hangs the Rook). On the other hand, I was planning to
+play Bg7 anyway.} 14. Nxb2 Bg7 {Stockfish wants me to play b7-b6 here, then
+Bg7. I reversed the order of those moves.} 15. Nd1 b6 {My idea is Bh3+, in
+the remote possibility that White leaves his King where it is. Then I could
+exchange Bishops (being up three pawns in material). Also opens up for
+Bc8-b7. In either case, I plan to follow up with Ra8-c8.} 16. Ke1 Nd5 {I
+thought long and hard before this move. I have three options: Bb7, giving
+the a8-Rook access to the open c-file. Or castle, bringing the h8-Rook into
+the game. Or force some action by moving my Knight, discovering an attack
+on the Rook on a1. I decided against the first option since I was worried
+about White moving his Bishop to a3, which would prevent me from castling.
+Was leaning towards castling, but decided to go for an attack instead.} 17.
+Nb2 {Bad move. Rb1 would have been better.} Bc3+ 18. Kd1 Bb7 {Starting a
+zig-zag journey to a4+. White would be forced to capture with the Knight,
+and I win a Rook for a Bishop.} 19. Be2 Bc6 20. Rh3 Ba4+ 21. Nxa4 Bxa1
+{Mission completed. I'm up two pawns, and have a Rook for a Bishop. On the
+other hand, White has both his Bishops, and they should be strong in this
+open game, so that is making me a little nervous.} 22. Bg5 O-O {Stockfish
+wants me to play Rc8. In hindsight that would probably have been the better
+choice, since Ba6 would prevent me from playing it later.} 23. Bb5 {White
+is threatening my d7-pawn, and I can't find a good way of defending it. For
+example: 23...f6 24.Bxd7 fxg5 25.Bxe6+ Kh2 26.Bxd5 nets two pawns for White
+in the exchange. And 26...Rd8 would be followed by Rd3, saving the White
+Bishop.
+
+And d6 doesn't really work either: 23...d6 27.Be7 Rc8 (or Rb8)
+28.Bxd6.
+
+And if I let White capture on d7, my Rooks are severly cramped
+by the two Bishops.
+
+The above were my in-game notes. In analysis,
+Stockfish showed me a line where it turns out that I missed. See
+variation.} a6 {Lets White take the pawn. I plan to follow up 24.Bxd7 with
+24...Ra7. That traps the Bishop - the best White can hope for is exchanging
+it for my Knight. I'll gladly take that exchange.} (23. .. Rac8 24. Bxd7 {A
+mistake, as shown (by Stockfish) in the following.} Rcd8! {I actually
+looked at this line during the game, but stopped at this point. My thinking
+was that I was already up so much in material that I could afford giving up
+my Rook for a Bishop. But I didn't follow the line to its conclusion. See
+continuation.} 25. Bxd8 Rxd8 26. Bc6 {Has to move the Bishop, otherwise
+it's lost. The Knigh can't protect it.} Nb4+ 27. Kc1 Nxc6) 24. Bxd7 Ra7
+{Rc8 would have been better, as shown by the line above.} 25. Bf6 {An
+inexplicable move. White is giving away his Bishop.} Nxf6 26. Nxb6 Rb7 {See
+variation for a better move, found by Stockfish.} (26. .. Nxd7 {To be
+honest, I missed that the Bishop on d7 was attacked by my Knight. The
+continuation of this line shows why White cannot recapture.} 27. Nxd7
+Rxd7+) 27. Rd3 Rxb6 28. Ba4 Ng4 {Threatening a fork on f2.} 29. Ke1 Rb2 30.
+a3 {White resigned here.} Rc8 {Stockfish suggests Rxf2 instead. I wanted to
+bring the second Rook into the attack.} 31. f3 Rc1+ 32. Bd1 Nf2 33. Rd8+
+Kg7 34. f4 Rxd1+ 35. Rxd1 Nxd1 36. Kxd1 Ra2 {Will get rid of the h-pawn,
+and march my pawn to promotion. There's possibly (probably?) a way to mate
+White without a Queen, but this seemed the most straightforward way (to
+me).} (36. .. Rxg2 {This variation shows a mate in 11 that Stockfish
+found.} 37. Ke1 Ra2 38. a4 Bf6 39. a5 Bxh4+ 40. Kd1 Rg2 41. f5 exf5 42. Kc1
+Bg3 43. Kb1 h4 44. Ka1 h3 45. Kb1 h2 46. Ka1 h1=Q#) 37. a4 Rxa4 38. Ke2 Rd4
+{Boxing in the King. And my Rook is untouchable, thanks to the Bishop on
+a1.} 39. f5 a5 40. f6+ Kxf6 41. Kf3 a4 42. Ke2 a3 43. g4 a2 44. Kf2 Bc3 45.
+g5+ Kg7 46. Ke3 a1=Q 47. Kf3 Qh1+ (47. .. Qf1+ {Slightly sharper way to
+mate.} 48. Kg3 (48. Ke3 Rd3+ 49. Ke4 Qf3#) 48. .. Be1+ 49. Kh2 Rxh4#) 48.
+Ke3 Qe4+ 49. Kf2 Rd2+ 50. Kg3 Qg4# 0-1
+

@@ -1,0 +1,153 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.01.26"]
+[Round "2"]
+[White "Zethson, Torgil"]
+[Black "Stockfish-dd-64-modern, Level 1"]
+[Result "0-1"]
+[ECO "B02"]
+[Opening "Alekhine"]
+[Variation "Mokele Mbembe (Bucker) Variation"]
+[Termination "normal"]
+[PlyCount "110"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. e4 Nf6 2. e5 Ne4 {The Mokele Mbembe variation of the Alkhine defence. I
+played against this on January 18. In that game I answered with 3.d3,
+chasing away the Knight. In this game I decided to try something else.} 3.
+d4 {In hindsight this is a rather silly move. I could have reached this
+pawn-position using d2-d3-d4 just as well. I would spend an extra move, but
+Black is spending that move moving his Knight for the third time.} Nc6 4.
+Nf3 (4. Bd3 d5 5. f3 {Traps the Knight!} Nc5 6. dxc5 Nxe5) 4. .. d5 {Hmm,
+all of a sudden that Knight is looking awfully strong. See 4.Bd3 variation
+for what Stockfish suggests instead of my 4.Nf3 move.} 5. Bb5 {Stockfish
+wants me to play 5.c2-c3.} a6 6. Ba4 b5 7. Bb3 a5 8. a3 {Again Stockfish
+suggests c2-c3, giving the Bishop an escape square on c2. I wanted the
+Bishop on a2, however, since I've seen many great examples of how powerful
+the Bishop can be on that diagonal, especially if Black castles Kingside
+(which seems likely).} Rb8 9. c3 a4 10. Ba2 {Stockfish wants the Bishop on
+c2. That makes sense, since Black will presumably play e7-e6 sometime soon,
+which will block the a2-g8 diagonal. My plan is to try to remove those
+blocking pawns during the course of the game. This almost worked out too!
+It turns out there was a chance for the Bishop to play a decisive role from
+its a2-position later in the game, but I blundered it away.} e6 {The
+aforementioned e7-e6 move. Black's own light-squared Bishop is pretty
+blocked too.} 11. Qd3 {Don't remember the exact thought behind this move.
+At this point I was definitely thinking about how to get rid of the
+e4-Bishop.} Be7 12. O-O f5 13. Ne1 {The thought behind this move was that
+after Nb1-Nd2-Nxe4, Black's ...fxe4 or ...dxe4 would fork my Queen and
+Knight. So moving the Knight out of the way. This move also allows for
+f2-f3, attacking the Knight with my pawn. Of course, it's very likely that
+Black would have answered Nb1-d2 with ...Ne4xd2, so it would have been
+better to start with that move, leaving the f3-Knight on its more natural
+square. This move opens the way for Black's dark-squared Bishop. See exf6
+variation for what Stockfish suggests.} (13. exf6 gxf6 14. Bh6) 13. .. Bh4
+14. Be3 {This move was based on a miscalculation from my part. I saw both
+the e4-Knight and the h4-Bishop attacking f2, and decided to defend it. But
+f2 is already defended twice: by the Rook and the King, so it didn't need
+any defence. (Black attacking it would net me a Bishop and a Knight for a
+Rook and a pawn.) Further, f2-f3 would chase away the Knight, which has
+been the main goal of my last moves. It exposes the e1-Knight to the
+Bishop, but the Knight is defended by the Rook.} f4 15. Bxf4 {This seemed
+to be a free pawn, so I grabbed it. Stockfish thinks this move is a
+mistake, and wants me to pull back the Bishop to d2. See 15...Bxf2
+variation for what Stockfish thinks Black should have done after 15.Bxf4.}
+O-O {Adds a third attacker on f2 .} (15. .. Bxf2+ 16. Rxf2 Nxf2 17. Kxf2
+Rf8) 16. Qe3 {Stockfish says pulling the Bishop back to e3, or g2-g3, are
+better moves.} Bd7 17. Nd2 {This is the move I've been wanting to play for
+a long time. Now this move is a serious mistake though. Fortunately, Black
+did not capitalize on it, but see ...Rxf4-variation what could have
+happened. (I didn't see this during the game, obviously. It was shown to my
+by Stockfish during analysis.) Stockfish suggests Ne1-d3 here. I want to
+move that Knight too, since I see a good home for it on c5 (after having
+read the chapter on Knights in Reassess Your Chess).} Bg5 (17. .. Rxf4 18.
+Qxf4 Bg5 19. Qg4 Nxd2 {Wins a piece. Also, my f1-Rook is trapped and up for
+taking.}) 18. g3 {Adds a defender to the f4-Bishop. This is pretty bad for
+White, however, sine it seriously weakens the pawns in front of the King.
+Further, after ...Bxf4 gxf4 (which was the reason I moved the pawn in the
+first place), the King's pawn defense is completly shattered. And lo and
+behold, this also turned out to be my downfall later in the game. See
+Bxg5-variation for what Stockfish suggests.} (18. Bxg5 Qxg5 19. Qxg5 Nxg5
+20. Nd3 g6 21. Nc5 {Stockfish evaluates this position to almost +3 for
+White.}) 18. .. Bxf4 19. gxf4 {...and Black has an open road to my King.}
+Nxd2 20. Qxd2 {A good exchange for Black (I think), since it took my Queen
+away from an important square. Stockfish evaluates this position as more or
+less equal. White is one pawn up, however, which means Black has the better
+position.} Qh4 {Here Stockfish suggests 20...Nc3-a5 and 21...Na5-c4 for
+Black. (Stockfish has also read the chapter on Knights in Reassess Your
+Chess!) The Queen-side has been left dormant by both sides for the last 10
+moves.} 21. Nd3 {Heading for c5. I didn't think Black's Queen would be able
+to make much damage immediately, so thought I would sneak in this move.
+Stockfish wants to move my Queen to e3, to defend the g4-square.} Be8
+{Obviously going for h4. Black is building up a serious attack.} 22. Nc5 {I
+ignore the threat, and ge my Knight to c5. I have two plans in mind: There
+is a Rook-fork on d7 (once the Bishop moves), and the e6-pawn is weak.
+Removing the e4-pawn would allow by a2-Bishop to enter into the game. One
+problem with this move is that it removes a defender of the f4-pawn, which
+is attacked twice but only defended once. I'll play out the ...Rxf4
+variation to see what Stockfish thinks about it. Btw, Stockfish suggests
+f2-f3. In hindsight I understand why: Black wants to place his Queen or
+Bishop on f3. By moving my pawn there, that square is defended by my Rook
+(and, probably, my Queen as well).} Qg4+ (22. .. Rxf4 23. f3 {Stockfish
+doesn't think this is too great for Black.}) 23. Kh1 Qf3+ 24. Kg1 Bh5
+{Threatening Qh3-Bf3-Qg2#.} 25. Qe3 {Must get rid of that Queen.} Rbe8 {I
+don't understand this move. ...Rxf4 would have been better for Black,
+netting that hanging pawn.} 26. Qxf3 Bxf3 {Stockfish evaluates this
+position as almost equal. Again, White is up one pawn in material.} 27. Nd3
+{I don't like having to retreat my Knight, but at this point I've realized
+that the g4-pawn is hanging, so I went to defend it. Stockfish suggests
+h2-h3 here, providing the King an outlet on h2. That would have proven very
+useful later in the game, as it turned out.} Rb8 28. Rfe1 Ne7 29. Re3 Be4
+{Look at that center!} 30. Nc5 {Back to the nice c5 square. My g4-pawn is
+still hanging, but so is Black's e6-pawn.} Nf5 {This proved to be the
+turning point in the game. White is in a very good position here, but I
+blundered it away completely. I thought long and hard here (the results
+don't show it...). The Black Knight is threatening my Rook, but my Knight
+is threatening to fork the two Black Rooks. I also had ideas of going pawn
+grabbing: Something like: 31.Nxe6 Re8 32. Nxc7 Re7 33. Nxd5 Bxd5 34. Bxd5+,
+the return of the Light-Squared Bishop! That line relies on Black
+co-operating quite a lot though.} 31. Re2 {Mistake. My thinking was that my
+c5-Knight would still be able to cause a lot of damage, so it wouldn't hurt
+to move my own Rook out of the way first. See Rxe4 variation for what I
+should have played.} (31. Rxe4 dxe4 32. Bxe6+ Kh8 33. Nd7 {Stockfish says
+this is almost +5 for White.}) 31. .. Rb6 32. Nxe6 {Another mistake, and
+this one even worse. I thought the Knight couldn't be captured by the Rook,
+since Bxd5 would pin and win the Rook. I completely missed that d5 is
+protected by the e4-Bishop! Rxe4 is still the better move.} Bd3 {Black did
+not take my hanging Knight.} 33. Rd2 {The only move in this sequence that
+Stockfish agrees with.} Rd8 {A trap. And I walked right into it.} 34. Nxd8
+Rg6+ {BAM! It took me a second or two to fully appreciate the trouble I was
+in. The game is lost here.} 35. Kh1 {Only move. I should have gotten rid of
+that Bishop!} Be4+ 36. f3 {Only move.} Bxf3+ 37. Rg2 {Only move.} Rxg2 38.
+Rf1 {Forced, otherwise ...Rg4 is mate.} Rxb2+ 39. Rxf3 Rxa2 {Next up is the
+a3-pawn, and then the c3-pawn could go too. There also the threat of ...Nh4
+followed by ...Ra1#. Here is where it would have been good if my h-pawn was
+on h3 instead. And of course, the a4-pawn is eyeing promotion.} 40. Rf1
+{The mate threat, and my hanging pawns, leaves me very few options.
+Prevents the Black Rook from checking me on the first rank. Will head over
+to c1 next, to protect the c3-pawn.} Rxa3 41. Rc1 Ra2 42. Nc6 Rb2 43. Nb4
+{Here both Black and I missed this nice tactic: 43...Nxd4 44.cxd4 Rxb4,
+taking the Knights off the board and winning Black a pawn.} Nh4 {A new
+threat emerges: Nf3-Rxh2#.} 44. Rf1 {Preventing ...Nf3. Stockfish suggests
+moving my King to g1 instead.} Rd2 45. Nxd5 a3 46. e6 {Trying a desperate
+pawn push. It's doomed to fail: My lone Knight can't stave off both the
+Black King and the Black Rook, which can move to the e-file as it sees fit.
+My own Rook is helpless.} Rb2 47. e7 Re2 {Stops my pawn in its
+tracks.
+
+BUT. Stockfish claims this is in fact a blunder for Black. See
+48.f5 variation for why.} 48. Kg1 (48. f5 Kf7 {(Kg8-f7 f5-f6 g7xf6 Rf1xf6+
+Kf7-g7 Kh1-g1 Re2xe7 Rf6-a6 Re7-e1+ Kg1-f2 Re1-a1 Ra6-a7 Kg7-g6 Nd5-b4
+Nh4-f5 Kf2-f3 Nf5-g7 Kf3-e3 Ng7-e8 Nb4-c2 Ra1-c1 Ke3-d3 Rc1-d1+ Kd3-e3
+Ne8-f6 Ra7xa3 Kg6-f5) +0.42/22 4} 49. f6 gxf6 50. Rxf6+ Kg7 51. Kg1
+{Stockfish evaluates this position as about -3/4 for White. Black is still
+up, and probably winning, but it's all of a sudden a much closer game.})
+48. .. a2 49. Ra1 {See variation for what Stockfish suggests here.} (49.
+e8=Q+ Rxe8 50. Kf2 {Allows my King off the first rank.} Ra8 51. Ra1) 49. ..
+Kf7 50. Nb4 {Giving up on the e7-pawn, which is lost anyway.} Rg2+ 51. Kf1
+Rxh2 52. Rxa2 Rxa2 53. Nxa2 {At this point we're amazinlgly even in
+material (but only until the next move). But Black's position is just so
+much better.} Ng6 54. e8=Q+ Kxe8 55. f5 Ne7 {My f5-pawn is also lost. The
+Knight takes it if it stays, the g-pawn if it moves. Here I resigned.} 0-1
+

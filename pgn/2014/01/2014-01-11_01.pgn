@@ -1,0 +1,54 @@
+[Event "AI Factory's Chess"] 
+[Event "AI Factory's Chess"] 
+[Site "Android Device"] 
+[Date "2014.01.11"] 
+[Round "1"] 
+[White "Zethson, Torgil"] 
+[Black "Cpu (5)"] 
+[Result "1-0"] 
+[ECO "A88"]
+[Opening "Dutch"]
+[Variation "Leningrad, Main Line, 7.Nc3 c6 8.d5 cxd5"]
+[Termination "normal"]
+[PlyCount "65"]
+[WhiteType "human"]
+[BlackType "computer"]
+
+1. d4 {This was a quick game on my phone, while patrolling the sidewalk
+outside Chinese School as a Traffic Safety Volunteer.} Nf6 2. c4 {Had just
+gone through the Korchnoi - Kasparov (1982) game in Seirawan's Winning
+Chess Brilliances. That game opens with 1. d4 Nf6 2. c4, which Seirawan
+says is the "standard response".} g6 3. Nf3 Bg7 4. d5 {Rybka suggests Nc3
+here.} d6 5. g3 {Decided to do what Kasparov did: fianchetto my Bishop too.
+:)} Bf5 6. Nc3 {Not sure why I didn't fianchetto the Bishop right away.} c6
+7. Bg2 Qb6 8. a4 {I had some vague idea about a4-a5. Not sure exactly what
+that would accomplish, the Black Queen has several squares to move to.} a5
+9. O-O Ne4 10. Nxe4 Bxe4 11. Nh4 {Rybka suggests 11. Ng5. I wanted to
+protect the g2 Bishop with my Knight though. (This is unnecessary - the
+King is also protecting g2.)} f5 12. Bxe4 fxe4 13. Rb1 {Breaking the pin
+from Black's Bishop.} Bd4 14. e3 {Rybka suggests Qc2, attacking the
+d4-pawn.} Bf6 15. Ng2 {Replacing the Bishop on g2.} O-O 16. b3 {Rybka
+agrees with this move :)} Nd7 17. Bd2 cxd5 18. cxd5 Qc7 19. b4 {Having just
+read the chapter on Knights in "Reassess Your Chess", had I paid attention
+I would have noticed that the e6-square would have been an excellent
+outpost for my Knight. So Nf4, followed by Ne6 would have been doog here.
+That's also what Rybka suggests.
+
+My intention with 19. b4 was ...axb4
+20. Rxb4, threatening the e4-pawn. That's also what transpired.} axb4 20.
+Rxb4 Be5 21. Rxe4 Nf6 {Winning back the pawn, and that excellent e6-outpost
+for my Knight is gone (had I noticed it in the first place).} 22. Rh4
+{Perhaps a bit risky, but I figured the h-file could be a possible attack
+route to the Black King.} Nxd5 23. Qb3 {Pinning the Knight.} e6 {Unpinning
+the Knight.} 24. e4 {Rybka doesn't like my Rook on h4, and suggests Rc4
+here, followed by Rb1, doubling up on the b-file, possibly exchanging
+queens (if Rc4 was followed by Qb6).} Nc3 25. Bxc3 Qxc3 {This is a mistake,
+Black should have recaptured with the Bishop.} 26. Qxb7 {Threatening mate
+in one on h7. I completely missed Qxe6+.} h5 27. Qe7 {Roundabout way of
+getting that e6-pawn that was up for grabs one move ago.} Qc4 28. Qg5
+{Threatening 29. Qxg6+, followed by 30. Rxh5. Or I could capture the
+h5-pawn directly, since the g6-pawn is pinned.} Rf6 29. Ne3 Qxa4 {...Qe2
+would have been better for Black.} 30. Ng4 {Rybka suggests Rxh4 first, and
+then Ng4. This way worked out better for me, thanks to Black's weak next
+move.} hxg4 31. Qh6 Bb2?? {Allows mate in two.} 32. Qh8+ Kf7 33. Rh7# 1-0
+

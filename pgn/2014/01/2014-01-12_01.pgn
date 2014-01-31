@@ -1,0 +1,68 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.01.12"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Critter 1.2 32bits, Level = Similar to player"]
+[Result "1-0"]
+[ECO "B80"]
+[Opening "Sicilian"]
+[Variation "Scheveningen, 7.Qd2"]
+[Termination "normal"]
+[PlyCount "93"]
+[WhiteType "human"]
+[BlackType "computer"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 {Could also have captured with the
+Queen. Another option would have been 5.Bb5+, followed by an exchange of
+pieces on d7, before capturing the d4-pawn.} 5. Nxd4 a6 {The Najdorf
+variation. This prepares ...e5 on the next move. The problem with 5...e5 is
+that White can answer with 6.Bb5+, setting up an exchange of pieces on d7.
+If 6...Bd7 7.Bxd7 Qxd7, exchanging off the light-squared Bishops, after
+which the d5-square becomes very weak. If 6...Nbd7 7.Nf5 White threatens to
+capture the d6-pawn.} 6. Be3 {Bg5 or Bc4 might have been better. Stockfish
+recommends both those moves instead of the text.} Ng4 {This is why I don't
+like the Be3 move. The only way to prevent the e3-Bishop from being
+exchanged is to move it again, losing a tempo.} 7. Qd2 {Could also have
+developed the f1-Bishop, and recapturing with the f2-pawn if the Knight
+takes on e3.} Nxe3 8. Qxe3 g6 9. e5 Nc6 10. exd6 Qxd6 11. O-O-O {Serves two
+purposes: Brings the King to safety, and adds a second defender of the
+d4-Knight.} Nxd4 12. Rxd4 Qe6 {Considered a blunder by Stockfish. Qc6 would
+have been better, or Bh6, which pins my Queen to my King. At this point I
+wasn't aware of the fact that my Queen was on the same diagonal as my
+King.} 13. Qd2 {This is also what the computer recommends. I'm not sure why
+this is better than, say, Qd3, which brings the Queen off the c1-h6
+diagonal. Because it blocks the f1-Bishop? Because it opens for ...Bh6+?}
+Qb6 14. Nd5 {Threatening the Queen, and eyeing the fork on c7.} Qc6 {The
+Black Queen has now moved Qd6-e6-b6-c6 in three straight moves.} 15. Rc4!
+{I'm very happy with this move. Threatening the Queen, and the c7-fork is
+also very much a possibility. I couldn't see a way for Black to deal with
+both threats.} Bh6! {This came as a surprise to me (it shouldn't have).
+Only now did I become aware of the risk for a Queen-King pin.} 16. Rxc6
+{This was the move that I spent most time thinking about. Realized that,
+since the c7-fork is still alive, Rxc6 would start an exchange that would
+leave me a piece up (the h6-Bishop). I did not see the move recommended by
+the computer (f4 - see variation).} (16. f4 16. .. Qd7 17. Nc7+ Kf8 18.
+Nxa8 Qxd2+ 19. Kxd2) (16. f4 Qd7 17. Nc7+ Kf8 18. Nxa8 Qxd2+ 19. Kxd2 Bxf4+
+20. Kc3) 16. .. Bxd2+ 17. Kxd2 {At this point I'm up a piece in the
+exchange, and Black has the choice of keeping the Rooks on the Board, e.g.
+by Bc8-d7.} bxc6 18. Nc7+ Kd7 19. Nxa8 Rd8 20. Bd3 {Blocks the d8-Rook from
+a potential discovered check.} Kd6 21. Nb6 Be6 22. Nc4+ {Offers an exchange
+of Bishop and Knight. This should benefit me, since I'm a piece up.} Bxc4
+23. Bxc4 Ke5+ 24. Kc3 {A month ago I would probably have placed Kc1, but
+the text turns the King into a more active piece in the endgame. I'm
+learning!} e6 25. Bxa6 Ra8 26. Bc4 Ke4 27. Rd1 Ra7 28. Kb4 {Eyeing the
+c6-pawn.} Rb7+ 29. Kc5 Rxb2? {Wins a pawn, but allows the Rook to be
+trapped!} 30. Bb3! {Traps the Rook.} h6 31. Kxc6 h5 32. Kc5 {I still hadn't
+completely grasped the full implication of the poor b2-Rook's hopeless
+situation. The Rook is completely trapped *even without the a2-pawn*. At
+this point I should have started pushing the a-pawn towards promotion.
+Instead I decided to pluck the Rook off the board.} g5 33. Kc4 f5 34. Kc3
+Rxb3+ 35. Kxb3 h4 36. a4 {The assault of the Black pawns made me feel
+uncomfortable, and made me try out different variations on the board.
+Decided they weren't a real threat yet.} h3 37. gxh3 Kf3 38. a5 Ke2 39. Ra1
+g4 40. a6 g3 {Black should have captured the f2-pawn instead.} 41. fxg3 f4
+42. gxf4 e5 43. a7 exf4 44. a8=Q Ke3 45. Qd5 (45. Re1+ Kd4 46. Kb4 f3 47.
+Re4# {This line was suggested by the computer.}) 45. .. f3 46. Re1+ Kf4 47.
+Re4# 1-0
+

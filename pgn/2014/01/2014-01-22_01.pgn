@@ -1,0 +1,65 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.01.22"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Stockfish-dd-64-modern, Level 1"]
+[Result "1-0"]
+[ECO "C68"]
+[Opening "Spanish"]
+[Variation "Exchange, 4...bxc6"]
+[Termination "normal"]
+[PlyCount "81"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. e4 d5 {-0.32/22 51} 2. exd5 c6 {-0.68/21 43 Surprising. ...Qd5 is the
+standard move in the Scandinavian.} 3. dxc6 e5 {-0.92/22 60 Another
+suprise. ...Nxc6 would be expected.} 4. cxb7 Bxb7 {-1.85/22 46 Here White
+has to be careful, since Black is threatening ...Bxg2, which wins the
+Rook.} 5. Bb5+ Nc6 {-2.00/21 37} 6. Nf3 {I was a little bit nervous about
+this move, since I wasn't sure how to best respond to ...e4.} e4 {-2.18/20
+49} 7. Ne5 {Taking advantage of the pin on the Black Knight. Houdini
+suggests Qe2 here, pinning the e4-pawn.} Qc7 {-2.02/21 53} (7. .. Qd5 {This
+is the move recommended by Houdini after White's 7.Ne5. I did not see that
+move.} 8. Bxc6+ Bxc6 9. Nxc6 Qxc6) 8. d4 exd3 {-1.83/21 38} 9. Nxc6 a6
+{-2.04/22 66 I was counting on 9...Bxc6 10.Qxd3 or Bxd3.} (9. .. Bxc6 10.
+Qxd3 Bd6 11. Qe4+ Ne7 12. Bxc6+ Qxc6 13. Nc3) 10. Bxd3 Bxc6 {-2.24/21 50
+Houdini suggests ...Qxc6. That makes sense (to me), since it creates a
+Queen-Bishop battery against g2.} 11. Qe2+ Be7 {-2.72/2138} 12. O-O Rd8
+{-2.56/22 54} 13. Re1 Rd4 {-3.07/21 51} 14. b3 Bb7 {-4.06/20 48} 15. Bb2
+Rh4 {-5.03/23 46 Mate threat on h2.} 16. h3 {g2-g3 would also stop the
+immediate threat, but I didn't like opening up the h1-a8 diagonal for the
+Black Bishop.} f6 {-5.15/22 69 Takes away the threat of Bxg7.} 17. Nd2
+{Eyeing f3, threatening the Rook. Also, Nc3 would have blocked the
+b2-Bishop.} a5 {-7.23/21 70} 18. Bb5+ Bc6 {-7.61/22 55} 19. Bxc6+ Qxc6
+{-9.47/24 64} 20. Nf3 {Houdini suggests 20.Ba3, initiating an attack on e7.
+I considered this move during the game, but couldn't really work it out.}
+(20. Ba3 Rb4) 20. .. Rb4 {-9.15/2252} 21. Nd4 {I also considered Ba3, which
+is the move recommended by Houdini. I didn't go for it because I didn't
+quite know how to proceed after ...Rb7.} Qc8 {-8.60/22 46} 22. Rad1 h5
+{-10.18/23 56} 23. Ba3 Kf8 {-11.41/25 48} 24. Bxb4 {Here I was a little bit
+concerned about ...Bxb4, but found a line starting with Ne6+ that would
+work out nicely.} axb4 {-14.72/2347} (24. .. Bxb4 25. Ne6+ Kf7 26. Rd8 Ne7
+(26. .. Qb7 27. Nf4) 27. Rxc8) 25. Ne6+ Ke8 {-14.50/24 50} 26. Nxg7+ {I
+considered Rd8+, which could lead to a quick mate if Black captures with
+the wrong piece. I couldn't work out all the variations, however, and
+decided to skip that idea. It turns out Rd8+ was indeed the best move. See
+variations.} (26. Rd8+ Bxd8 (26. .. Qxd8 27. Qb5+ Kf7 28. Nxd8+) 27. Nc7+
+Kd7 28. Nb5 {Threatening mate on e8.} Qa6 29. Rd1+ Kc8 30. Qc4+ Kb7 31.
+Rxd8 {Threatening mate on c7.} Qc6 32. Rb8+ Kxb8 33. Qxc6 Rh7 34. Qb6+ Kc8
+35. Qc7#) 26. .. Kf8 {-18.06/27 77 Black resigns} 27. Ne6+ Kf7 {-17.91/24
+79 Black resigns} 28. Rd5 Qb8 {-18.92/24 56 Black resigns} 29. Rxh5 Nh6
+{-28.34/22 69 Black resigns} 30. Ng5+ {Houdini suggests Rb5, which forces
+Black to give up his Queen for a Rook, or a quick mate follows. See
+variation.} (30. Rb5 Qxb5 (30. .. Qc8 31. Qh5+ Kg8 32. Qg6#) 31. Qxb5) 30.
+.. Kg6 {-90.44/21 63 Black resigns} (30. .. fxg5 31. Qxe7+ Kg8 (31. .. Kg6
+32. Rxg5#) 32. Rxg5#) 31. Rxh6+ Rxh6 {-90.69/24 88 Black resigns} 32. Qe4+
+Kh5 {-M9/24 70 Black resigns} (32. .. Kxg5 33. Qg4#) 33. Qg4+ (33. Nf7 Qc8
+34. g4+ Kh4 35. Qf4 Qxc2 (35. .. Rg6 36. Qg3#) 36. Qxh6#) 33. .. Kg6
+{-M7/31 58 Black resigns} 34. Ne6+ Kf7 {-M7/31 59 Black resigns} 35. Qg7+
+Ke8 {-M6/54 51 Black resigns} 36. Qg8+ Kd7 {-M5/80 59 Black resigns} 37.
+Qxb8 Bd6 {-M4/100 7 Black resigns} 38. Qb7+ Bc7 {-M3/100 Black resigns} 39.
+Qxc7+ Ke8 {-M2/100 Black resigns} 40. Ng7+ Kf8 {-M1/100 Black resigns} 41.
+Re8# 1-0
+

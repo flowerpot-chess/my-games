@@ -1,0 +1,102 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.01.21"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Stockfish-dd-64-modern, Level 1"]
+[Result "1-0"]
+[ECO "B00"]
+[Opening "Nimzovich defence"]
+[Termination "normal"]
+[PlyCount "97"]
+[WhiteType "human"]
+[BlackType "program"]
+
+
+1. e4 Nc6 {-0.32/21 37} 2. Nf3 {Decided to try 2.Nf3 against the
+Nimzowitsch. According to wikipedia, this is the most common move according
+to some databases. One reason is that 2...e5 transposes the opening into a
+normal King's Pawn opening, that is probably more familiar to most
+players.} d5 {-0.22/22 72 Of course, Black decided to go for a less common
+line. From now on I'm on my own.} 3. exd5 Na5 {-0.76/22 53 I expected
+...Qxd5.} 4. Nc3 {3.b4 would have trapped the Black Knight. Not for free
+though, I'd have to give back the pawn I won, and give up another one as
+well. See variation. The text prevents ...Qxd5, allowing me to keep the
+pawn I won.} (4. b4 Qxd5 5. bxa5 Qxa5) 4. .. c6 {-2.04/22 52} 5. dxc6
+{Again, b2-b4 would have trapped the Knight.} Nf6 {-1.75/22 52 Allowing me
+to keep my two-pawn advantage. Black has given away two pawns in the
+opening - very suspect!} 6. cxb7 Nxb7 {-2.70/23 64 6...Bxc7 would probably
+have been better, since it develops the Bishop.} 7. Bb5+ Bd7 {-3.17/22 39}
+8. d4 {I considered exchanging Bishops here, but decided to push my d-pawn
+instead. I figured that 8...Bxb5 9.Nxb5 would be OK, since the Knight on b5
+eyes a possible fork on c7 . I failed to see 9...Qa5+, which would force my
+Knight back to c3. Accordingly, Stockfish wants me to exchange Bishops
+first, then d2-d4.} a6 {-2.76/21 40 Exchanging Bishops would probably have
+been better for Black.} 9. Bxd7+ Nxd7 {-3.61/22 46 Again, capturing with
+the Queen would probably have been better, since it develops a piece and
+leaves the Knight on f6.} 10. d5 g6 {-3.77/26 50} 11. Qd4 {Prevents ...Bg7.
+Also allows for Qa4, pinning the Knight.} Nf6 {-3.75/27 39 Opens up for
+...Bg7 again.} 12. Ne5 Bg7 {-3.75/23 47} 13. Qa4+ Nd7 {-3.65/23 49} 14. Nc6
+Bxc3+ {-3.85/22 42 I did not anticipate this move. Figured it actually made
+my situation better, since bxc3 opens up the b-file for my Rook.} 15. bxc3
+Nb6 {-6.60/23 52} 16. Nxd8+ {Starts an exchange that will win me a piece
+(in addition to the two pawns I'm already up). See Qd4 variation for an
+attacking idea I missed.} (16. Qd4 {Now I'm threatening both the Queen and
+the Rook. Black can't save both.} Qxd5 17. Qxh8+ Kd7 18. Ne5+ Kc7 19. Qg7
+Qxg2 20. Rf1 Nd5) 16. .. Nxa4 {-5.69/22 42} 17. Nxb7 {Concludes the
+exchange. There are a couple of problems with my position here. The c3-pawn
+is hanging, and after ...Nxc3 the d5-pawn is hanging as well. Also, my King
+is still out in the open, and my h1-Rook still tucked away in its corner. I
+had considered castling earlier, but decided to keep the attack going
+instead .} Ra7 {-5.69/23 59} 18. Rb1 {Here I saw the possibility of winning
+the h8-Rook. For example, 19.Nc5 Nxc5 20.Rb8+.} Kd7 {-7.01/24 68 Stops my
+ideas of winning the h8-Rook. Also made me nervous about ...Rb8, since it
+seemed to me that would win Black my Knight. In hindsight, I think Nc5+
+would have turned the table. See variation.} 19. Bf4 {To stop the imaginary
+threat of ...Rb8. Stockfish wants me to push my c3-pawn, which is hanging.
+On the other hand, this move turns out to indirectly prevent ...Nxc3. See
+19...Nxc3 variation for the bad things that happen to Black if he captures
+my pawn.} (19. c4 Rb8 20. Nc5+ Nxc5 (20. .. Kc7 21. Rxb8 (21. Bf4+ e5 22.
+Bxe5+ Kd8 23. Rxb8+ Ke7 24. d6#) 21. .. Kxb8 22. Nxa4) 21. Rxb8) 19. ..
+Raa8 {-6.74/23 60} (19. .. Nxc3 20. Nc5+ Kd8 (20. .. Kc8 21. Rb8#) 21.
+Rb8#) 20. Be5 {Mostly to add support to the c3-pawn.} Rhc8 {-9.03/23 47}
+21. Kd2 {Adds another defender to the c3-pawn, and also provides an outlet
+for the h1-Rook. I'm very happy I found this move.} Nc5 {-9.01/23 45} 22.
+Nxc5+ {Stockfish wants Rhe1 here.} Rxc5 {-8.76/24 50} 23. Rb7+ Kc8
+{-8.76/22 10 Here I wanted to follow up with Rh1-b1, but was scared away by
+24.Rhb1 Rxd5+. In hindsight that might not have been too bad, after
+25.Bd4?} 24. Bd4 {Does two things: Offers a Rook exchange (which would be
+great for White, considering White's material advantage), and makes sure
+...Rxd5 is not a check. Stockfish suggests Rxe7 here, which makes sense,
+since I'm about to lose my d5-pawn anyway.} Ra5 {-9.27/24 65 Black does not
+go for the Rook-exchange.} 25. Rxe7 Rb8 {-10.32/25 58} 26. Rhe1 {26.c4
+would have protected the d5-pawn. I preferred doubling up on the e-file,
+preparing to attack.} Rxd5 {-11.73/25 109} 27. Rxf7 Kd8 {-14.20/26 62} 28.
+Rf8+ {Stockfish suggests 28.Kc1 instead. That would free up my Bishop
+(currently pinned), e.g. for 29.Bf6+.} (28. Kc1 a5 {Random move.} 29. Bf6+
+Kc8 30. Re8+ Rd8 31. Rxd8#) 28. .. Kc7 {-10.94/27 60 Black resigns} 29.
+Re7+ {Stockfish suggests Rxb8 here. The text wins me the h7-pawn as well.}
+Kd6 {-12.16/28 106 Black resigns} 30. Rxb8 Kxe7 {-11.53/26 68 Black
+resigns} 31. Rb7+ Kf8 {-12.24/26 79 Black resigns} 32. Rxh7 g5 {-13.09/26
+47 Black resigns} 33. Rh5 Ke7 {-15.61/27 51 Black resigns} 34. f4
+{Stockfish suggests h2-h4, which makes sense. Either way wins the g5-pawn.}
+Rd8 {-97.27/31 52 Black resigns} 35. fxg5 {Stockfish says I should have
+captured with my Rook instead. To avoid doubling up the pawns on the
+f-file?} a5 {-146.49/32 220 Black resigns} 36. Rh8 Rd6 {-98.58/24 51 Black
+resigns} 37. Rh6 a4 {-101.21/24 56 Black resigns} 38. Rxd6 a3 {-M11/29 49
+Not that it matters, but Kxd6 seems kind of obvious here. Black resigns}
+39. g6 (39. Be5 Kf8 {(Ke7-f8 g5-g6 Kf8-e7 h2-h4 Ke7-f8 Be5-f6 Kf8-g8
+Rd6-d8+) -M4/18 0 Black resigns} 40. g6 Ke7 41. h4 Ke8 42. Bf6 Kf8 43.
+Rd8#) 39. .. Kxd6 {-M7/78 50 Black resigns} 40. g7 Ke7 {-M6/100 28 Black
+resigns} 41. g8=Q Kd6 {-M5/100 See variation for mate in five that the
+computer found. The text lead to mate in eight. Black resigns} 42. Qc4 (42.
+Qf7 Kc6 43. Qe7 Kb5 (43. .. Kd5 44. Qf6 Kc4 45. Qc6#) 44. Qc5+ Ka4 45.
+Qb4#) 42. .. Ke7 {-M5/100 6 Black resigns} 43. Qc6 Kf7 {-M4/100 Black
+resigns} 44. Qd6 Ke8 {-M3/100 Black resigns} 45. Be3 {See variation for
+shorter mate, found by the computer. I'm still happy with the text. It was
+fun figuring out how to trap the King with the Queen and the Bishop, making
+sure not to end up in a stalemate.} (45. Qc7 Kf8 46. Bf6 Kg8 47. Qg7#) 45.
+.. Kf7 {-M4/100 Black resigns} 46. Bg5 Kg7 {-M3/100 Black resigns} 47. Qf6+
+Kg8 {-M2/100 Black resigns} 48. Bh6 Kh7 {-M1/100 Black resigns} 49. Qg7#
+1-0
+

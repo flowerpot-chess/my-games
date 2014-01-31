@@ -1,0 +1,21 @@
+[Event "?"]
+[Site "?"]
+[Date "2013.12.13"]
+[Round "?"]
+[White "Zethson, Torgil"]
+[Black "Chess Titans, Windows 7, Level 3"]
+[Result "1-0"]
+[Annotator "Stockfish 240813 64"]
+
+1. e4 {+0.18} 1. ... c5 {Sicilian Defense +0.38} 2. Nf3 {+0.42} 2. ... e6 {Open Sicilian +0.54} 3. d4 {+0.08} 3. ... cxd4 {+0.08} 4. Nxd4 $201 {+0.12} 4. ... d5 $6 $14 {+1.13 / +0.12} 
+    ( 4. ... Nf6 5. Nc3 Bb4 6. Bd3 Nc6 7. Nxc6 dxc6 8. e5 Nd7 9. Bf4 Qa5 10. O-O Bxc3 11. bxc3 Qxc3 12. Qe1 Qxe1 13. Raxe1 Nc5 14. Be2 b6 15. Be3 $10 )
+5. exd5 {+0.80} 5. ... exd5 {+1.11} 6. Nc3 $201 {+0.66} 6. ... Nc6 $6 $16 {+1.71 / +0.66} 
+    ( 6. ... a6 7. Be2 Nf6 8. O-O Be7 9. Bf3 O-O 10. Re1 Nc6 11. Bg5 Re8 12. Qd2 Nxd4 13. Qxd4 Be6 14. Rad1 Qd7 15. Bf4 Rad8 16. a3 Qc6 $14 )
+7. Bb5 $201 {+1.73} 7. ... Qb6 $4 $18 {+9.31 / +1.73} 
+    ( 7. ... Bd7 8. Nxd5 Nxd4 9. Qxd4 Bxb5 10. Qe5+ Be7 11. Nc7+ Kf8 12. Nxb5 Nf6 13. Bf4 Qa5+ 14. Nc3 Qxe5+ 15. Bxe5 Rd8 16. Rd1 Rxd1+ 17. Kxd1 Bc5 18. Bxf6 gxf6 19. Ne4 $16 )
+8. Be3 {+5.49} 8. ... Bd6 {What about 8. Qe2+ +13.83} 9. Nxc6 {+14.12} 9. ... d4 {+16.46} 10. Bxd4 {+17.97} 10. ... Bg4 {+26.58} 11. Ne5+ {+15.89} 11. ... Qxb5 {+16.02} 12. Nxb5 {+12.22} 12. ... Bxd1 {+12.26} 13. Nxd6+ {+12.42} 13. ... Ke7 {+12.34} 14. Rxd1 {+11.53} 14. ... Kxd6 {+11.67} 15. Nxf7+ {+11.71} 15. ... Kc6 {+15.35} 16. Nxh8 {+14.82} 16. ... g6 {+15.73} 17. Nf7 {+15.85} 17. ... Ne7 {+16.58} 18. O-O {+16.52} 18. ... Nd5 {+18.34} 19. c4 {+17.67} 19. ... Nf4 {+20.14} 20. Ne5+ {+18.22} 20. ... Kc7 $201 {+18.88} 21. Nf7 $4 $10 $201 {+0.00 / +18.88} 
+    ( 21. Rfe1 g5 22. Nf7 Ng6 23. Nxg5 b6 24. Nxh7 Kb7 25. g3 Rc8 26. b3 Rc7 27. Nf6 Rg7 28. Nd5 Rg8 29. f4 Nh4 30. Re7+ Ka8 31. Bf6 Nf5 32. Rd7 Rg6 33. Kf2 Rh6 34. h4 $18 )
+21. ... Kb8 $4 $18 {+327.48 / +0.00} 
+    ( 21. ... Kc6 22. Rfe1 b6 23. Be5 Ne6 $10 )
+22. Be5+ {+327.49} 22. ... Kc8 {My intent was to fork and win the Knight. Did not see the mate in one until after the move was made. +327.49} 23. Rd8# 1-0
+

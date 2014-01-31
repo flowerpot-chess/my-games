@@ -1,0 +1,97 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.01.26"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Stockfish-dd-64-modern, Level 1"]
+[Result "1-0"]
+[ECO "C50"]
+[Opening "Italian"]
+[Variation "Hungarian Defence, 4.d4 exd4"]
+[Termination "normal"]
+[PlyCount "61"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. e4 e5 {(e7-e5 Ng1-f3 Nb8-c6 Bf1-b5 a7-a6) -0.40/19 3} 2. Nf3 d6 {The
+Philidor Defence.} 3. d4 exd4 4. Nxd4 {One of the main lines from
+Wikipedia.} Be7 {From now on I'm on my own.} 5. Nc3 {Stockfish suggests Be2
+first, then Nc3.} Bf6 {This move surprised me over the board, but it's also
+the move recommended by Stockfish after 4.Nc3. After 4.Be2 Stockfish
+recommends 4...Nf6 for Black. Can't say I understand the difference.} 6.
+Bc4 {Had early ideas about Qf3, putting pressure on f7 (assuming the
+f6-Bishop moves or is forced away). Stockfish recommends 6.Be3 (backing up
+the d4-Knight), which I played as my 7th move.} Qe7 7. Be3 {Considered
+castling, but decided to develop the Bishop first, also giving more support
+to d4. Funny how it turned out that this decision actually resulted in my
+castling being postponed for another 13 moves, not one!
+
+Btw, Stockfish
+recommends castling here.} Be6 8. Nxe6 {Here I first considered being
+tricky, by playing Bd5, inticing Black's Bishop to initiate the exchange,
+rather than the other way around. The reason was that after 8.Bxd6 fxd6 I
+didn't like Black's two central pawns. And the couple of lines I calculated
+after 8...Bxd5 all looked promising for White.
+
+The problem is that after
+8.Bd5 Black responds with 8...c6. This is of course a common beginner
+mistake: Black does not have to capture on d5 just because I want him
+to!
+
+After thinking a while I decided to take with the Knight instead,
+keeping both my Bishops. I missed a much better move though, shown to me by
+Stockfish in post-game analysis. See Nd5-variation.} (8. Nd5 Bxd5 9. Bxd5
+c6 10. Nf5 Qd7 11. Bb3) 8. .. Bxc3+ 9. bxc3 fxe6 {I have both my Bishops,
+Black has both his Rooks. Stockfish says White is +1.74 here. I don't like
+White's pawn structure, but Black is behind in development.} 10. Qh5+ Qf7
+{This move surprised me. I was anticipating 10...g6, after which 11.Qh3
+would attack the e6-pawn.} 11. Qxf7+ {I was so taken aback by Black's last
+move, that I didn't realize that my planned Qh3 move was still a good
+option! Instead I decided to exhange Queens, forcing the Black King to
+move. This is a much worse move than Qh3 according to Stockfish. The
+resulting position is evaluated to +0.80 for White, whereas Qh3 followed by
+Bxe6 is evaluated at about +2.50.} (11. Qh3 Nd7 (11. .. d5 12. Bxd5 exd5
+13. Qc8+ Ke7 14. Bc5+ Kf6 15. Qf5#) 12. Bxe6) 11. .. Kxf7 12. f4 {The
+e6-pawn is pinned, so I decided to attack it with f2-f4-f5.} Nc6 13. f5 Ke7
+14. Bxe6 Nh6 {Bad move. The normal ...Nf6 would have been better.} 15. Bg5+
+Ke8 16. f6 {Safe, since ...gxf6 and the h6-Knight falls.} Nf7 17. fxg7 Rg8
+18. Bf6 {Interesting position, where neither the f7-Knight, nor the
+g8-Rook, nor the e8-King can move! This means the only threat to my Bishops
+is the Knight currently on c6.} Nce5 {...Nd8 would have been stronger,
+since it would have forced my e6-Bishop to move.} 19. h3 {My purpose was to
+stop the Knight from moving to g4. According to Stockfish, this is a huge
+mistake. After 19.O-O, Stockfish evaluates my position to something like
++9. But after 19.h3 Nd7 (a move I missed) the position is evaluated to
++2.6.} a5 {Weird, random(?) move.} 20. O-O {Finally castling :) Not to get
+the King to safety, as much as to get the h1-Rook to f1, at the same time
+connecting it with the a1-Rook. Thanks to Black's weak last move, Stockfish
+again evaluates this position to +8 or so for White.
+
+I considered
+several other options here:
+
++ Pushing the g-pawn. Would allow Nf3+
+though.
++ Pushing the c-pawn. The end goal would be to attack d6,
+undermining the defense of the e5-Knight. This would be a slow process,
+however, since d6 is protected by c7. I could push both c-pawns, but that
+would take several moves.
++ Rd1, perhaps followed by c4.
++ Rb1.} Ng6 21.
+g3 {Preparing for h3-h4-h5. Going for that Knight.} c6 {Preparing for
+...d5? Creating space for the a8-Rook to come in and attack the e6-Bishop?}
+22. h4 b5 23. h5 Nf8 {Finally forces some action in the locked position
+around Black's King.} 24. gxf8=Q+ {Spent a long time thinking about
+alternatives here. Mainly Bxf7+. One concern is my weak g3 pawn. After
+Rg8xg3+ I could very well end up losing the c3-pawn as well, depending on
+where my dark-squared Bishop goes.} Kxf8 25. g4 {To prevent the g8 Rook
+from taking the g-pawn (which is now covered by the
+e6-Bishop).
+
+According to Stockfish, Bd4 is a much stronger move. See
+variation.} (25. Bd4 Rxg3+ 26. Kh2 Ra7 27. Bxf7 Rxf7 28. Kxg3 Rxf1 29.
+Rxf1+) 25. .. h6 26. Bh4 Ra7 27. Rf6 Ke8 28. Raf1 d5 29. Rxf7 {Take with
+the Rook, not the Bishop, so that if ...Ra7xf7, Bxf7+ forks the King and
+the Rook.} Rxg4+ 30. Bxg4 {According to Stockfish, this is a forced mate in
+9. Black, however, decided to commit harakiri.} b4 31. Rf8# 1-0
+

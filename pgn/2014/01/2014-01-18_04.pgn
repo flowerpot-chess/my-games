@@ -1,0 +1,134 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.01.18"]
+[Round "4"]
+[White "Zethson, Torgil"]
+[Black "Stockfish-dd-64-modern, Level 1"]
+[Result "1-0"]
+[ECO "B02"]
+[Opening "Alekhine"]
+[Variation "Mokele Mbembe (Bucker) Variation"]
+[Termination "normal"]
+[PlyCount "57"]
+[WhiteType "human"]
+[BlackType "computer"]
+
+
+1. e4 Nf6 {(e7-e6 Nb1-c3 d7-d5 d2-d4 Ng8-f6 Bc1-g5 Bf8-b4 e4-e5 h7-h6 e5xf6
+h6xg5 f6xg7 Rh8-g8 a2-a3 Bb4xc3+ b2xc3 Nb8-c6 Bf1-b5 Rg8xg7 Bb5xc6+ b7xc6
+Ng1-f3 Bc8-a6 Nf3-e5) -0.32/22 47} 2. e5 {The standard second move for
+White against the Alekhine Defense.} Ne4 {(Nf6-d5 d2-d4 d7-d6 Ng1-f3 d6xe5
+Nf3xe5 e7-e6 Bf1-b5+ Bc8-d7 Ne5xd7 Nb8xd7 O-O Bf8-e7 Bb5-e2 O-O c2-c4
+Nd5-b4 Nb1-c3 c7-c6 a2-a3) -0.82/20 22 The "Mokele Mbembe" variation. "Very
+dubious", according to Wikipedia's article on the Alekhine Defense.} 3. d3
+Nc5 {(Ne4-c5 d3-d4 Nc5-a6 Ng1-f3 e7-e6 a2-a3 d7-d6 Nb1-c3 Bf8-e7 Bf1-d3
+Nb8-d7 Bc1-f4 d6xe5 Nf3xe5 Nd7xe5 Bf4xe5 O-O O-O g7-g6 Qd1-f3 Na6-b8 Bd3-e4
+Nb8-d7 Be5-f4 Nd7-f6 Be4xb7 Bc8xb7) -1.19/22 66} 4. d4 Ne6 {(Nc5-a6 Ng1-f3
+e7-e6 c2-c3 c7-c5 Bc1-g5 Bf8-e7 Bg5xe7 Qd8xe7 d4xc5 Na6xc5 Nb1-d2 d7-d5
+e5xd6/ep Qe7xd6 Nd2-c4 Qd6xd1+ Ra1xd1 O-O Nc4-d6 Bc8-d7 Nf3-e5 Bd7-a4 b2-b3
+Ba4-c6 b3-b4) -1.21/21 54 Probably a blunder (although Black has already
+messed up the opening as far as I can tell). Stockfish suggests ...Nc5-a6,
+but White already has a big advantage.
+
+Here I debated if I should keep
+pushing the d-pawn, or if I should focus on normal development. I felt that
+it could be difficult to maintain the d- and e-pawns so far ahead of the
+rest of my pieces, and considered something like Nf3 instead.} 5. d5
+{Decided to keep pushing, to see what would happen. This is also what
+Stockfish recommends.} Nc6? {(Ne6-c5 Nb1-c3 e7-e6 b2-b4 Nc5-a6 a2-a3 d7-d6
+Bf1-c4 Bf8-e7 Ng1-f3 d6xe5 Nf3xe5 Be7-f6 Qd1-h5 g7-g6 Qh5-e2 Nb8-d7 f2-f4
+Bf6-g7 O-O O-O Bc1-d2 Nd7-b6) -1.57/21 42 Black offers the other Knight for
+taking as well.} 6. dxe6 {Decided to take with the d-pawn. This leaves the
+e-5 pawn en prise, but if Black doesn't do something about the e6-pawn
+first, e6xf7+ will force the King to f7. So I figured Black would take on
+e6, which would give me time to back up the e5-pawn.} fxe6 {(f7xe6 f2-f4
+d7-d6 Nb1-c3 g7-g6 Ng1-f3 Bf8-g7 Bc1-e3 O-O Bf1-e2 d6xe5 f4xe5 Nc6xe5 O-O
+Qd8xd1 Ra1xd1 a7-a5 Be3-g5 Ne5xf3+ Be2xf3 Bg7-f6 Nc3-e4 Bf6xg5) -3.97/22
+38} 7. f4 (7. Nf3 g6 {(g7-g6 Bc1-f4 Bf8-g7 Nb1-c3 O-O Qd1-d2 d7-d6 O-O-O
+Bc8-d7 Kc1-b1 Qd8-e8 h2-h4 Qe8-f7 Bf4-g3 Ra8-d8 e5xd6 e7xd6 h4-h5) -4.24/24
+30} 8. Bf4 Bg7 9. Nc3 O-O 10. Qd2) 7. .. Rg8?? {(d7-d6 Ng1-f3 g7-g6 Nb1-c3
+Bf8-g7 Bf1-c4 O-O O-O d6xe5 Qd1xd8 Rf8xd8 Bc4-b3 Nc6-d4 f4xe5 Nd4xf3+
+Rf1xf3 Bg7xe5 Bc1-g5 Rd8-f8 Rf3-d3 Be5-d6 Ra1-d1 Bc8-d7 Nc3-e4 a7-a5
+Bg5xe7) -3.83/22 43 No idea what black is doing here.} 8. Qh5+ {I
+remembered the Qh5+ variation I missed in a game earlier the same day.} g6
+{(g7-g6 Qh5xh7 Rg8-g7 Qh7-h8 d7-d6 Ng1-f3 d6xe5 Bf1-b5 Bc8-d7 Nb1-c3 Nc6-d4
+Bb5xd7+ Qd8xd7 Nf3xe5 Nd4xc2+ Ke1-f1) -5.07/12 0 The only move.} 9. Qxh7
+Rg7 {(Rg8-g7 Qh7-h8 d7-d6 Ng1-f3 Qd8-d7 Bc1-d2 b7-b6 Nb1-c3 Bc8-b7 O-O-O
+O-O-O Kc1-b1 Kc8-b8 Qh8-h3 Rg7-g8 Bf1-c4 d6-d5 Bc4-b5 a7-a6 Bb5xc6 Bb7xc6
+Nf3-d4 Rd8-c8 Qh3-g4 Bf8-g7 h2-h4 Bc6-b7 Qg4xe6 Qd7xe6 Nd4xe6) -6.48/21 41}
+10. Qh4 {Stockfish suggests Qh8 instead.} Nd4 {(Nc6-d4 Qh4-f2 Nd4-f5 Ng1-f3
+c7-c6 g2-g4 Nf5-h6 Rh1-g1 Nh6-f7 Nb1-c3 Qd8-b6 Qf2xb6 a7xb6 Bc1-e3 b6-b5
+O-O-O b5-b4 Nc3-e4 Ra8xa2 Kc1-b1 Ra2-a4 Bf1-d3 b7-b5 Ne4-c5 Ra4-a8 Bd3-e4)
+-6.18/21 42} 11. Bd3 {Prevents ...Nxc2+, forking the King and Rook. Also
+puts pressure on g6. I considered following up with 12.Bxg6 Rxg6 13.Qh5,
+but 13...Kf7 would defend the Rook.
+
+Only after I made the move did I
+realize that ...Nf5 would chase away my Queen. The move suggested by
+Stockfish, 11.Qf2 is probably more correct. It defends c2, and also attacks
+the Knight.} d5 {(c7-c5 Qh4-g5 Qd8-b6 Bd3xg6+ Ke8-d8 Nb1-a3 Qb6-c6 c2-c3
+Nd4-f5 Ng1-f3 b7-b5 O-O b5-b4 Na3-c2 b4xc3 b2xc3 Bc8-a6 Rf1-f2 Qc6-e4
+Nc2-e3 Qe4-d3 c3-c4) -5.79/21 52} 12. Qg5 {Now the Queen is safe from
+...Nf5.} c5 {(c7-c5 c2-c3 Nd4-f5 g2-g4 d5-d4 Bd3-e4 Ke8-d7 Ng1-f3 Kd7-c7
+c3xd4 c5xd4 Nb1-a3 Bc8-d7 Bc1-d2 Ra8-c8 O-O-O Kc7-b8+ Kc1-b1 Qd8-b6 Rd1-c1
+Nf5-e3 Rc1xc8+ Kb8xc8 Rh1-c1+ Bd7-c6 Be4xc6 b7xc6 Na3-c4 Ne3xc4 Rc1xc4
+d4-d3 Rc4-c1 c6-c5) -6.54/22 42} 13. c3 {Debated between c2-c3 and Bc1-e3.
+c2-c3 is superior, because it also prevents ...Qa5+.} (13. Be3 Qa5+ 14. Bd2
+Qb6) 13. .. Nf5 {(Nd4-f5 g2-g4 d5-d4 Bd3-e4 Qd8-b6 g4xf5 e6xf5 Be4-g2
+Bc8-d7 Nb1-d2 O-O-O Ng1-f3 d4xc3 b2xc3 Qb6-a5 O-O Qa5xc3 Nd2-b3 Bd7-c6
+Bc1-d2 Qc3-b2 Rf1-b1 Qb2-a3 Bd2-a5 c5-c4 Ba5xd8 c4xb3 a2xb3 Qa3-c5+ Kg1-h1
+Kc8xd8 Rb1-d1+ Kd8-c8 Ra1-c1 Qc5-a3) -6.72/23 60} 14. g4 {Traps the
+Knight!} Bd7 {(d5-d4 Bd3-e4 Ke8-d7 c3xd4 c5xd4 Nb1-a3 Kd7-c7 Bc1-d2 Kc7-b8
+Ra1-c1 d4-d3 Ng1-f3 Nf5-d4 Rc1-c4 Nd4xf3+ Be4xf3 a7-a6 Bf3-e4 Qd8-b6 Rc4-b4
+Qb6-c5 Rb4-b3 Qc5-d4 Be4xd3 Bc8-d7 Na3-c2 Qd4-d5) -6.84/23 69} 15. gxf5
+gxf5? {(e6xf5 Ng1-f3 e7-e6 Nb1-d2 Qd8-e7 b2-b3 b7-b5 Bd3-e2 a7-a5 Bc1-b2
+a5-a4 Qg5-f6 Qe7xf6 e5xf6 Rg7-f7 Nf3-e5 Bf8-d6 Ne5xd7 Ke8xd7 Be2xb5+ Kd7-c7
+O-O a4-a3 Bb2-c1 Rf7xf6 Nd2-f3 Kc7-b6 Bb5-e2 Rf6-f7 Nf3-g5) -7.69/23 53
+This is probably a mistake (and Stockfish agrees with me). e6xf5 would have
+been better. The text opens up for new attacks against the Black King.} 16.
+Qh5+ Rf7 {(Rg7-f7 Ng1-f3 Qd8-b6 Nf3-g5 O-O-O Qh5xf7 Bf8-h6 Nb1-d2 c5-c4
+Bd3-e2 Rd8-f8 Qf7xe7 Rf8-e8 Qe7-f7 Bh6-f8 Ng5-h7 Bf8-c5 Nh7-f6 Re8-d8
+Nd2-f3 Bd7-a4 Nf3-d4 Bc5xd4 c3xd4 Kc8-b8 Ke1-f1 Qb6xd4 Qf7xe6 Ba4-d1
+Qe6xf5) -15.11/26 49} 17. Nf3 {Black can't stop Nf3-g5, so must now open an
+escape route for his King to avoid Qxf7#.} d4?? {(Qd8-b6 Nf3-g5 O-O-O
+Qh5xf7 Bf8-h6 Nb1-d2 c5-c4 Bd3-e2 Rd8-f8 Qf7xe7 Rf8-e8 Qe7-f7) -15.11/23 66
+This won't help the King escape.} 18. Ng5 Ba4 {(Bd7-c6 Qh5xf7+ Ke8-d7
+Ng5xe6 Qd8-e8 Ne6xc5+ Kd7-c7 Nc5-e6+ Kc7-d7 Qf7xf5 Bc6xh1 Ne6xf8+ Kd7-c7
+Nf8-e6+ Kc7-b8 c3xd4 Bh1-c6 Nb1-c3 Bc6-d7 d4-d5 b7-b6 Bc1-e3 Kb8-b7 Qf5-e4
+Ra8-c8 d5-d6+ Kb7-b8 Ne6-c7 Bd7-c6 Nc7xe8 Bc6xe4 Nc3xe4 Rc8xe8) -19.35/23
+43} 19. Qxf7+ {Also considered Nxf7. The idea was that the Queen would have
+to move, and then I could follow up with a discovered check by moving the
+Knight again. Decided that a more direct approach was better in the end.}
+Kd7 {(Ke8-d7 Ng5xe6 Qd8-e8 Qf7xf5 Ba4-c6 Rh1-g1 a7-a6 c3xd4 c5xd4 Ne6xf8+
+Kd7-c7 Nf8-e6+ Kc7-b8 Ne6xd4 Bc6-b5 Nd4xb5 a6xb5 Bc1-e3 b5-b4 Qf5-e4 b4-b3
+Qe4-d5 b3xa2 Ra1xa2 Ra8xa2 Qd5xa2) -24.94/12 0} 20. Qxe6+ {Here I had
+another choice: Nxe6. That's also what Stockfish suggests.} Kc7 {(Kd7-c7
+Qe6-c4 Ba4-d7 Qc4xc5+ Kc7-b8 Qc5xd4 Qd8-c8 Ng5-h7 Bd7-c6 Rh1-g1 Kb8-c7
+Bc1-e3 Qc8-e8 Bd3xf5 Qe8-f7 Bf5-g6 Qf7-d5 Nh7xf8 Ra8xf8 Qd4xa7 Qd5-b5
+Qa7-a3 Kc7-d7 Nb1-d2 Qb5-a4 Qa3-c5 b7-b6) -22.48/26 78 Black resigns} 21.
+Qc4 {Clears the e6 square for the Knight, and a possible King-Queen fork.}
+Qc8 {(Ba4-d7 Qc4xc5+ Kc7-b8 Qc5xd4 Qd8-c8 Ng5-h7 Bd7-c6 Rh1-g1 Kb8-c7
+Bc1-e3 Qc8-e8 Bd3xf5 Qe8-f7 Bf5-g6 Qf7-d5 Nh7xf8 Ra8xf8 Qd4xa7 Qd5-b5
+Qa7-a3 Kc7-d7 Nb1-d2 Qb5-a4 Qa3-c5 b7-b6) -22.48/23 50 Black resigns} 22.
+Qxa4 {Considered Qxc4+, but couldn't find a good follow up.} dxc3 {(Kc7-b8
+Qa4-c4 a7-a5 c3xd4 Ra8-a6 d4-d5 Ra6-b6 Ng5-e6 Rb6-b4 Qc4xc5 Qc8xc5 Ne6xc5
+Rb4-d4 Nb1-c3 Bf8-h6 O-O b7-b6 Nc5-d7+ Kb8-b7 Bd3xf5 Rd4-b4 b2-b3 Rb4-d4
+Bc1-e3) -25.09/22 66 Black resigns} 23. Nxc3 {Capture with advantage,
+developing the Knight, and brining another piece into the attack.} b6
+{(Kc7-b8 Qa4-c4 a7-a5 Qc4-f7 Bf8-h6 Qf7xe7 Qc8-c7 Qe7-e8+ Qc7-c8 Qe8xc8+
+Kb8xc8 Bd3xf5+ Kc8-b8 Bc1-e3 Kb8-a7 O-O-O Ra8-e8 Be3xc5+ Ka7-a8 h2-h4
+Ka8-b8 Bc5-b6 Re8-f8 Rd1-d8+ Rf8xd8 Bb6xd8 Bh6-f8 Bd8xa5 Bf8-c5 Nc3-d5
+b7-b6) -28.26/23 63 Black resigns} 24. Nd5+ Kb8 {(Kc7-b8 Bd3-a6 e7-e6
+Ba6xc8 a7-a5 Bc8xe6 c5-c4 Qa4-c6 Ra8-a6 Qc6-c7+ Kb8-a8 Nd5xb6+ Ra6xb6
+Be6-d5+ Rb6-c6 Bd5xc6+) -M8/23 59 Black resigns} 25. Ba6 {The only safe
+square for Black's Queen is d8. But on ...Qd8 I will follow up with Qc6,
+threatening Qb7#. Black can't both safe his Queen and prevent mate.} c4
+{(e7-e6 Ba6xc8 a7-a5 Bc8xe6 c5-c4 Qa4-c6 Ra8-a6 Qc6-c7+ Kb8-a8 Nd5xb6+
+Ra6xb6 Be6-d5+ Rb6-c6 Bd5xc6+) -M7/26 57 Black resigns} (25. .. Qd8 26. Qc6
+Qd7 27. Qxd7 c4 28. Qb7#) 26. Bxc8 b5 {(a7-a5 Qa4-c6 Ra8-a7 Qc6xb6+ Kb8xc8
+Qb6xa7 Kc8-d8 Qa7-c7+ Kd8-e8 Qc7-c8+) -M5/100 47 Black resigns} 27. Qxb5+
+{Here I missed a mate in two (see variation).} (27. Qa5 Kxc8 28. Qc7#) 27.
+.. Kxc8 {(Kb8xc8 Qb5-c6+ Kc8-b8 Qc6-c7+) -M2/100 0 Black resigns} 28. Qc6+
+Kd8 {(Kc8-d8 Ng5-e6+) -M1/100 0 Black resigns} (28. .. Kb8 29. Qc7#) 29.
+Ne6# 1-0
+
