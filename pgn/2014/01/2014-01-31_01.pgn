@@ -1,0 +1,76 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.01.31"]
+[Round "?"]
+[White "Stockfish-dd-64-modern, Level 3"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "B23"]
+[Opening "Sicilian"]
+[Variation "Closed, Grand Prix, 3...e6"]
+[Termination "normal"]
+[PlyCount "84"]
+[WhiteType "program"]
+[BlackType "human"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 {The Grand Prix Attack!} e6 {...g6 is perhaps the
+more common move here.} 4. e5 d5 {Or d6? If White takes, it amounts to the
+same. If White doesn't take, isn't it better to have the pawn on d5 than
+d6?} 5. a4 Nh6 {The normal Nf3 is not available. Ne7 blocks the Bishop. (I
+don't want to play g6-Bg7 because of the pawn on e5.)} 6. Bb5 Bd7 7. a5
+{Thought about stopping the White a-pawn through a3, also attacking the
+White Bishop. But the White a-pawn isn't really going anywhere, and the
+White Bishop could just retreat to a4, immune to ...b5 due to the en
+passant rule.} d4 8. Ne4 Nxe5 {If 9.fxe5 then 9...Bxb5, and White's pawn on
+e5 is very weak.} 9. Qe2 (9. Bxd7+ 9. .. Nxd7 {Black is a pawn up in the
+exchange.}) (9. fxe5 Bxb5 10. d3 Nf5 {Black is a pawn up in the exchange,
+and White's pawn on e5 is very weak.}) 9. .. Bxb5 {Stockfish recommends
+returning the Knight to c6.} 10. Qxb5+ Qd7 11. Qxd7+ Nxd7 {Black is a pawn
+up after the exchange.} 12. a6 b6 13. g3 f5 {Thought long and hard before
+this move. Other options: Be7 and castle; g6-Bg7-castle; Nf5 or Ng4; e5.
+Went for this move, attacking the Knight. Once the Knight moves, by Bishop
+gets access to d3.
+
+Stockfish recommends Nf6 here. Not sure I like the
+result after 14. Nxf6+ gxf6.} 14. Nf2 {My main concern with 13...f5 was
+14.Ng5. This is also the move recommended for White by Stockfish.} Bd6 15.
+b3 O-O 16. Nd3 Rae8 {Wanted a Rook on the e-file, but which one? Felt
+better to keep the f8-Rook where it is - liked to have both Rooks together.
+I'm building up for e6-e5. That move is already possible, since both my
+Bishop and my Knight cover e5, but I wanted the Rook in place too. I liked
+the possibility of a discovered check.} 17. Nf3 Ng4 {e6-e5 was still
+possible, since I now have three pieces bearing down on that square.} 18.
+h3 {Realized that White had this move the same moment I let go of the
+Knight. Regretted that I didn't play e5 instead.} e5 {But after some
+counting, I realized that I could do the pawn push after all. If White
+captures my Knight, I think I'll win three pawns. Will verify in a
+variation.} 19. O-O (19. hxg4 19. .. exf4+ 20. Kd1 fxg4 {Winning a pawn
+with tempo - the Knight must move.} 21. Nh4 (21. gxf4 {Actually, Stockfish
+doesn't agree with me that the White Knight must move.} gxf3 22. Rf1 Bxf4
+23. Rxf3 g5) 21. .. fxg3 {Black got three pawns for the Knight. However,
+Stockfish says this last move is a mistake, and that Black should have
+plasyed f4-f3 instead. I kind of understand why - those two Black pawns are
+very weak as they are.} (21. .. f3 22. Bb2 Bxg3 {Black wins the third pawn
+anyway.})) (19. hxg4 e4 20. gxf5 exd3+ 21. Kd1 dxc2+ 22. Kxc2 Rxf5 {Not as
+good for Black. Still just up one pawn, and the position is approximately
+equal (according to Stockfish).}) 19. .. exf4 20. Nxf4 {Same situation as
+before. Black is better up this way than hxg4.} Ngf6 21. Bb2 g5 {Huge
+blunder by Black. The g5-pawn is actually hanging for the f3-Knight. I
+completely missed this during the game.} 22. Ng2 {Huge blunder by White in
+return. He doesn't capture the pawn. Phew.} g4 23. hxg4 fxg4 24. Nfh4 Ne4
+25. Nf5 Nxg3 {Another blunder. I miscalculated the situation after Nxd6.
+White will win a piece in that exchange.} 26. Nh6+ {And White follows suite
+with a blunder of his own.} (26. Nxd6 Rxf1+ 27. Rxf1 Re6) 26. .. Kg7 {Kg7
+rather than Kh1, to stay connected with the Rook.} 27. Nxg4 {Another
+mistake by White. Rxf8 would have won him that pawn in the exchange. This
+way he loses material instead.} Rxf1+ (27. .. Ne2+ 28. Kh1 Rxf1+ 29. Rxf1
+Ng3+ 30. Kg1 Nxf1 31. Kxf1) 28. Rxf1 Nxf1 29. Bxd4+ {Another blunder. Black
+gives away his most powerful piece.} cxd4 30. Kxf1 Bg3 31. Kg1 Re2 32. c3
+Rxd2 33. Kf1 (33. cxd4 Rd1+ 34. Ne1 Rxe1+ 35. Kg2 h5) 33. .. dxc3 34. N4e3
+{White resigned here.} c2 35. Nxc2 Rxc2 36. b4 Rf2+ 37. Ke1 (37. Kg1 Ne5
+38. Ne1 Rb2 39. Kf1 Nc4 40. b5 Rf2+ 41. Kg1 Ne3 42. Nc2 Rf1#) 37. .. Rxg2+
+38. Kd1 h5 39. Kc1 h4 40. Kd1 h3 41. b5 h2 42. Kc1 h1=Q# {All in all an OK
+game, though marred by a couple of blunders from both sides between moves
+21 and 26. I felt a bit more comfortable with playing the Sicilian than the
+prevoius game.} 0-1
+
