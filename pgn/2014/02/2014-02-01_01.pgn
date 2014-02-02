@@ -1,0 +1,90 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.01"]
+[Round "1"]
+[White "Stockfish-dd-64-modern, Level 3"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "A45"]
+[Opening "Queen's Pawn"]
+[Variation "Indian"]
+[Termination "normal"]
+[PlyCount "64"]
+[WhiteType "program"]
+[BlackType "human"]
+
+1. d4 Nf6 2. Bd2 g6 {Wanted to try a Queen's Pawn Indian opening for the
+first time.} 3. Nf3 Bg7 4. Nc3 O-O 5. e3 d5 6. h3 a6 7. Be2 Nc6 8. O-O Qd6
+{Preparing for e7-e5.} 9. Re1 e5 {After 9.Re1 I wondered if I had to
+counter that Rook with a Rook on my own on the e-file. Decided it was not
+necesary.} 10. a3 {Probably a mistake. Seems like a random move to me.}
+exd4 {Also considered e5-e4, which is what Stockfish recommends. Decided to
+continue with my original plan of opening up things in the middle.} 11. Na2
+{Another weird move by White. e3xd4 or Nf3xd4 would be expected here.} Ne4
+12. Nb4 {White simply refuses to take back the pawn on d4.} Nxd2 {The
+Knight on e4 was nice, but still felt it was a good idea to exchange it for
+the Bishop, before the Bishop could swing into action, e.g. on b4 (after
+that square has been vacated by the Knight).
+
+Another good thing about getting the dark-squared Bishop off the board is 
+that it makes my own King safer. In the last phase of the game I didn't 
+have to worry about the Bishop as a threat, penetrating through the open 
+diagonals around my King. I particularly noticed this in the last part of 
+the game: White still had his light-squared Bishop on the board, but I never 
+felt I had to worry about it as a threat. This is something I will keep in 
+mind for future games in which I play an Indian defense (or end up with the 
+same defense around my King).} 13. Nxd2 {Probably the wrong
+piece to recapture with. Qxe2 is more natural, and activates the Queen
+rather than shutting the Queen in. Also, the Queen on d2 would add a second
+defender to the e3-pawn.} dxe3 14. fxe3 Bxb2 {Black is now two pawns
+up.
+
+I also considered Ne2-f5-g3, but felt the text was more direct, with
+more immediate advantages.
+
+Another motif I started thinking about around
+here was Qg3, followed by Bxh3. I even toyed with the idea of sacrificing
+the Bishop on h3. I decided to hold off on both ideas until I could pack
+more punch behind the attack The Bishop on c8 hasn't developed yet, but it
+is still quite powerful in its current position. (After Qg3, White can for
+example play Nf1 or Bg4, neutralizing the threat, and I'm not left with
+much.)} (14. .. Qg3 15. Nf1 (15. Bg4 Bxg4 16. Qxg4 Qxg4 17. hxg4)) 15. Rb1
+(15. Ra2 Bc3 16. Nxc6 bxc6) 15. .. Bxa3 {Black is now three pawns up! Now
+I'd like to get the Bishop to the c5 square, attacking and pinning the
+e3-pawn.} 16. c3 {Allows me to exchange Knights, which I don't mind doing,
+being up three pawns. It will also grant my Bishop access to the coveted
+c5-square.} Nxb4 17. Nf3 {Another odd move by White. Why not cxb4, taking
+back the lost piece? He will still lose the pawn, after ...Bxb4, but surely
+that's better than the text?} Nc6 {Moving the Knight to safety, and opening
+up to road for the Bishop.} 18. c4 Bc5 {Another alternative is dxc4,
+opening up for a Queen exchange. Being up three pawns and a Bishop,
+exchanges obviously favors Black, but I prefer to keep my Queen because I
+think I'm very close to starting a strong attack on the King.} 19. Qb3
+{Stops ...Bxe3.} Re8 {Adds a second attack of e3.} 20. Nd4 Nxd4 {Here I
+missed a nice tactic winning the White Queen, shown to me by Stockfish in
+post-game analysis. A shame, I need to be better at seeing those.
+
+The
+text isn't bad, obvoiusly, but not as good as winning the Queen...} (20. ..
+Rxe3! {Is this an example of an X-ray attack? The way that the c5-Bishop is
+practically defending e3, even though there's a Knight in the way.} 21.
+Qxe3 {The alternatives are even worse for White.} Bxd4 22. Bf3 Bxe3+ 23.
+Rxe3) 21. exd4 Bxd4+ 22. Kh1 {White resigned here.} Re3 {Preparing for that
+Qg3 move that I described earlier. I figured it was time to pull the
+trigger on that idea.} 23. Bd3 Qg3 24. Rxe3 Bxe3 25. cxd5 Bxh3 {The Bishop
+springs into action at last!} 26. Qc2 Bg4 {Threatening Qh4#.} 27. Qxc7 {Now
+...Qh4+ would be met by Qh2.} Qxc7 28. Rb3 Qc1+ {Here I for some reason
+missed that I could move the Queen back to g3, and the original plan of
+mating on h4 would be unstoppable. Mate in two, in other words. Instead I
+went for a slightly more longwinded mate.} 29. Bf1 Qxf1+ 30. Kh2 Qf4+ 31.
+g3 (31. Kh1 Qh6#) 31. .. Qf2+ 32. Kh1 Qg1# {In summary: It was fun to play
+a Queen's Pawn Indian opening. I think I played a solid game, without too
+many mistakes. On the other hand, White made it easy for me by one weak
+move after another, so it wasn't particularly difficult to stay on the
+right track in this one. I'm pleased with the way I saw the Qg3 attack
+fairly early on, but held it off until I felt I had enough power behind the
+punch.
+
+I started the game on Saturday morning (Feb 1). Had to stop after 8.0-0, and 
+the rest of the game was played on Sunday morning (Feb 2).} 0-1
+
