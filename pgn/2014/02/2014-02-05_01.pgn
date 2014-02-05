@@ -1,0 +1,109 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.05"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Stockfish-dd-64-modern, Level 4"]
+[Result "1-0"]
+[ECO "B13"]
+[Opening "Caro-Kann"]
+[Variation "Panov-Botvinnik, 5...Nc6 6.Nf3 Bg4 7.cxd5 Nxd5 8.Qb3"]
+[Termination "normal"]
+[PlyCount "59"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. e4 d5 2. exd5 Nf6 {The Marshall Gambit of the Scandinavian Defense.} 3.
+d4 {The Modern Variation.} c6 {The most common response by Black is
+3...Nxd5, winning back the pawn, although White may gain some time by
+chasing the Knight away via 4.c4.} 4. c4 {Having just read Nimzowitsch's
+chapter on development, the center, and the downside on pawn-grabbing, I
+decided to give c4 a try here rather than dxc6 (which, btw, is the move
+Stockfish recommends).} cxd5 {The original Scandinavian Defense has now
+transposed into the Panov-Botvinnik Attack variation of the Caro-Kann.} 5.
+Nc3 {Again, choosing to develop the Knight rather than cxd5. After 5.cxd5
+Nxd5, Black has a strong Knight on d5, and can follow up with e6. This way,
+if 5...dxc4 6.Bxc4 White has a much stronger hold on the center.} (5. cxd5
+Nxd5) 5. .. Nc6 6. Nf3 Bg4 7. cxd5 Nxd5 8. Qb3 {This move adds a second
+attacker on the Knight on d5, and also threatens the b7-pawn. On the other
+hand, it leaves the Knight on f3 with a single defender, the g2-pawn, so if
+Black decides to exchange on f3 my King-side pawn structure will be messed
+up. On the other hand, it would leave me with both Bishops, and I would
+still have the dual threat in play.} Bxf3 9. gxf3 Nxc3 {9...Nb6 would have
+neutralized both threats mentioned in prevoius comment.} 10. bxc3
+{Recapturing with the Queen would be a mistake, since the d4-pawn would
+fall (see variation). The text also keeps the threat of Qxb7 alive.} (10.
+Qxc3 Nxd4 (10. .. Qxd4)) 10. .. Qb6 11. d5 {I'll leave it to Black to
+initiate a Queen exchange, since it would have the added benefit (for
+White) of connecting the Queen-side pawns.} Ne5 {The f3-pawn is hanging.}
+12. Bb5+ {Hoping to get the King on the move, preventing future castling.
+As a matter of fact, I can force Black to move his King, because after
+...Nd7, blocking the check, I can follow up with Bxd7+. But I'd really
+prefer to keep both my Bishops.} Kd8 (12. .. Nd7 13. Be3) 13. Be3 {Develops
+the Bishop, attacks the Queen, and prevents ...Nxf3 for a while longer.
+Once the Black Queen moves out of the way (and the White Bishop), the
+threat of Qxb7 is reintroduced.} Qg6 14. Be2 {Protects the f3-pawn, and
+opens up the b-file for the Queen. Stockfish recommends Queen-side castling
+here, something I never considered - I was mainly concerned about
+preventing ...Nxf3. See variation what would happen if Black went ahead
+with that move after long-castling. Another option I considered was Kf2,
+because of the additional benefit of connecting the Rooks. Downside is that
+after Kf2 Black can answer with ...a6, chasing away my Bishop.} (14. O-O-O
+14. .. Nxf3 15. Bc6 Qd6 (15. .. bxc6 16. dxc6+ Ke8 17. Qb7 {Threatening
+Qd7#.}) 16. Bxb7 Rc8 (16. .. a5 17. Bb6+) (16. .. g6 17. Bxa8) (16. .. Rb8
+17. Bxa7) 17. Bxc8 Kxc8) (14. Ke2 a6) 14. .. Rc8 {Probably a bad choice,
+since it allows me to capture on b7. ...b7-b6 would have been better.
+However, after ...b6 I could move my Queen to the a-file, threatening to
+capture on a7 is the Black Rook leaves a8.} 15. Qxb7 {Wins a pawn, and
+gives the Queen a very good position on the 7th rank.} Qd6 16. Qxa7
+{According to Stockfish, Bxa7 is much stronger. Note that the seemingly
+hanging pawn on d5 is poisoned. See ...Qxd5 variation.} Rb8 (16. .. Qxd5
+17. Rd1 Qxd1+ 18. Bxd1) 17. f4 {Here I might have ended up making a good
+move for the wrong reasons. At this point I really wanted to connect my two
+Rooks, but was struggling with how to do it. Kd2 would be bad, since it
+would allow ...Qxd5+. So f4 had two purposes: chasing away the Knight, but
+also allowing f2-f3, and then Kf2 (if still possible). The obvious solution
+to my problem, castling!, escaped me for another move.} Ng6 18. O-O {Here I
+finally realized that castling was an option, and went for it. I was also
+glad about the f4 move, since the Black Knight on g6 prevents ...Qg6+.} Nh4
+{Threatens Qg6+ followed by Qg2# (see variation). This was immediately
+clear to me, in part (I think) because of my bad loss on January 26, where
+I had an identical pawn structure around my King, and Black delivered a
+killer blow via Rg6+.} 19. f5 {Struggled a while to come up with a good
+move to prevent the mate. Settled on this. Also considered moving the
+f-Rook, which would allow my King an escape route, but that's still not an
+attractive option since Black could go ahead with the attack and still
+probably make considerable damage, if not material then definitely
+positional. Note that the f5-pawn, while hanging, is also poisoned like its
+d5 companion. See ...Nxf5 variation.} (19. Ba6 Qg6+ 20. Kh1 Qg2#) 19. ..
+Rb2 {Losing move. Stockfish recommends ...Qc7 instead. In either case,
+Black is in a really bad spot. His h8-Rook and Bishop are non-entities,
+while all my pieces are active.} (19. .. Nxf5 20. Rab1 Rc8 (20. .. Rxb1 21.
+Rxb1 {This is a mate in eight according to Stockfish. There's apparently no
+way for Black to stop the Queen-side attack here. Black can throw in a
+couple of spite checks, but that's it. The combination of Queen and Rook
+and both Bishops is a tremendous force, with Black's Rook and Bishop
+hopelessly undeveloped and out of the picture.}) 21. Bb6+ Qxb6 (21. .. Ke8
+22. Bb5+ Qc6 23. Bxc6+ Rxc6 24. Qa8+ Kd7 25. Qxc6#) 22. Qxb6+) 20. Rab1
+{The e2-Bishop is hanging to the Rook, but it would be a disaster for Black
+to capture it (see variation). And the d5-pawn is still poisoned, so I
+don't have to worry about Qxd5-Qg2#. (I just have to be careful to use the
+b-Rook, not the f-Rook, to pin the Queen. Update: Over the board I was
+afraid that after 20...Qxd5 21.Rfd1 Rxb1 my d1-Rook would be pinned, hence
+the comment of using Rbd2. See variation why this turned out to be an
+unwarranted concern.)} Nf3+ {Again, ...Qc7 would at least have put up some
+fight.} (20. .. Rxe2 21. Bb6+ (21. Qa8+ Kd7 22. Rb7+ Qc7 23. Rxc7+ Kxc7 24.
+Qc6+ Kb8 (24. .. Kd8 25. Bb6#) 25. Rb1+ Rb2 26. Rxb2#) 21. .. Kc8 (21. ..
+Ke8 22. Qa8+ Kd7 23. Qd8#) 22. Qa8+ Qb8 23. Qc6+ Qc7 24. Qxc7#) (20. .. Qc7
+21. Qa8+ Qc8 22. Qxc8+ Kxc8 23. Rxb2 Nxf5) (20. .. Qxd5 21. Rfd1 (21. Rbd1)
+21. .. Rxb1 22. Bb6+ Rxb6 23. Qxb6+) 21. Bxf3 Qc7 22. Rxb2 {Qxc7+ is a more
+precise move.} Qxa7 23. Bxa7 g6 {Here I considered the "lazy" approach, of
+starting to push the a-pawn for promotion. Decided to go for mate instead.
+The two pawns on d5 and f5 take away several escape squares for the Black
+King, and the d5-pawn itself is immune from taking (by the King) thanks to
+the f3-Bishop.} 24. Rb8+ Kc7 {Black resigned here.} 25. Rfb1 Bg7 26. R8b7+
+Kd6 27. Bd4 {Takes away c5 and e5 as escape squares for the King. The
+beautiful thing is that nothing changes after ...Bxd4 cxd4 - the pawn
+serves the purpose just as well!} Bxd4 28. cxd4 Rc8 29. R1b6+ Rc6 30. Rxc6#
+1-0
+
