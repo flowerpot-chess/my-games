@@ -1,0 +1,96 @@
+[Event "Computer chess game"]
+[Site "Office / Homw"]
+[Date "2014.02.05"]
+[Round "2"]
+[White "Zethson, Torgil"]
+[Black "Stockfish-dd-64-modern, Level 4"]
+[Result "1-0"]
+[ECO "C78"]
+[Opening "Spanish"]
+[Variation "5.O-O b5 6.Bb3"]
+[Termination "normal"]
+[PlyCount "58"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. e4 e5 {(e7-e5 Ng1-f3 Nb8-c6 Bf1-b5 Bf8-d6 O-O Ng8-f6 Nb1-c3 O-O a2-a3
+a7-a6 Bb5-c4 b7-b5 Bc4-a2 Bd6-c5 b2-b4) -0.26/19 4} 2. Nf3 Nc6 3. Bb5 {The
+Ruy Lopez.} Nf6 {The Berlin Defence. There's been a lot of talk about the
+Berlin Defence lately, much thanks to Magnus Carlsen's use of this defence
+in the World Championship match against Anand.} 4. O-O a6 5. Ba4 b5 6. Bb3
+h6 7. d4 Nxe4 8. Nxe5 {So far it's been pretty much standard moves.} Qe7 {A
+blunder. Allows me to attack on f7. 8...Nxe5 9.dxe5 would be the standard
+continuation.} 9. Bxf7+ {Should I take with the Bishop or the Knight? I
+went with the Bishop, but Stockfish says Nxf7 is the stronger move. See
+variation.} (9. Nxf7 Bb7 (9. .. Rh7 10. Re1 Bb7 11. Bd5 Nf6 (11. .. Qh4 12.
+Rxe4+ Qxe4 13. Bxe4) 12. Rxe7+ Bxe7 13. Ne5 Nxd5 14. Qh5+) 10. Nxh8 O-O-O)
+9. .. Kd8 10. Nxc6+ {Here I missed a better move: Bd5. See variation.} (10.
+Bd5 Nxe5 11. dxe5 Rb8 12. Bxe4 Qxe5 13. Re1) 10. .. dxc6 11. Bh5 Qf6 12.
+Qe2 Qh4 13. Bf3 {When the Knight moves the c6 pawn will be hanging.} Nd6
+14. Bxc6 {Now if the d6-Knight moves, Qe8#.} Rb8 15. Nd2 {Developing the
+Knight, heading for f3. Here I also considered Re1, threatening mate on e8
+even with the Knight on d6. But Black can easily defuse that threat, e.g.
+through ...Bd7.
+
+I was also considering a move to protect the d4-pawn,
+which is hanging to the Black Queen, e.g. c3 or Qe3 (not Qd3, because I
+want to keep the mate-threat on e8 alive, forcing the d6-Knight to stay
+put). Decided in the end that developing was more important than hanging on
+to that pawn.} Qe7 (15. .. Qxd4 16. Re1 Bd7 17. Bxd7 Kxd7) 16. Re1 {Don't
+want to exchange Queens on e7, allowing Black to recapture and develop his
+Bishop at the same time. At the same time, I'm not completely against a
+Queen exchange, being up two pawns and with Black's King out in the open,
+so I'll let Black decide.} Rb6 17. Qd1 {I really don't want to move my
+Bishop away from c6.} Bg4 18. f3 {Here I was on the fence between f3 and
+Nf3. Went with f3, since the Bishop is now hanging, in addition to my Rook
+attacking the Queen on e7.
+
+Stockfish, in turn, recommends Bf3 as a
+blocking move. But as I said before, I really like my Bishop on c6.} Be6
+19. d5 {Now it's almost impossible for Black to avoid losing material. In
+fact, Stockfish says ...Rxc6 here, trading the Rook for a Bishop, is the
+best Black can do.} Qg5 20. Ne4 {Keeping the pressure up. Here I missed a
+nice tractic, shown to me by Stockfish: Nd2-c4 discovers an attack on the
+Queen by the c1-Bishop, and at the same time attacks the Rook on b6 (see
+variation). This is a good example of "When you find a good move, look for
+an even better one".} (20. Nc4 Qh4 {Why is this the best move for Black?
+Why not ...bxc4?} (20. .. bxc4) 21. Nxb6 Bf5 22. Be3) 20. .. Qh4 21. g3 Qh5
+22. Nxd6 Bxd6 23. Rxe6 {White won a piece in the exchange.} Qf5 24. Qe2
+{Again threatening mate on e8.} Qf7 {Black resigned here.} 25. Qe3 {Here I
+blundered. My idea was to follow up with Rxd6, and after ...cxd6 the Black
+Rook on b6 would be hanging to my Queen. But what I missed was that I now
+lined up my Queen and King on the diagonal, and Black still has his
+dark-squared Bishop! I need to pay more attention to those
+things.
+
+Another candidate move I considered was Bf4, finally getting my
+dark-squared Bishop into the game, attacking Black's counterpart on d6.
+This sets up an exchange of Bishops, which would benefit White at this
+point.
+
+Stockfish recommends a2-a4.} Rxc6 26. dxc6 Bc5 {D'oh!} 27. Qxc5
+Qxe6 {On the other hand, after the exhange the material balance is
+identical to what it was before 25.Qe3: White is still up one Bishop and
+two pawns.} 28. Bf4 {Better late than never. Developing the Bishop, and
+setting up an attack on c7. Depending on what Black does, I could for
+example follow up with Qa7, and perhaps a check on the 8th rank, which
+could win me the Rook on h8. I've also opened the way for the a1-Rook,
+which now can go to d1.} Qc4 29. Rd1+ Kc8 30. Qf5+ Kb8 31. Qd7 {Calculated
+a couple of lines and found that this would be very difficult for Black to
+defend. Bxc7+ is obviously also an alternative, but I thought I saw this
+move working out better.} (31. Bxc7+ Kxc7 32. Qd7+ Kb6 33. Qb7+ Ka5 {This
+is basically what I saw when I calculated Bxc7: The King could escape on
+the a-file. Stockfish still says this is a mate in 10.} 34. Qc7+ Kb4 35.
+a3+ Ka4 36. b3+ Qxb3 37. cxb3+ Kxa3 38. Qd6+ b4 39. Ra1+ Kb2 40. Qd4+ Kxb3
+41. Qd3+ Kb2 42. Rb1+ Ka2 43. Qb3#) 31. .. Qc5+ 32. Kh1 {At this point I
+realized that Black could play Qb6, which would throw a wrench in all the
+lines I had calculated earlier.} Qe5 {Luckily, Black decided to stop caring
+instead.} (32. .. Qb6 {Stockfish still says this is a mate in 9 for White.}
+33. Re1 b4 34. Re8+ Rxe8 35. Qxe8+ Ka7 36. Be3 Qxe3 37. Qxe3+ Kb8 38. Qc5
+a5 (38. .. Kc8 39. Qf8#) 39. Qxa5 b3 40. Qa6 bxa2 41. Qb7#) 33. Bxe5 Rc8
+34. Bxc7+ {This is basically the line I had calculated earlier, when I
+played 31.Qd7. But here I missed a quicker way to mate: sacrificing the
+Queen!} (34. Qxc7+ Rxc7 35. Rd8+ {The Black Rook is pinned!} Ka7 36. Bd4#
+{Beautiful. I wished I had seen this in the game.}) 34. .. Rxc7 35. Qd8+
+Ka7 36. Qxc7+ Ka8 37. Qb7# 1-0
+
