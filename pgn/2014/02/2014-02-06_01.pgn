@@ -1,0 +1,86 @@
+[Event "Computer chess game"]
+[Site "Home/Office"]
+[Date "2014.02.06"]
+[Round "1"]
+[White "Stockfish-dd-64-modern, Level 4"]
+[Black "Zethson, Torgil"]
+[Result "1-0"]
+[ECO "C26"]
+[Opening "Vienna"]
+[Variation "Mengarini Variation"]
+[Termination "normal"]
+[PlyCount "139"]
+[WhiteType "program"]
+[BlackType "human"]
+
+1. e4 e5 {Wanted to try a King's Pawn Game. Was hoping for a Ruy Lopez, to
+practice that as Black.} 2. Nc3 {Nc3 instead of the more common Nf6. This
+is the Vienna Game.} Nf6 {The most common second move for Black.} 3. a3
+{The Mengarini's Opening. called "whimsical" in the Wikipedia article on
+the Vienna Game.} Bc5 {"The best line for Black may be 3...Bc5" says
+Wikipedia on the Mengarini Opening, so I went for that.} 4. b4 Bb6
+{Stockfish says ...Bd4 is a good alternative here. I wasn't sure how long
+the Bishop would be able to survive on that outpost though (e.g. after Nf3
+White can force a Knight-Bishop exchange).} 5. Nf3 Nc6 {Stockfish
+recommends 5...d5.} 6. Bc4 {Now White has a strong hold on the d5-square,
+so d7-d5 is out of the picture.} d6 7. O-O O-O 8. h3 Be6 {Here I considered
+several moves:
+
+8...a6, to take away the b5-square from the White Knight.
+On the other hand, I don't know if that Knight would want to go to that
+square. (As it turned out, a6 would have been a great move for another
+reason: it gives the b6-Bishop an escape square.)
+
+8...Nd4, the move
+recommended by Stockfish.
+
+8... Re1.
+
+I went for 8...Be3 for two
+reasons: It keeps up the fight for d5, and if White wants to exchange
+Bishops it opens up the f-file for my Rook (and my f-pawn, now on e6, would
+also eye d5).} 9. d3 d5 {Big mistake. I wanted to open up the center, and
+figured the exchange would be equal in material, but I stopped the
+calculation one move too soon.} 10. Bxd5 Nxd5 11. exd5 Bxd5 12. Nxd5 Qxd5
+13. c4 {Bam! This was the continuation I didn't see. To my credit, at least
+I immediately realized that my Bishop was lost: After the Queen moves away,
+c4-c5 traps the Bishop.} Qd6 {Considered sending the Bishop on a kamikaze
+mission to f2, but that would only win back one pawn. This way I figured I
+would get two pawns back for my piece.
+
+One of the top lines from
+Stockfish suggests Qd7 (forgetting about winning that second pawn),
+followed by Rd8. In hindsight I can see how that might have improved my
+situation, activating my Rook. As it turned out, I ended up spending lots
+of moves getting my Queen out of the way, while White activated all his
+pieces and gained complete control of the game.} 14. c5 Bxc5 15. bxc5 Qxc5
+16. Bd2 a5 {To prevent Bb4, which would pin my Queen and Rook. In
+hindsight, it would have been better to e.g. move the Rook to d8
+(activating it), or the Queen to d5 (say), and then the Rook to d8. The
+move I played is too passive.} 17. Qb3 b6 {Another purely defensive move -
+the b-pawn was hanging to the Queen (or so I thought, see the ...Qd6
+variation).} (17. .. Qd6 18. Qxb7 Rfb8 {The Queen is trapped!} 19. Qxa8
+Rxa8) 18. Rfe1 Kh8 {To get my King off the a2-g8 diagonal, unpinning my
+f-pawn. Another passive, purely defensive move, while White is activating
+piece after piece.} 19. Rac1 Qd6 {Keeping the Queen as a second defender of
+the e5-pawn, which is attacked twice.} 20. Be3 Nd4 21. Bxd4 exd4 22. Ne5
+{Threatening Nxf7+, forking King and Queen. Black would have to capture
+with the Rook, which then falls to the Queen.} Kg8 {The only choice.} (22.
+.. Qe7 23. Ng6+ hxg6 24. Rxe7) (22. .. Qf6 23. Rc6 Qf5 24. g4 Qc8 25.
+Nxf7+) 23. Rc6 {A great place for the White Rook. It's impossible for me to
+chase it away.} Qe7 24. Nf3 Qd7 25. Qc2 Rac8 26. Rc1 {The c-pawn is about
+to fall - I don't have any more defenders to add to it.} h6 27. Qc4 Rfd8
+28. Rxc7 Rxc7 29. Qxc7 Qxc7 30. Rxc7 b5 31. Rc5 Rb8 32. Nxd4 Rd8 33. Nb3
+Rxd3 34. Nxa5 g6 35. Kf1 Rxa3 36. Rxb5 {I pretty much had no clue how to
+play in this type of situation. The rest of the game is basically just me
+winging it, slowly but surely losing.} Kg7 37. Ke2 Ra2+ 38. Kf3 Ra3+ 39.
+Nb3 f5 40. Kf4 Ra4+ 41. Kg3 Ra3 42. Kf3 Kf6 43. Kf4 Ra4+ 44. Ke3 Re4+ 45.
+Kd3 g5 46. Ra5 Rf4 47. Ke2 Re4+ 48. Kd2 g4 49. hxg4 fxg4 50. Nc5 Rd4+ 51.
+Nd3 Rd7 52. Ke2 Re7+ 53. Kf1 Rh7 54. Nf4 Rf7 55. Rh5 Kg7 56. g3 Kh7 57. Rh4
+Rg7 58. Nd5 Rg5 59. Ne3 h5 60. Nxg4 Rxg4 61. Rxg4 hxg4 62. Ke2 Kg6 63. Ke3
+Kf5 64. Kd2 Ke5 65. Ke3 Kf5 66. Kd4 Kg5 67. Ke4 {It was here that I
+realized that my King wouldn't be able to defend the pawn from the White
+King. My King has very few choices where to move - lots of squares taken
+away by the White pawn on g3 and the White King.} Kg6 68. Kf4 Kh5 69. Kf5
+Kh6 70. Kxg4 {I resigned here. Black resigns} 1-0
+
