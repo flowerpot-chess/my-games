@@ -1,0 +1,62 @@
+[Event "Friend mode"]
+[Site "Home"]
+[Date "2014.02.07"]
+[Round "1"]
+[White "Shredder 12"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "A46"]
+[Opening "Indian"]
+[Variation "2.Nf3 d6 3.Bg5"]
+[Termination "normal"]
+[PlyCount "74"]
+[WhiteType "program"]
+[BlackType "human"]
+
+{Quick game against Shredder 12 over breakfast. Played in Friend Mode, with
+a considerable handicap (200 I think). Got Shredder 12 the night before.
+I'm playing as Black in this game.} 1. d4 Nf6 2. Nf3 d6 {Don't know if
+2...d6 is considered a good move here - look at standard lines for this
+opening. 2...d5 is perhaps better?} 3. Bg5 g6 4. Nc3 {+0.28/4 1} Bg7 5. e4
+O-O 6. Bb5 {+0.68/4 1} e5 {Suspicious move. Allows White to win a pawn on
+e5. 6...c6 perhaps more natural.} 7. dxe5 {+1.41/4 1} dxe5 8. Qxd8 {+1.41/4
+1} Rxd8 9. Nd5 {+1.31/4 1} Rd6 {Blunder. White can now play 10.Nxc7, and
+the a8-Rook is lost. Or Ne7+, and my Bishop is lost. My idea here was to
+add a second defender to the f6-Knight. See variation for what Stockfish
+suggests.} (9. .. Rxd5 10. exd5 {(e4xd5 Nf6xd5 O-O-O c7-c6 Bb5-d3 Nb8-d7
+c2-c4 Nd5-b6 Bg5-e7 f7-f5 Bd3-e2 e5-e4 Nf3-g5 Nb6-a4 Rd1-d2 Bg7-e5 Be7-d6
+Na4-c5 Bd6xe5 Nd7xe5 Rd2-d8+ Kg8-g7 Rh1-d1 h7-h6) +1.07/20 4} Nxd5 {Giving
+up the Rook for a Knight and a Pawn. Black still has good chances here I
+think.}) 10. Bxf6 {+3.80/4 1 White gracefully declined the Nxc7-Nxa8
+offering...} Bxf6 {I'm still oblivious to the Nxc7 threat...} 11. Nxf6+
+{+2.76/4 1 ...but that's OK, because so is White it seems.} Rxf6 {Even in
+material, but Stockfish evaluates this position to +1.5 for White. The
+e5-pawn is of course hanging.} 12. Nxe5 {+1.43/4 1} c6 13. Bc4 {+2.07/4 1}
+b5 {Perhaps developing my Queen-side pieces would be better here. For
+example, Nd7, offering a Knight-exchange that would also develop my
+Bishop.} 14. O-O-O {+2.12/3 1} Nd7 15. Nxd7 {+2.03/4} Bxd7 16. Rxd7
+{+1.99/3} bxc4 {Black's Pawn structure is suspicious.} 17. Rhd1 {+2.08/4 1
+Bad move, giving Black a chance to get back into the game.} Rxf2 18. R1d4
+{+0.28/4 1} Rxg2 19. Rxc4 {+0.15/4} Rxh2 20. Rxc6 {Equal in material, and
+Stockfish evaluates this position to roughly equal as well.} Re8 21. Ra6
+{+0.17/4 1 Seems a bad move.} h5 {Why not Rxe4? I think I just wanted to
+get the h-pawn on its way towards promotion.} 22. Raxa7 {+0.07/4 1} Rf2
+{The f2-pawn is attacked twice, so must defend it.} 23. a4 {+0.19/4 1} h4
+24. b4 {+0.27/4 1} h3 {Surprised White isn't doing anything to stop the
+Pawn. Stockfish now gives Black a +4 advantage.} 25. Kb2 {-0.37/4 1} h2 26.
+Rd1 {-1.42/4 1} Rxe4 27. Kb3 {-0.05/3 1 White should have pushed one of his
+own Pawns instead.} Kg7 {Don't remember what my thought was with this move.
+Here I should have played Rg4, and White would have to give up his Rook to
+stop the h-pawn. See variation.} (27. .. Rg4 28. Rh1 (28. b5 Rg1 29. Rad7
+h1=Q) 28. .. Rg1 29. Rxh2 Rxh2) 28. Rh1 {-0.41/3 1} Rh4 {Not a very good
+move. Not sure why I felt it was necessary to give the Pawn a second
+defender. Most likely I simply overlooked the fact that the f2-Rook is
+already defending it(!?). I should have started pushing the g-Pawn
+instead.} 29. Rd7 {-0.02/4 2} g5 {Starting the g-pawn on its way. The poor
+h1-Rook can do nothing but staying where he is, watching his impending doom
+marching towards him, one square at the time.} 30. a5 {+0.16/4 1} g4 31.
+Rd3 {+0.23/3 1} Rf3 32. b5 {+0.80/4 1} Rxd3+ 33. cxd3 {-2.60/4 1} g3 34. b6
+{-6.43/3 1} g2 35. Rxh2 {-6.90/4 1} Rxh2 36. b7 {-8.26/4 1} g1=Q 37. Kc4
+{-15.71/4 2} (37. b8=Q Qb1+ 38. Kc4 Qxb8) 37. .. Rh8 {To stop the b-Pawn,
+which is really unnecessary. ...Rc2+ is a mate in five.} 0-1
+

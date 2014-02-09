@@ -1,0 +1,74 @@
+[Event "Friend mode"]
+[Site "Chinese School"]
+[Date "2014.02.08"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Shredder 12"]
+[Result "1-0"]
+[ECO "A46"]
+[Opening "Indian"]
+[Variation "2.Nf3 d6 3.Bg5"]
+[PlyCount "69"]
+[WhiteType "program"]
+[BlackType "human"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 b5 6. Bb3 Bc5 7. O-O Bb7
+{Not sure I've seen this move before. Here I started to worry about the
+center. Black is already controlling d4, and if the c6-Knight moves out of
+the way Black is also adding pressure on the e4-pawn.} 8. d3 h6 9. Nd5 (9.
+a4 Nd4 10. Nxe5 (10. Nxd4 exd4 11. Ne2 O-O 12. c3 dxc3 13. bxc3) 10. ..
+Nxb3 11. cxb3) 9. .. O-O 10. Be3 {I would welcome an exchange on e3, since
+it would open up the f-file for my Rook.} d6 11. Nxf6+ Qxf6 12. Bd5 {Good
+spot for the Bishop. If the Blacks bishop on b7 moves, the Knight on c6
+falls. And if the Knight moves anywhere other than a5 or d8, the Bishop
+falls. And there's really no Black piece of Pawn that can dislodge the
+Bishop.} Bxe3 (12. .. Na5 13. Bxc5 dxc5 14. Qd2) 13. fxe3 {Now Black's
+Queen is in a dangerous position. For example, Nd4, discovering an attack
+on the Queen and also attacking the c6-Knight, would win a piece.} Qg6 14.
+Nh4 {Here I thought for a long time, debating between Nh4 and d4. Settled
+on Nh4, since I thought it would give me very good chances to start a
+strong attack on the King.} (14. d4 Na5 (14. .. exd4 15. exd4 Na5 16. Bxb7
+Nxb7) 15. Bxb7 Nxb7) 14. .. Qg5 {The only available square.} 15. Nf5 {My
+plan is to follow up with Rf1-f3-g3, if possible, and then bring over the
+Queen. My only concern is that this will take several moves to accomplish.
+On the other hand, I don't see any immediate threats from Black.} a5 16.
+Rf3 g6 17. Rg3 {The Rook is in place.} Qf6 {Stockfish actually says Black
+should play ..Qxg3 here, giving up his Queen for my Rook.} 18. Nxh6+ {Here
+I should have played Qh5. The g6-Pawn is pinned.} (18. Qh5 Ne7 (18. .. g5
+19. Nxh6+ Kg7 20. Nf5+ Qxf5 21. exf5 Ne7 22. f6+ Kg8 (22. .. Kxf6 23.
+Qxg5#) 23. Rxg5+ Ng6 24. Rxg6#) 19. Nxh6+ Kg7 20. Bxb7 Rh8 21. Rf1) 18. ..
+Kg7 19. Qh5 {I debated between Qh5 and Nf5+. Went for Qh5, but Nf5 would
+have been better. Had I been at home, playing with the board, I would
+probably have spent more time thinking about this.} Rh8 {Here I felt like I
+had squandered a great opportunity, allowing Black back into the game. I
+could try Nf5+, but after Kf8 I don't really have a good follow up, and
+both my Queen and Knight would be hanging.} 20. Rf1 {Glad I came up with
+this move.} (20. Nf5+ Kf8 21. Qg5 Qxg5 22. Rxg5 gxf5 23. Rxf5 {White is
+down a Knight, but up two Pawns. This game could go either way.}) 20. ..
+Qxf1+ 21. Kxf1 Rxh6 {Got Black's Queen off the board, but had to give up a
+Rook and a Knight.} 22. Qg4 {Qf5 would have been better, threatening f7.
+But here I forgot that the g6-pawn is still pinned.} Rxh2 23. Rh3 {Bad
+move. Bxf7 would have been much better. See variation.} (23. Bxf7 Kxf7 (23.
+.. Ne7 24. Bxg6 Rf8+ 25. Kg1 Bc8 26. Qg5 Rf7 27. Bh5+ {This is apparently a
+mate in 12.} Kf8 28. Kxh2) 24. Qxg6+ Ke7 25. Qg7+ Ke8 26. Qxc7 {This is
+apparently a mate in 10.}) 23. .. Bc8 {Lined up my Queen and Rook nicely on
+the diagonal...} 24. Qf3 {The best move. See variations for a couple of
+inferior alternatives.} (24. Bxc6 24. .. Bxg4 25. Rxh2 Ra6 26. Bxb5 Rb6 27.
+a4 {White is up a pawn, but the position is more or less equal.}) (24. Qh4
+Bxh3 25. gxh3 Rh8 26. Qg4 {And Black is all of a sudden winning. The White
+King is exposed, and the two Rooks on the h-file are killers.}) 24. .. Bxh3
+25. Qxf7+ Kh6 26. Bxc6 (26. gxh3 Rxc2) 26. .. Ra6 (26. .. Rxg2 27. Bxa8
+Rxc2+ 28. Ke1) 27. Qf8+ (27. Be8 Rxg2 28. Qf8+ Kg5 29. Qe7+ Kg4 30. Bd7+
+Kg3 31. Bxh3 Rf2+ (31. .. Kxh3 32. Qh7+ Kg3 33. Qxg6+ Kh3 34. Qxg2+) 32.
+Ke1 Rxc2) 27. .. Kh5 28. Be8 Rh1+ {...Rxg2 would have been better for
+Black.} 29. Kf2 Rc1 30. Qh8+ {Here I missed a mate in 3! See variation.}
+(30. Kg3 a4 (30. .. Kg5 31. Qh8 Rxc2 32. Qh4#) 31. Qh8+ Kg5 32. Qh4#) 30.
+.. Kg4 31. Qxh3+ {Here I missed another mate in 3!!} (31. gxh3+ Kg5 32. h4+
+Kg4 33. Bd7#) 31. .. Kg5 32. Qg3+ Kf6 33. Qxg6+ Ke7 34. Qf7+ Kd8 35. Qd7#
+{A fun game. I'm glad I saw the King-side attack, and also managed t get it
+going. Then, of course, I almost threw the game away with a series of
+unprecise moves. I played this game during Chinese class, so I didn't have
+my chess board, and didn't spend too much time thinking. It would have been
+nice to see how I had played if I had spent a little more time calculating
+the various lines.} 1-0
+
