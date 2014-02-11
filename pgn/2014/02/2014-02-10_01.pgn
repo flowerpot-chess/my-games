@@ -1,0 +1,99 @@
+[Event "Friend mode"]
+[Site "Home"]
+[Date "2014.02.10"]
+[Round "1"]
+[White "Shredder 12"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "A07"]
+[Opening "Reti Opening"]
+[Variation "KIA, Yugoslav Variation, Main Line, 6.Nbd2 e5"]
+[Termination "normal"]
+[PlyCount "118"]
+[WhiteType "program"]
+[BlackType "human"]
+
+1. Nf3 {The Reti opening. Not sure I've played against that one before.
+Consulted Wikipedia and 365 Chess Openings.} d5 2. g3 Nf6 3. Bg2 c6 4. O-O
+Bg4 5. d3 Nbd7 {To allow for ...e7-e5.} 6. Nbd2 e5 7. h3 Be6 (7. .. Bh5 8.
+g4 Bg6) 8. Nb3 Qc7 {I want to play ...Nf8-c5, but that overloads the Knight
+on d7, which will be asked to defend two pieces . The text adds a defender
+of the e5-pawn. Here Stockfish wants me to play h7-h6, presumably to take
+away the g5-square from White.} 9. Bg5 Nc5 {Stockfish doesn't like this
+move, it wants me to play Bf8-d6. My idea with this move was partly to
+entice White to exchange Knights, bringing my Bishop to c5 where it would
+be lined up to attack/pin the f2-pawn.} 10. Qd2 Bd6 {I was considering
+...h7-h6, but figured it would only provoke Bxf6, and I wasn't sure I
+wanted that. Obviously, as long as my Knight stays on f6 I don't have a say
+in the matter, but I was still considering options. At this point I had
+more or less decided to castle Queen-side, since a King-side castle
+definitely would be followed by Bxf6 and my King would be exposed.} 11.
+Nxc5 Bxc5 {This was the exchange I had been hoping for, but to be honest I
+hadn't followed the whole calculation through.} 12. Bxf6 gxf6 13. d4
+{Stockfish thinks I'm better off (to the tune of 0.5 pawn or so) to move my
+Bishop to e7 instead.} exd4 (13. .. Be7 14. dxe5 fxe5 15. Rfd1 O-O (15. ..
+O-O-O 16. Qe3 e4 17. Nd4) 16. Qh6 e4 17. Nd4 (17. Ng5 Bf5 18. c4 Rad8) 17.
+.. Qe5) 14. Nxd4 {Stockfish evaluates this position to very close to
+completely equal.} O-O-O 15. Nxe6 {Ok, so the exchange is not done yet.}
+fxe6 16. Qf4 Qg7 {Stockfish wants me to exchange Queens, but I don't want
+to. Instead I'm defending the f6-pawn.} (16. .. Qf7 {Can't remember why I
+chose ...Qg7 and not Qf7 . Stockfish evaluates this move to be slightly
+better than Qg7, but not by much.}) (16. .. Qe7 {About the same evaluation
+as ...Qf7.}) 17. e3 Bd6 18. Qd4 Kb8 {Backing up the a7-pawn. Also moves the
+King off the h3-b8 diagonal, out of reach of the White Bishop.} 19. Qg4
+Qxg4 {Here Stockfish wants me to avoid the exchange with ...Qf7, but this
+time I wanted it. Mainly because it will open up the h-file, and leave the
+g4-pawn weak for a moment.} 20. hxg4 Rhg8 21. g5 {Bad move, that gives away
+the pawn. Better would have been e.g. Bf3, after which I don't really have
+any follow-up.} fxg5 {Take with the f-pawn or with the Rook? After a long
+consideration I decided to take with the pawn, to create a tandem with the
+h-pawn.} 22. Rfd1 h5 {...Rd8-f8 is an obvious candidate move here, bringing
+the Rook to the open f-file.} 23. e4 h4 24. exd5 exd5 25. Rd3 hxg3 26. fxg3
+Rdf8 {This is an inaccuracy, that allows White to contest the f-file via
+Rf3. I should have played ...g5-g4 first.} 27. Rc3 {Here White deals with
+the threat of ...Bc5+, followed by ...Rh8+, which wins the White Bishop.
+This was a line I saw over the board. See variation.} (27. c4 Bc5+ 28. Kh1
+Rh8+ 29. Bh3 Rxh3+ 30. Kg2 g4) 27. .. g4 {To be honest, I didn't play g4 to
+prevent the Rook from going to f3 (that was revealed to me in post-game
+analysis), but more to take away a couple of squares from the Bishop.} 28.
+Re1 {White places the Rook on the wrong square.} Bb4 {Will win a Rook for a
+Bishop.} 29. Rce3 Bc5 {Figured it was no rush to take the first Rook
+offered.} 30. b4 Bxb4 {Figured I could just as well grab a pawn too. This
+might be a mistake, though, and Stockfish says ...Bb6, keeping the e3-Rook
+pinned, is better by +3 or so.} 31. Rf1 Bc5 32. Re1 Bxe3+ {A mistake.
+Should have played ...Re8, but here I started feeling nervous about leaving
+the Rook on the board. I figured that the longer I wait with capturing, the
+greater the chance of me messing up. See variation.} (32. .. Re8 {This
+allows me to get both White Rooks for a Rook and my Bishop, or,
+alternatively the e3-Rook clean off the board without giving up my Bishop
+in return.} 33. Bf1 Bxe3+ 34. Kg2 (34. Rxe3 Rxe3) 34. .. Rgf8 35. Re2) 33.
+Rxe3 Re8 {Figured an exchange of Rooks would be great for Black here.} 34.
+Kf2 Rgf8+ (34. .. Rxe3 {Is there a difference skipping the check before the
+exchange?} 35. Kxe3 Re8+ 36. Kf2 {No, not much (as far as my untrained eye
+can tell).} Rh8) 35. Ke2 Rxe3+ 36. Kxe3 Rh8 {Next stop h2. Stockfish wants
+me to push the b-pawn instead.} 37. Bf1 Rh2 {Not a very effective move now
+that White can play Bd3, protecting the c-pawn.} 38. Be2 {But White didn't
+play Bd3.} Kc7 {Here I should have played ...Rg2, and ...Rxg3 can't be
+stopped . Instead I figured that the Rook-Bishop situation was kind of
+static, so I starting preparing for a pawn-push and getting my King more
+active.} 39. a4 Kd6 40. Bxg4 Rxc2 41. Bc8 b6 {...Ra2 would have been
+better. Yes, The Bishop would capture the b-pawn, but my Rook would gobble
+up the a-pawn, and the rest of my pawns are safe from both the White Bishop
+and the White King, at least for a while.} 42. g4 Rc3+ 43. Kd2 Rc4 44. g5
+{Here I realized that my Rook was kind of awkwardly placed on the 4th rank,
+since g4 is covered by the Bishop (would like to get some piece of mind and
+get the g-pawn off the board). But at least now I can capture on a4.} Ke7
+{But no, instead I decided that I REALLY wanted to get rid of that g-pawn.}
+45. g6 Kf8 {Why not Kf6? That seems more direct.} 46. Bd7 Kg7 47. Be8
+{*Sigh*} b5 {I guess I was thinking "Not Rxa4 because then Bxc3".} 48. axb5
+cxb5 49. Bxb5 {Oops, didn't think that one through. What happened to all my
+pawns?} Rc5 50. Be8 {Probably not the best use of the Bishop.} a5 51. Ke3
+Rc8 52. Bf7 a4 {Maybe ...Rd8 first? The text hangs the d5-pawn. I'm
+probably still winning, but I'm making it unnecessarily close.} 53. Kd4 a3
+54. Bxd5 Rd8 {Ha!} 55. Ke4 Rxd5 56. Ke3 {It obviously doesn't matter, but
+capturing the Rook still seems the natural thing to do.} a2 57. Ke2 a1=Q
+58. Ke3 Qe5+ 59. Kf2 Rd3 {Interesting game. Ended up with a hige advantage
+in the end, but played a long row of very unprecise move. Luckily my
+advantage was large enough for it to be difficult NOT to win, even for me.
+White resigns} 0-1
+
