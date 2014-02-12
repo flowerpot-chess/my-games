@@ -1,0 +1,191 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.12"]
+[Round "1"]
+[White "Shredder 12"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "C45"]
+[Opening "Scotch"]
+[Variation "4.Nxd4 Bc5 5.Nxc6"]
+[Termination "normal"]
+[PlyCount "60"]
+[WhiteType "program"]
+[BlackType "human"]
+
+1. e4 {Early morning Friend Mode game as Black against Shredder.} e5
+{Didn't do very good with the Sicilian yesterday, so wanted to go back to
+more familiar territory.} 2. Nf3 Nc6 3. d4 {The Scotch Opening. I played
+the Scotch as White back on January 18 (an Alekhine Defense from Black that
+transposed into the Scotch) and lost horribly. Let's see if I fair better
+on the other side of the table.} exd4 {Skimmed through the Wikipedia
+article on the Scotch. 3...d6 is bad for Black (see variation), and
+3...exd4 is the standard move.} (3. .. d6 4. dxe5 dxe5 (4. .. Nxe5 5. Nxe5
+dxe5 6. Qxd8+ Kxd8) 5. Qxd8+ Kxd8 (5. .. Nxd8 6. Nxe5)) 4. Nxd4 Bc5 {The
+Classical Variation of the Main line.} 5. Nxc6 bxc6 6. Bd3 d6 {6...Qd4
+could be an interesting option.} (6. .. Qh4 7. O-O (7. Qf3 7. .. d6) (7. g3
+Qh3) 7. .. Nf6 8. Qf3 Bd6 9. g3) 7. O-O Ne7 {I got the idea of trying for
+...f5. The main goal would be to open up the f-file for my Rook (after
+castling). With my bishop on the g1-a7 diagonal this could allow me to
+build up an attack on f2. I didn't spend much time calculating lines, but
+decided it would be an interesting experiment. I fully expected it to crash
+and burn, but either way I would learn something.
+
+...Ne7 adds a second
+defender of f5 (with the c1-Bishop). I figured that after ...f5 White would
+either have to play exf5, or let his e-pawn stay put (e5 would just lose it
+to ...dxe5, no?), in which case I would then play ...fxe4. Either way, the
+f-file would open up.} 8. c3 O-O {Castle first, to get my King off the
+e-file, that's very likely about to open up as well.} 9. Nd2 f5 {Here
+goes!
+
+Stockfish says this is a suspicious move for Black, with lines
+like Nd2-b3, Qd1-e2, or Qd1-h5 giving a +0.5 advantage or more.} 10. b4 Bb6
+11. Qh5 {Interesting. Now after ...fxe4 Bxe4 White will have a mate threat
+on h7.} fxe4 12. Bxe4 {Time to put the defensive hat on.} Bf5 {This was
+also the move suggested by Stockfish. The Bishop is well defended, but both
+the Knight and the Rook.
+
+And now Stockfish says Black is up about +0.5.}
+13. a4 a5 {Must look after my Bishop.} 14. b5 d5 {Here I decided to let
+White capture the c3-pawn if he wants. The White pawn on c3 won't be easily
+defended, and I expect to be able to pick it off if necessary, e.g. by
+moving the Queen to the 6th rank.} 15. Bxf5 Nxf5 16. Ba3 Nd6 {Another
+option I considered was ...g7-g6.
+
+One bad thing for Black in the current
+position is that after a move like Nb3, my b6-Bishop's existense is
+completely in the hands of the White Bishop. After Ba3-c5 an exchange can't
+be avoided.
+
+On the other hand, that would take the White Knight away
+from the King-side, where he might be needed for defense, even without the
+Black Bishop barreling down on f2.} (16. .. g6 17. Qd1 Re8 {This is the
+move Stockfish suggests, but I probably wouldn't have played this, since I
+was set on an attack on f2.} (17. .. Rf6 18. Nf3 {Here I could perhaps have
+maneuvered my Queen to f7, and then somehow pry the Knight away from f3,
+maybe even sacrificing my own Knight on h4. But the White Bishop's coverage
+of f8 is very restricting.})) 17. bxc6 {This was the pawn sacrifice I had
+already decided I would accept earlier.} Rf5 {Does two things: Threatens
+the Queen, and gets the Rook off the f8-square, which frees up my Knight.
+On the other hand, I probably want to move both my Queen and my a8-Rook to
+the f-file as well, so my Knight will likely have to stay where it is for a
+while.} 18. Qg4 Qf6 {Adding pressure on f2, and as a side-note also
+threatens the pawn on c3.} 19. Qg3 Rf8 {Here I also considered ...Nf7,
+swinging the Knight over to the King-side to join the attack. In the end I
+decided to go full out on the f-file, while the opportunity was still
+there.} 20. Qd3 {Bad move by Black. He really needs to get his King off the
+g1-a7 diagonal, so Kh1 would be better. Also, not sure what I would do
+after Nf3, I didn't spend much (any, really) time calculating.} (20. Nf3
+Ne4 {Ah, nice move. I wonder if I would have seen this over the board.} 21.
+Qg4 (21. Qh3 Nxf2 22. Rxf2 Qxc3 23. Rf1 Qxa3 24. Qg4 Bxf2+ 25. Rxf2 Qc5)
+21. .. h5 22. Qh4 Rxf3 {Sets off a flurry of exchanges. I wonder if I would
+have had the nerve to do this in the game.} 23. Qxf6 R8xf6 24. gxf3 Rg6+
+25. Kh1 Nxf2+ 26. Rxf2 Bxf2) 20. .. Qg5 {I had four pieces attacking f2,
+against only two defenders. Now I add an additional mate threat on g2 after
+...Rxf2, which further limits White's options.} 21. Bxd6 {Too little, too
+late, and loses the game. The Knight wasn't part of the attack, and White
+really needed to focus on defense here.} (21. Kh1 Rxf2 22. Rxf2 Rxf2 23.
+Qh3 Nf5 24. Nf3 {Even in material, but Black is obviously much better.
+Still, there's no obvious immediate attack here, so the game would
+certainly go on for a while (with plenty of time for Black to
+blunder...).}) 21. .. Rxf2 22. Rxf2 Rxf2 {Threatening mate on g2.} 23. Qg3
+Rf3+ {A discovered check wins the Queen (for a Rook).} 24. Kh1 Rxg3 25.
+Bxg3 Qxd2 26. Be5 Qb2 27. Re1 Bf2 28. c4 {The Rook can't leave the 1st rank
+because of the back-rank mate.} d4 {Simple, quiet move. No need to panic
+and move the Queen away.} 29. Bxd4 {White really doesn't have any other
+options left.} (29. Rd1 Qe2 30. Rb1 Qxe5) 29. .. Bxd4 30. Re8+ Kf7 {White
+resigns} 0-1
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.12"]
+[Round "1"]
+[White "Shredder 12"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "C45"]
+[Opening "Scotch"]
+[Variation "4.Nxd4 Bc5 5.Nxc6"]
+[TimeControl "40/2400:40/2400:2400"]
+[Termination "normal"]
+[PlyCount "60"]
+[WhiteType "human"]
+[BlackType "human"]
+
+1. e4 {Early morning Friend Mode game as Black against Shredder.} e5
+{Didn't do very good with the Sicilian yesterday, so wanted to go back to
+more familiar territory.} 2. Nf3 Nc6 3. d4 {The Scotch Opening. I played
+the Scotch as White back on January 18 (an Alekhine Defense from Black that
+transposed into the Scotch) and lost horribly. Let's see if I fair better
+on the other side of the table.} exd4 {Skimmed through the Wikipedia
+article on the Scotch. 3...d6 is bad for Black (see variation), and
+3...exd4 is the standard move.} (3. .. d6 4. dxe5 dxe5 (4. .. Nxe5 5. Nxe5
+dxe5 6. Qxd8+ Kxd8) 5. Qxd8+ Kxd8 (5. .. Nxd8 6. Nxe5)) 4. Nxd4 Bc5 {The
+Classical Variation of the Main line.} 5. Nxc6 bxc6 6. Bd3 d6 {6...Qd4
+could be an interesting option.} (6. .. Qh4 7. O-O (7. Qf3 7. .. d6) (7. g3
+Qh3) 7. .. Nf6 8. Qf3 Bd6 9. g3) 7. O-O Ne7 {I got the idea of trying for
+...f5. The main goal would be to open up the f-file for my Rook (after
+castling). With my bishop on the g1-a7 diagonal this could allow me to
+build up an attack on f2. I didn't spend much time calculating lines, but
+decided it would be an interesting experiment. I fully expected it to crash
+and burn, but either way I would learn something. ...Ne7 adds a second
+defender of f5 (with the c1-Bishop). I figured that after ...f5 White would
+either have to play exf5, or let his e-pawn stay put (e5 would just lose it
+to ...dxe5, no?), in which case I would then play ...fxe4. Either way, the
+f-file would open up.} 8. c3 O-O {Castle first, to get my King off the
+e-file, that's very likely about to open up as well.} 9. Nd2 f5 {Here goes!
+Stockfish says this is a suspicious move for Black, with lines like Nd2-b3,
+Qd1-e2, or Qd1-h5 giving a +0.5 advantage or more.} 10. b4 Bb6 11. Qh5
+{Interesting. Now after ...fxe4 Bxe4 White will have a mate threat on h7.}
+fxe4 12. Bxe4 {Time to put the defensive hat on.} Bf5 {This was also the
+move suggested by Stockfish. The Bishop is well defended, but both the
+Knight and the Rook. And now Stockfish says Black is up about +0.5.} 13. a4
+a5 {Must look after my Bishop.} 14. b5 d5 {Here I decided to let White
+capture the c3-pawn if he wants. The White pawn on c3 won't be easily
+defended, and I expect to be able to pick it off if necessary, e.g. by
+moving the Queen to the 6th rank.} 15. Bxf5 Nxf5 16. Ba3 Nd6 {Another
+option I considered was ...g7-g6. One bad thing for Black in the current
+position is that after a move like Nb3, my b6-Bishop's existense is
+completely in the hands of the White Bishop. After Ba3-c5 an exchange can't
+be avoided. On the other hand, that would take the White Knight away from
+the King-side, where he might be needed for defense, even without the Black
+Bishop barreling down on f2.} (16. .. g6 17. Qd1 Re8 {This is the move
+Stockfish suggests, but I probably wouldn't have played this, since I was
+set on an attack on f2.} (17. .. Rf6 18. Nf3 {Here I could perhaps have
+maneuvered my Queen to f7, and then somehow pry the Knight away from f3,
+maybe even sacrificing my own Knight on h4. But the White Bishop's coverage
+of f8 is very restricting.})) 17. bxc6 {This was the pawn sacrifice I had
+already decided I would accept earlier.} Rf5 {Does two things: Threatens
+the Queen, and gets the Rook off the f8-square, which frees up my Knight.
+On the other hand, I probably want to move both my Queen and my a8-Rook to
+the f-file as well, so my Knight will likely have to stay where it is for a
+while.} 18. Qg4 Qf6 {Adding pressure on f2, and as a side-note also
+threatens the pawn on c3.} 19. Qg3 Rf8 {Here I also considered ...Nf7,
+swinging the Knight over to the King-side to join the attack. In the end I
+decided to go full out on the f-file, while the opportunity was still
+there.} 20. Qd3 {Bad move by Black. He really needs to get his King off the
+g1-a7 diagonal, so Kh1 would be better. Also, not sure what I would do
+after Nf3, I didn't spend much (any, really) time calculating.} (20. Nf3
+Ne4 {Ah, nice move. I wonder if I would have seen this over the board.} 21.
+Qg4 (21. Qh3 Nxf2 22. Rxf2 Qxc3 23. Rf1 Qxa3 24. Qg4 Bxf2+ 25. Rxf2 Qc5)
+21. .. h5 22. Qh4 Rxf3 {Sets off a flurry of exchanges. I wonder if I would
+have had the nerve to do this in the game.} 23. Qxf6 R8xf6 24. gxf3 Rg6+
+25. Kh1 Nxf2+ 26. Rxf2 Bxf2) 20. .. Qg5 {I had four pieces attacking f2,
+against only two defenders. Now I add an additional mate threat on g2 after
+...Rxf2, which further limits White's options.} 21. Bxd6 {Too little, too
+late, and loses the game. The Knight wasn't part of the attack, and White
+really needed to focus on defense here.} (21. Kh1 Rxf2 22. Rxf2 Rxf2 23.
+Qh3 Nf5 24. Nf3 {Even in material, but Black is obviously much better.
+Still, there's no obvious immediate attack here, so the game would
+certainly go on for a while (with plenty of time for Black to
+blunder...).}) 21. .. Rxf2 22. Rxf2 Rxf2 {Threatening mate on g2.} 23. Qg3
+Rf3+ {A discovered check wins the Queen (for a Rook).} 24. Kh1 Rxg3 25.
+Bxg3 Qxd2 26. Be5 Qb2 27. Re1 Bf2 28. c4 {The Rook can't leave the 1st rank
+because of the back-rank mate.} d4 {Simple, quiet move. No need to panic
+and move the Queen away.} 29. Bxd4 {White really doesn't have any other
+options left.} (29. Rd1 Qe2 30. Rb1 Qxe5) 29. .. Bxd4 30. Re8+ Kf7 {In
+summary, the f7-f5 move payed off, but mostly thanks to some weak moves
+from White. Still, I didn't see any disasters looming even had White played
+sharper, so it's something I'll try to remember for my toolbox for future
+games. White resigns} 0-1
+
