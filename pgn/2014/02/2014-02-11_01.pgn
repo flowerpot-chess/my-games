@@ -1,0 +1,93 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.11"]
+[Round "1"]
+[White "Shredder 12"]
+[Black "Zethson, Torgil"]
+[Result "1-0"]
+[ECO "B20"]
+[Opening "Sicilian"]
+[Variation "Snyder, 2...Nc6"]
+[Termination "normal"]
+[PlyCount "79"]
+[WhiteType "program"]
+[BlackType "human"]
+
+1. e4 {Friend Mode game against Shredder, as Black.} c5 {Want to get more
+experience with the Sicilian.} 2. b3 {White decides to go with a fringe
+line of the Sicilian, the Snyder variation.} Nc6 3. Bb2 d6 4. Nc3 Nf6 5.
+Nf3 g6 6. Nd5 {Yikes. I wonder if I it would have been better to play ...e6
+in the previous move? Perhaps not, it must surely be common in the Sicilian
+for the White Knight on c3 to have the d5-square available, at least for a
+while?} Bg7 {...Nxd5 is of course impossible, since I'll lose my Rook.
+Stockfish recommends ...e7-e5 instead, and after Nxf6 to recapture with my
+Queen (possible since the e5-pawn blocks the b2-Bishop.} 7. Nxf6+
+{Interesting situation with the two Bishops facing each other on the long
+diagonal.} Bxf6 {Not sure if ...exf6 would have been better. This way
+forces an exchange of Bishops, and my e-pawn will end up on f6 anyway.} 8.
+Bxf6 exf6 9. Bb5 Bd7 {Mostly so that I can recapture with the Bishop rather
+than the pawn should White go for the exchange.} 10. O-O O-O 11. d4 Re8
+{Stockfish wants me to play ...cxd4 instead.} 12. dxc5 dxc5 13. Qd5
+{According to Stockfish, this is a small mistake from White, and Black
+gains a +0.5 advantage by playing ...Qe7.} a6 {At this point I didn't
+really have any ideas.} 14. Bc4 Re7 {White is threatening Qxf7. Stockfish
+says ...Re7 is a mistake, since the c5-pawn is hanging, and that I should
+have played ...Qe7. On the other hand, White's pawn on e4 is also hanging,
+so after Qxd5 I would answer with Rxe4. (I saw this over the board.)} 15.
+Rfd1 {White doesn't capture the pawn, but builds up the pressure on the
+d-file.} (15. Qxc5 Rxe4 16. Bd5 Re7) 15. .. Qe8 {Moving the Queen off the
+hot d-file. Stockfish says ...Qa5 would be a better move, again,
+presumably, because of the situation with the c5-pawn. But e4 is also still
+hanging.} 16. Qxc5 Rxe4 17. Qd6 Be6 18. Bd3 Rd8 {Here I did take into
+account that White can choose to exchange his Queen for both my Rooks.} 19.
+Bxe4 {And sure enough, White decided to go for that.} Rxd6 20. Rxd6 Qe7 21.
+Rad1 Ne5 {...Nb4 would have been a better option. See variation.} (21. ..
+Nb4 22. a3 f5 23. Bxb7 Nxc2 24. Bxa6 Bxb3 25. Bf1 Nxa3 26. Rd7 Qb4) 22. h3
+h5 23. c4 {Here I realized pretty quickly that the c-pawn would cause me
+trouble. How do I stop it?} Kg7 24. c5 a5 25. Nd4 {This is where I left it
+in the morning, going out for a run and then to work.} Bc8 {I spent a lot
+of time thinking about what to do here. I considered several options, but
+any move that leaves the Bishop on e6 would allow Nxe6+ and White gets my
+Bishop for his Knight, and I really want to keep my Bishop. I also
+considered ...Bd7. Granted, that would leave the b2-pawn hanging, but I
+figured that after Bxb2 I could answer with ...Bxh3. See the variation for
+the line I calculated, which caused me to drop that idea. The only thing I
+was left with then was ...Bc8, but I calculated some lines for this move to
+and it didn't look promising at all.} (25. .. Bd7 26. Bxb7 Bxh3 27. gxh3
+Qxb7 28. c6 {Actually, now I don't remember what I calculated after this
+position, and this doesn't look nearly as bad as what I remembered. I think
+I found that ...Qc7 would be catastrophic, and that I also tried ...Qb6 and
+found that wanting. Stockfish suggests ...Qb8. (Stockfish also says that
+white is almost +3 here, so either way this is obviously not a particularly
+good position for Black.)} Qc7 (28. .. Qb6 29. Rd7 Qa6 30. Rd5) 29. Ne6+
+fxe6 30. Rd7+ Qxd7 31. Rxd7+ {No way to stop the c-pawn from promotion.})
+26. Nf3 {I felt completely dominated by White during the game, but
+Stockfish evaluates this position as dead equal!} Qc7 {A bad move. Here I
+missed that ...Be6 would bring us back to the same position as after move
+24, which kind of indicates that White is also having a hard time getting
+something to happen, and maybe a draw wouldn't be out of the question. My
+idea with the move was simply to try to become a bit more active in the
+position, by attacking that bothersome c5-pawn. Another move I considered
+was ...f5. ...Nxf3 too, but after Bxf3 I wasn't sure I would have
+accomplished much.} (26. .. f5 27. Bd5 Nxf3+ 28. Bxf3 Qe5 29. c6 bxc6 30.
+Bxc6 f4 31. Bf3 Be6) 27. Nxe5 fxe5 28. c6 Qe7 {A blunder. I saw a scary
+line after ...bxc6, and thought this move would give me some option. While
+waiting for Black to move I realized that Black now has several ways of
+winning material.} (28. .. bxc6 29. Rxc6 {It was at this point that I
+didn't see a way for me to save both my Queen and my Bishop. But ...Qb8,
+suggested by Stockfish in post-game analysis, seems ok for Black. White is
+still better, but it's not as clear cut as after 28...Qe7. Maybe it was the
+scary ...Qb7 line that made me give up all ideas of ...bxc6.} Qb8 (29. ..
+Qb7 30. Rxg6+) 30. Rdc1 Be6) 29. cxb7 (29. Bxg6 {This was another line I
+saw for White while I was waiting for the next move.} fxg6 30. Rd7 Bxd7 31.
+Rxd7) 29. .. Bxb7 30. Rd7 {This was one of the lines I saw myself .} Qxd7
+{Briefly considered letting my Queen flee to a3, but then I lose the Bishop
+outright. This way we at least stay closer in material, but White is
+obviously winning.} 31. Rxd7 Bxe4 32. Ra7 g5 33. Rxa5 f6 34. f3 Bc2 35. b4
+{Here I realized that moving my Bishop to c2 was a really bad idea, since
+it now becomes awkward to stop the b-pawn.} Kg6 36. b5 Bf5 37. b6 Bc8 38.
+Ra8 Bb7 39. Ra7 Bc8 40. a4 {I resigned here. A weird game, where only a
+couple of my pieces ever made it as far up the board as to the 4th rank (a
+Rook on move 16, which was soon exchanged away, and then my Bishop on move
+31). I was in defensive mode more or less constantly from move 6 and
+onward. Black resigns} 1-0
