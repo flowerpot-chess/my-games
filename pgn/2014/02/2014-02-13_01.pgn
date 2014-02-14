@@ -1,0 +1,112 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.13"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Shredder 12"]
+[Result "0-1"]
+[ECO "C10"]
+[Opening "French"]
+[Variation "3.Nc3 Nc6 4.Nf3 Nf6"]
+[Termination "normal"]
+[PlyCount "72"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. e4 e6 {The French defence. Not very familiar with it.} 2. d4 d5 3. Nc3
+{The Paulsen variation. Can be considered the main line according to
+Wikipedia.} Nc6 {Black deviates from the main line. This is "[A]n eccentric
+idea" according to Wikipedia.} 4. Nf3 Nf6 5. e5 Ne4 6. Bd3 Bb4 7. Bd2
+{Another alternative would be a3, perhaps initiating an exchange on c3. The
+text allows Black to exchange his e4-Knight for my dark-squared Bishop.}
+Nxd2 8. Qxd2 Bd7 9. a3 Be7 {Black seems happy with having both Bishops.}
+10. O-O O-O 11. Ne2 {Here I was stuck for a while, not having any concrete
+ideas of how to proceed. Decided to transfer the Knight over to the
+King-side, to perhaps get something going there. Very vague. Another option
+I considered was Rf1e1. Stockfish gives Ra1d1 as its main move.} f5 {This
+move took me by surprise. ...f6 would have been more expected.
+
+The move
+is a mistake according to Stockfish, who wants me to play c2-c4 for a +1
+advantage.} 12. Ne1 {I want to block Black's f-pawn with my own. This is a
+mistake, says Stockfish. The +1 advantage after 12.c4 has now turned into
+an equal position.} (12. c4 12. .. g5 13. cxd5 exd5 14. Qc2) (12. Nf4 {This
+was one move I considered, for blocking the f-pawn, but realized that after
+...g5 the Knight would just have to move back to e2.} g5) 12. .. Qe8 13. f4
+Qh5 14. Ng3 Qg6 15. Nf3 a6 16. a4 {At this point focus switched to the
+Queen-side, and my inexperience in pawn-management soon became apparent.
+Stockfish has been wanting me to play c2-c4 for many moves now, including
+this one. Not sure why I played a3-a4 here.} Nb4 {My previous move weakened
+the b4-square, and Black takes advantage.} 17. Be2 c5 18. c3 Nc6 {I was
+pretty happy with how I handled the Black Knight (Bd3-e2 and c2-c3). My
+happiness didn't last long though.
+
+Here I spent a lot of time thinking
+about my next move. One threat to deal with is Nc6-a5-b3, forking my Rook
+and Queen, and I wasn't sure how to best deal with that situation. Also,
+Black has a firm grip on the b4-square, through his c5-pawn, Knight on c6,
+and Bishop on e7. I wasn't sure if I should push a pawn, move my Rook or
+Queen (to avoid the threat of a fork), or something else.} 19. a5 {Decided
+on a4-a5, which prevents Nc6-a5. On the other hand, now my a1-Rook is tied
+up with defending the a-pawn. Another move I considered was Ra1-b1,
+allowing for b2-b4 since White now has majority on that square.
+
+I was
+happy to see that Stockfish also lists a4-a5 and Ra1-b1 as the two best
+moves here. It seems I was thinking along the right track.} Rac8 20. Rfb1
+{The idea, again, was to allow for b2-b4. I can't use the a1-Rook, since
+it's busy defending the pawn on a5. But this opened the floodgate, and from
+here on things only got worse.} cxd4 21. cxd4 {A mistake. I originally
+thought of capturing with the f3-Knight, but didn't due to two reasons
+(maybe one of which was legitimate). First, I was worried about ...Bh4 if
+the f3-Knight left its post. Second, I somehow forgot about the c3-pawn,
+and saw this continuation after 21.Nxd4:
+
+21...Nxd4
+22.Qxd4??
+Bc5
+
+winning my Queen (pinned to the King on g1). Obviously, this is a
+non-issue after the correct 22.cxd4.
+
+Nxd4 is the correct move. The text
+loses the game.} (21. Nxd4 Nxd4 22. cxd4 (22. Qxd4 Bc5 {This was the line I
+saw that ultimately stopped me from playing Nxd4. Obviously no reason to
+recapture with the Queen here.}) 22. .. Rc7 {Stockfish has Black up by
+about +0.5 here.}) 21. .. Bb4 {I had been concerned about the e7-Bishop
+coming over to the h-file. This move took me by surprise. Now my a-pawn is
+lost.} 22. Qd3 Nxa5 {The d7-Bishop nicely takes away the a4-square from my
+Rook, otherwise I would have played Ra4 here.} 23. Bd1 {With ideas of going
+to a4, forcing an exchange of Bishops. Stockfish says this is a bad idea,
+and recommends Ng5 instead. I was considering something with my Knights on
+the King-side, but couldn't find any promising lines.} Bb5 24. Qe3 {Only
+square left for the Queen.} Nc4 {More pressure on the Queen.
+
+Here it was
+very frustrating to realize how impotent my two Rooks were, especially the
+one stuck behind the b-pawn.} 25. Qf2 {Again, the only square left.} Qh6 {I
+wondered what the idea was behind this move, completely overlooking the
+fact that my f-pawn is now hanging.} 26. b3 {The next really bad move. Here
+I completely forgot that I had intended for my Bishop to go to a4. This was
+of course a desperate attempt of chasing away the Knight.
+
+Stockfish
+recommends Ne2 here, defending f4. But again, I didn't realize that the
+pawn was hanging.} Na3 27. Rc1 Qxf4 {NOW it dawned on my that the pawn was
+hanging.} 28. Rxc8 Rxc8 29. Qb2 {For a short moment I thought I would win a
+piece. The Knight has no where to go. But this is in fact a blunder, and I
+soon realized why.} Bc3 {First I thought that this didn't matter, that
+after 30.Qxa3 Bxa1 31.Qxa1 I would have won the Knight and Bishop for my
+Rook. Then I was dismayed to realize that 31...Rc1 was a killer move.} 30.
+Qxa3 {Decided to go through with it anyway. My idea was that after 31...Rc1
+I would play 32.Qa5, hoping for just enough time to start checking the
+Black King and maybe get something out of that. Not sure exactly how I was
+expecting that to happen, since 32...Rxd1 (which was the move I
+anticipated) is a check. I suppose I must have thought I would be able to
+block all checks, and then slip in a Qd8+ on my own. I obviously didn't
+calculcate very deeply (read "not at all").} Bxa1 31. Qxa1 Rc1 32. Qa5
+{Turns out Qa5 results in a mate in five for Black.} Qe3+ 33. Kh1 {It was
+here I realized that mate could not be avoided. Decided to play it out
+rather than resign.} Rxd1+ 34. Qe1 Rxe1+ 35. Nxe1 (35. Ng1 Rxg1#) 35. ..
+Qxe1+ 36. Nf1 Qxf1# 0-1
+
