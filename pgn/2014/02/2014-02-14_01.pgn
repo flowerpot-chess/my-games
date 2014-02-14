@@ -1,0 +1,64 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.14"]
+[Round "1"]
+[White "Shredder 12"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "A01"]
+[Opening "Nimzowitsch-Larsen Attack"]
+[Variation "Modern Variation, 1...e5 2.Bb2 d6"]
+[Termination "normal"]
+[PlyCount "60"]
+[WhiteType "program"]
+[BlackType "human"]
+
+1. b3 {Friend Mode game as Black against Shredder. White plays the
+Nimzowitsch-Larsen attack. I've never seen that one before.} e5 2. Bb2 d6
+{3.Nc6 is another option. Maybe even 3.e4?} 3. e3 Nf6 4. Nc3 Be7 5. Nf3 O-O
+6. h3 e4 {Chase away the Knight, and follow up with 7...d5.} 7. Nh2 d5 8.
+Ng4 Be6 9. Nxf6+ (9. Ne5 c6 10. d4 Ne8 11. Ne2 f6 12. Nf4) 9. .. Bxf6 10.
+Ba3 Be7 {Here I could also just have moved my Rook to e8. The reason I
+didn't do that was that I didn't want the Black Bishop to stay on a3,
+dominating that diagonal. On the other hand, Black self-pinned his Knight
+to the Rook, so it would probably have been better to move the Rook after
+all. If Black moves his Rook out of the pin, then I can always play ...Be7
+later.} 11. Bxe7 Qxe7 12. Qh5 {Threatening Nxd5, winning a pawn.} c6
+{Protecting d5, completing the pawn chain, and unfortunately also limiting
+the options for my Bishop.} 13. g3 Nd7 {Connecting the Rooks. The Knight
+could continue to f6, or maybe e5 at some point (not now, because it would
+be hanging to the Queen).} 14. Bg2 {Looked strange (to me) at first to
+place his Bishop there, because it has no where to go. But perhaps f2-f3 at
+some point will open things up? Or if Black can undermine the pawn chain
+from the other end?} f5 {Backing up e4, I suppose, but also further
+limiting the options for my Bishop.} 15. a3 c5 16. Qh4 (16. O-O-O 16. .. d4
+17. Nb1 (17. exd4 cxd4 18. Ne2 (18. Nb5 Qc5) 18. .. Qxa3+) 17. .. d3 18.
+cxd3 Bxb3) (16. Nb5 Nf6 17. Qd1) 16. .. Qxh4 17. gxh4 {Figured that a Queen
+exchange would benefit me here, because of the resulting pawn structure on
+the King side.} Ne5 18. Nb5 {Threatening a fork on c7.} Rf7 {I can't play
+something like ...Rac8, because my a7-pawn would be hanging.} 19. b4 b6
+(19. .. a6 20. Nd6 Rc7 21. bxc5 Nd7 (21. .. Rxc5 22. d4 exd3 23. cxd3 Rc7)
+22. d4 exd3 23. cxd3 Nxc5 24. Rb1 b5) 20. Rd1 a6 {To chase away the Knight,
+and free up my a8-Rook which has been stuck on defensive duties, protecting
+the a-pawn.} 21. Nc3 {If 21.Nd6 then 21...Rd8 traps the Knight.} d4 {Here I
+also considered Nh6, threatening the h4-pawn. Then after h4-h5 I could play
+Nh4, followed by Nf3+. But that doesn't really lead to anything. After Bxf3
+exf3 White would have exchanged his inactive Bishop for my pretty good
+Knight, and my pawn center would be messed up. Alternatively, after Ke2 my
+Knight would have to retreat to h4, and then what?} (21. .. Ng6 22. h5
+{(h4-h5 Ng6-h4 Rh1-g1 d5-d4 Nc3-e2 Ra8-e8 Bg2-h1 Be6-d7 Rd1-c1 Bd7-c6 c2-c4
+Rf7-d7 b4xc5 b6xc5 e3xd4 Nh4-f3+) -1.07/22 11} Nh4 23. Rg1 Nf3+ 24. Bxf3
+exf3 {Black is all of a sudden much worse off.}) 22. Na4 (22. exd4 cxd4 23.
+Na4 Rc8 24. Nxb6 Rxc2) 22. .. d3 {A great square for the d-pawn. How will
+White ever dislodge from d3? (And it ended up taking away a crucial escape
+square from the Black King in the end.)} 23. c3 (23. cxd3 23. .. Nxd3+ 24.
+Ke2 Bc4 25. f4 Rf6 (25. .. Nb2+ 26. d3 Bxd3+ 27. Rxd3 Nxd3 28. Nxb6)) (23.
+Rc1 dxc2 24. Rxc2 cxb4 25. axb4 Nd3+ 26. Kf1 b5) 23. .. Bb3 {The Bishop
+finally gets a chance to leap into action, and what an entrance it is! (But
+it should really thank the d-pawn for its heroic stroll up the board.)} 24.
+Nxb6 Rb8 25. bxc5 (25. Rb1 Bc2 26. Ra1 Rxb6 27. h5 {This line is better for
+White than what was played, but Black is still winning.}) 25. .. Bxd1 26.
+Kxd1 Rc7 27. Kc1 {Strange move, that seals the deal.} Rxc5 28. Rf1 Rxb6
+{Apparently ...Rb5 is one move faster to mate.} 29. f3 {Makes it a mate in
+two.} Rcb5 30. a4 Rb1# 0-1
+
