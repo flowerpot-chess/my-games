@@ -1,0 +1,116 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.15"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Shredder 12"]
+[Result "1-0"]
+[ECO "D31"]
+[Opening "Semi-Slav"]
+[Variation "Noteboom, Abrahams, Main Line, 14.O-O O-O"]
+[Termination "normal"]
+[PlyCount "69"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. d4 {Early Saturday morning Friend Mode game as White against Shredder.
+Decided to open with d4 for a change, since I don't have very much
+experience playing that opening as White.} e6 2. c4 d5 {We've reached the
+Queen's Gambit Declined, but in reversed move order.} 3. Nc3 c6 {This is
+the Semi-Slav Defence. I've heard of it, but never played it. I got a lot
+of help from 365chess.com's opening explorer for the first 10 moves or so
+in this game.} 4. Nf3 dxc4 {From exploring the various lines, White will
+typically win back the pawn at a later point.} 5. a4 {This is a move I
+probably never would have thought of myself. I was considering to play
+e2-e4 here, but decided to stick to one of the main lines.} (5. e4 b5 6.
+Be2 Nf6 7. O-O Ba6) 5. .. Bb4 6. e3 b5 7. Bd2 a5 8. axb5 Bxc3 9. Bxc3 (9.
+bxc3 cxb5 10. Be2 Nc6) 9. .. cxb5 10. b3 Bb7 11. bxc4 b4 12. Bb2 {I chose
+Bb2 rather than Bd2 because I liked the thought of the Bishop barreling
+down on the a1-h8 diagonal. As it turned out, this Bishop ended up getting
+stuck here because of Black's advancing a- and b-pawns.} Nf6 13. Bd3 O-O
+14. O-O Nbd7 15. Qc2 {When I played this move I wasn't fully aware of the
+fact that I left my f3-Knight, under attack from the Bishop on b2, defended
+only by the g-pawn.} Qc7 {Now the situation with my f3-Knight started to
+concern me even more. After ...Ng4 my Knight on f3 is the only defender of
+h2 against two attackers. And if White then plays Bxf3 I will lose a piece
+in order to prevent mate on h2.
+
+But I was overly concerned about this,
+and should have taken more care of preventing Bxf3 in the first place.
+After all, as long as my Knight is on f3 there is no threat on h2. See
+comment after 16.h3.} 16. h3 {Takes away the g4-square from the Knight.
+But, to continue the reasoning from the comment after 15...Qc7, a better
+move would have been e3-e4, blocking the Bishop from capturing my Knight.
+As long as my Knight is on f3 I don't have to worry too much about h2.
+
+I
+could also have played Qe2, but that would have wasted a tempo (the move
+Qc2), and I would also give up the current potential threat of Bh7+ (maybe
+after Ng5, if Black lets me keep my Knight).} Bxf3 17. gxf3 {Exposes my
+King. There's no immediate threat, since Black has no pieces in the
+vicinity that can take advantage of this at the moment.} Qc6 {Threatening
+the f3-pawn.} 18. e4 {Spent a long time chosing between 18.e4, 18.d5, and
+18.f4. Decided on this move, with the plan of following it up with
+e4-e5.
+
+Stockfish says f3-f4 is the stronger move.} (18. d5 exd5 19. cxd5
+Qxd5 {I've lost a pawn, and f3 is still hanging!} (19. .. Qxc2 20. Bxc2
+Nxd5 21. Ba4 (21. Be4 N7b6) 21. .. N7b6 22. Bc6 Rac8)) 18. .. a4 (18. .. e5
+19. dxe5 Nh5 {This was the line I calculated for 18...e5 before I played
+18.e4. I did not see any immediate threat from Black in this position, but
+Stockfish says Black is +1 or more here.}) 19. e5 b3 20. Qe2 {After all
+that, I ended up playing Qe2 after all! (See comment after 16.h3.)} Nh5 21.
+Be4 {Seems almost too good to be true - will I really win Black's Rook this
+easily?} Nf4 {No, of course not! The Knight moves in and threatens my Queen
+in return, complicating the situation.
+
+Although Stockfish says this is a
+mistake, and that Black would have been better off just moving his Queen
+out of the way, accepting the loss of his Rook for my Bishop. The text puts
+white up almost +3.} 22. Qe3 {Spent a lot of time debating between this
+move and 22.Bxc3. The problem is that 22...Nxe2 is a check, so I would lose
+a tempo moving my King, allowing Black to play ...Rd8, saving both his
+pieces. At that point my d4-pawn would be hanging to the Knight, and beyond
+that point the calculations became too messy for me to handle.
+
+With this
+move I fully expected Black to play ...Nxh3+, grabbing a pawn and checking
+my King. But after Kh2 Black would have another piece hanging.} Nxh3+ 23.
+Kh2 Qxc4 24. Rfc1 {Stockfish says I should have grabbed the Knight on h3
+instead. See variation.} (24. Kxh3 Rac8 25. Rg1 g6 26. Qh6 Rfd8 {I suppose
+this is a reason why Stockfish wants me to go for Kxh3: it gets an
+immediate attack going on the Black King.} (26. .. Qe2 27. Rg4 {Threatening
+Rh4 and a mate on h7.} Rfe8 28. Rh4 Nf8 29. Ba3 Rc7 30. Kg2 {Does two
+things: protects the pawn and opens up the h-file for the other Rook.} b2
+31. Rah1) 27. Bxg6 {Stockfish says this is a mate in eleven.} hxg6 28.
+Rxg6+ fxg6 29. Qxg6+ Kf8 30. Rg1) 24. .. Qb5 25. Bxa8 Rxa8 26. Kxh3 {White
+wins a piece, but lost two pawns in the process.} Nb6 27. Qc3 Rb8 28. Qc7
+{Threatening the Rook, and Black has to thread carefully now, since a back
+rank mate is looming. For example, 28...Rc8?? 29.Qxc8+ Nxc8 30.Rxc8+ Qe8
+31.Rxe8#
+
+Stockfish suggests Qc6 instead, setting up a Queen exchange.
+See variation.} (28. Qc6 Qxc6 29. Rxc6) 28. .. Rf8 29. Kg2 {Connecting the
+King and the pawns. I plan to move my c-Rook to c5 or c6, and this move
+limits the potential danger of ...Qe2.
+
+Here my fingers twitched to play
+Ba3, attacking the Rook on f8, but that gives Black ...b2!} Ra8 {A blunder.
+Rc6 now wins the Knight. See variation.} 30. Qb7 {I didn't see the more
+direct Rc6 move. My idea here was that after Qxa8, the Knight on b6 can't
+recapture because of Rc8 which leads to mate. Basically just keeping the
+pressure up, and eventually playing the Rook up the c-file.} (30. Rc6 h6
+(30. .. Ra6 31. Qc8+ Nxc8 32. Rxc8+ Qe8 33. Rxe8#) (30. .. Nc4 31. Qc8+
+Rxc8 32. Rxc8+ Qe8 33. Rxe8#) 31. Rxb6 Qd3) 30. .. h6 {Making luft.} 31.
+Rc7 {Once again, Rc6 wins the Knight outright.} Qe2 {Bad move that
+completely loses the game for Black. The Queen needed to stay around
+defending, e.g. through Qa6. White has a hige advantage either way though,
+so it may not have mattered much in practice.} 32. Rxf7 Kh8 33. Rxg7 Qd3
+{Prevents the immediate Rh7+ and Qg7#. But ...Rg8 would have been a
+stronger defense.} 34. Rc1 {Bad move. Rh1 is of course much better, in fact
+a forced mate in six. I completely overlooked that, and was just focused on
+getting my second rook to the 7th rank as well.} (34. Rh1 Nd7 35. Qxd7
+Qxf3+ 36. Kxf3 Rf8+ 37. Rf7 Rxf7+ 38. Qxf7 a3 39. Rxh6#) 34. .. Nd7 {Black
+is lost either way, but this move just expediates the process.} (34. ..
+Qf5) 35. Qxd7 {Black resigned here. Black resigns} 1-0
+
