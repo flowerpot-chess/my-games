@@ -43,37 +43,50 @@ something like Qb8 here instead. And looking at the evaluations, this is
 the point where it tipped from being slightly better for Black to being
 slightly better for White.} 12. Qe2 {Here it dawned on me that my previous
 move left the e5-pawn hanging to the f3-Knight. Try as I might, I could
-come up with a way to save that pawn.} Qc7 13. exd5 cxd5 14. Nxe5 O-O 15.
-Nxd7 Qxd7 16. Re1 Rae8 17. Qe6+ Qxe6 18. Rxe6 Bd8 {Bad move. See variations
-for better alternatives.} (18. .. Ng4 19. Nf3 Nxf2 20. Re5 (20. Kxf2 Bh4+
-21. Kg1 (21. g3 Rxe6 22. gxh4 Ref6 23. Be3 Rxf3+ 24. Ke2) 21. .. Rxe6) 20.
-.. Nd3 21. Rxd5 c4 {Black is still a pawn down, but Stockfish evaluates
-this position to roughly equal.}) (18. .. Bd6 {I dismissed this move
-outright since the Bishop is seemingly hanging. But in practice it's not,
-because of the back rank mate on e1.} 19. Rxe8 Rxe8 20. Nf3 (20. Kf1 {The
-best move for White here according to Stockfish. Looks odd, what about
-...Bxh2?} Bxh2 21. g3 {Aha, the Bishop is trapped. I should have seen that,
-I've been bitten by that before!} Ng4 22. Nf3 Rf8 23. Bf4 h6 24. Kg2 Rxf4
-25. gxf4 Bxf4 26. Rd1) 20. .. Rb8) 19. Rxe8 Rxe8 20. Nf3 {Stopping
-...Re1#.} Bb6 {Not really sure what I was thinking here, other than being
-concerned about my pawns on c5 and a7 after White plays Be3.} 21. Be3 {Of
-course, White can play Be3 anyway, pinning me down.} Ng4 22. Re1 Nxe3 23.
-Rxe3 Rxe3 24. fxe3 c4 25. Kf2 Kf7 {Stockfish has wanted me to play Kf7 for
-the last couple of moves. It's high time to get the King active.} 26. h3 h5
-{At this point I had basically no idea how to play. This is an area of the
-game where I'm really lacking in experience and understanding.} 27. b3 cxb3
-{Stockfish says I should have focused on making my King more active,
-through Ke6. Basically every move I actually make turns the position
-slightly worse for Black.} 28. axb3 Kf6 29. Nd4 g5 30. g4 hxg4 31. hxg4 Ke5
-32. Kf3 Kf6 {Bad move says Stockfish. My King was fine where it was, and I
-should have played a7-a6.} 33. Nc6 a5 34. e4 dxe4+ {Really bad move. ...Ke5
-would have been better, locking down that side of the board.} 35. Kxe4 Kg6
-36. Ne5+ Kh6 {...Kf6 loses the Bishop after Nd7+. Either way, the White
-King will now get up and close to my g-pawn, which is bound to fall.} 37.
-Kf5 {I resigned here. I can't prevent White from Nf7-Nxg5. This was another
-of those games where I quickly found myself dominated by the opponent,
-constantly on the defensive without any offensive ideas of my own. A couple
-of inaccurate moves in the opening resulted in a lost pawn, and it was all
-downhill from there. The next time I'm faced with the Moscow Variation I
-will give 3.Bd7 a try instead. Black resigns} *
+come up with a way to save that pawn.} Qc7 {Also considered ...Bd6, but
+rejected it because it would leave the King open to attack would the
+e-pawns disappear.
+
+Another line I calculated and rejected was 12...Bg4.
+See variations.} (12. .. Bg4 13. h3 Bxf3 (13. .. Bh5 14. g4 Bg6 15. Nxe5
+{Much worse for White. So I unfortunately dismissed the idea of 12...Bg4
+altogether.}) 14. Nxf3 {This was a line I considered, but stopped the
+calculation here. That was a shame, because this line actually allows me to
+keep even in material (albeit with a slightly worse position, according to
+Stockfish).} Nxe4 15. Nxe5 Qd6 16. Bf4 O-O 17. Bh2) (12. .. Bd6 13. Nxe5
+Bxe5 14. exd5 O-O {The Bishop on e5 is lost anyway (see variations).} (14.
+.. Ng4 15. f4 cxd5 16. fxe5 c4) (14. .. Qe7 15. Re1 O-O 16. Qxe5) 15. Qxe5
+cxd5) 13. exd5 cxd5 14. Nxe5 O-O 15. Nxd7 Qxd7 16. Re1 Rae8 17. Qe6+ Qxe6
+18. Rxe6 Bd8 {Bad move. See variations for better alternatives.} (18. ..
+Ng4 19. Nf3 Nxf2 20. Re5 (20. Kxf2 Bh4+ 21. Kg1 (21. g3 Rxe6 22. gxh4 Ref6
+23. Be3 Rxf3+ 24. Ke2) 21. .. Rxe6) 20. .. Nd3 21. Rxd5 c4 {Black is still
+a pawn down, but Stockfish evaluates this position to roughly equal.}) (18.
+.. Bd6 {I dismissed this move outright since the Bishop is seemingly
+hanging. But in practice it's not, because of the back rank mate on e1.}
+19. Rxe8 Rxe8 20. Nf3 (20. Kf1 {The best move for White here according to
+Stockfish. Looks odd, what about ...Bxh2?} Bxh2 21. g3 {Aha, the Bishop is
+trapped. I should have seen that, I've been bitten by that before!} Ng4 22.
+Nf3 Rf8 23. Bf4 h6 24. Kg2 Rxf4 25. gxf4 Bxf4 26. Rd1) 20. .. Rb8) 19. Rxe8
+Rxe8 20. Nf3 {Stopping ...Re1#.} Bb6 {Not really sure what I was thinking
+here, other than being concerned about my pawns on c5 and a7 after White
+plays Be3.} 21. Be3 {Of course, White can play Be3 anyway, pinning me
+down.} Ng4 22. Re1 Nxe3 23. Rxe3 Rxe3 24. fxe3 c4 25. Kf2 Kf7 {Stockfish
+has wanted me to play Kf7 for the last couple of moves. It's high time to
+get the King active.} 26. h3 h5 {At this point I had basically no idea how
+to play. This is an area of the game where I'm really lacking in experience
+and understanding.} 27. b3 cxb3 {Stockfish says I should have focused on
+making my King more active, through Ke6. Basically every move I actually
+make turns the position slightly worse for Black.} 28. axb3 Kf6 29. Nd4 g5
+30. g4 hxg4 31. hxg4 Ke5 32. Kf3 Kf6 {Bad move says Stockfish. My King was
+fine where it was, and I should have played a7-a6.} 33. Nc6 a5 34. e4 dxe4+
+{Really bad move. ...Ke5 would have been better, locking down that side of
+the board.} 35. Kxe4 Kg6 36. Ne5+ Kh6 {...Kf6 loses the Bishop after Nd7+.
+Either way, the White King will now get up and close to my g-pawn, which is
+bound to fall.} 37. Kf5 {I resigned here. I can't prevent White from
+Nf7-Nxg5. This was another of those games where I quickly found myself
+dominated by the opponent, constantly on the defensive without any
+offensive ideas of my own. A couple of inaccurate moves in the opening
+resulted in a lost pawn, and it was all downhill from there. The next time
+I'm faced with the Moscow Variation I will give 3.Bd7 a try instead. Black
+resigns} 1-0
 
