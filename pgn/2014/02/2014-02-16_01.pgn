@@ -1,0 +1,79 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.16"]
+[Round "1"]
+[White "Shredder 12"]
+[Black "Zethson, Torgil"]
+[Result "1-0"]
+[ECO "B51"]
+[Opening "Sicilian"]
+[Variation "3.Bb5+ Nc6 4.Bxc6+"]
+[TimeControl "40/2400:40/2400:2400"]
+[Termination "normal"]
+[PlyCount "73"]
+[WhiteType "program"]
+[BlackType "human"]
+
+1. e4 {Friend Mode game as Black against Shredder.} c5 {Another attempt at
+the Sicilian.} 2. Nf3 d6 3. Bb5+ {The Canal-Sokolosky Attack, also known as
+the Moscow Variation.} Nc6 {Three options to block the check: Bd7, Nd7, and
+Nc6. Bd7 is the most common move, more or less forcing an exhange of
+Bishops on d7. I like my Bishops, so I wanted to try something else. Went
+for Nc6, accepting my double-pawns in exchange for having both my Bishops.}
+4. Bxc6+ bxc6 5. O-O e5 {Grabbing hold of the center.} 6. c3 f5 {Probably a
+bad choice, seeing how all my pieces are yet undeveloped. I still wanted to
+try it, seeing how I have had success with open f-files in a couple of
+games lately.} 7. d3 Be7 {My main motivation is to take away the g5-square
+from White while at the same time developing a piece. On the other hand,
+the move is somewhat inconsistent - I played f5 since I liked the idea of
+an open f-file, and here I have the option of actually opening the f-file
+via fxe5.} 8. Nbd2 Nf6 9. Qa4 {Threatening Qxc3+.} fxe4 {The idea of the
+text is to free up the c8-Bishop, who was stuck defending the f5-pawn. The
+text allows me to play Bd7 , to protect the c3-pawn. Stockfish suggests
+Qb6. I contemplated that move, but figured that Nc4 would force me to move
+the Queen again. I also rejected Qc7, since I thought my Queen would be
+rather boxed in that way. Maybe Qc7-Qb7 would have been OK?} (9. .. Qb6 10.
+Nc4 {This was the move that stopped me from playing 9..Qb6. This is not a
+problem at all says Stockfish (see continuation of the variation).} Qb5 11.
+Qb3 (11. Qxb5 cxb5 {Probably an ill-advised exchange for White, since it
+undoubles my pawns.} 12. Ncd2 c4 13. dxc4 fxe4 14. Ng5 bxc4 15. Ngxe4 d5)
+11. .. fxe4 12. dxe4 Nxe4 13. Re1 Nf6) 10. dxe4 Bd7 11. Qc4 {Prevents
+castling.} d5 {I really want to castle. Stockfish says I should have played
+something like Qb8 here instead. And looking at the evaluations, this is
+the point where it tipped from being slightly better for Black to being
+slightly better for White.} 12. Qe2 {Here it dawned on me that my previous
+move left the e5-pawn hanging to the f3-Knight. Try as I might, I could
+come up with a way to save that pawn.} Qc7 13. exd5 cxd5 14. Nxe5 O-O 15.
+Nxd7 Qxd7 16. Re1 Rae8 17. Qe6+ Qxe6 18. Rxe6 Bd8 {Bad move. See variations
+for better alternatives.} (18. .. Ng4 19. Nf3 Nxf2 20. Re5 (20. Kxf2 Bh4+
+21. Kg1 (21. g3 Rxe6 22. gxh4 Ref6 23. Be3 Rxf3+ 24. Ke2) 21. .. Rxe6) 20.
+.. Nd3 21. Rxd5 c4 {Black is still a pawn down, but Stockfish evaluates
+this position to roughly equal.}) (18. .. Bd6 {I dismissed this move
+outright since the Bishop is seemingly hanging. But in practice it's not,
+because of the back rank mate on e1.} 19. Rxe8 Rxe8 20. Nf3 (20. Kf1 {The
+best move for White here according to Stockfish. Looks odd, what about
+...Bxh2?} Bxh2 21. g3 {Aha, the Bishop is trapped. I should have seen that,
+I've been bitten by that before!} Ng4 22. Nf3 Rf8 23. Bf4 h6 24. Kg2 Rxf4
+25. gxf4 Bxf4 26. Rd1) 20. .. Rb8) 19. Rxe8 Rxe8 20. Nf3 {Stopping
+...Re1#.} Bb6 {Not really sure what I was thinking here, other than being
+concerned about my pawns on c5 and a7 after White plays Be3.} 21. Be3 {Of
+course, White can play Be3 anyway, pinning me down.} Ng4 22. Re1 Nxe3 23.
+Rxe3 Rxe3 24. fxe3 c4 25. Kf2 Kf7 {Stockfish has wanted me to play Kf7 for
+the last couple of moves. It's high time to get the King active.} 26. h3 h5
+{At this point I had basically no idea how to play. This is an area of the
+game where I'm really lacking in experience and understanding.} 27. b3 cxb3
+{Stockfish says I should have focused on making my King more active,
+through Ke6. Basically every move I actually make turns the position
+slightly worse for Black.} 28. axb3 Kf6 29. Nd4 g5 30. g4 hxg4 31. hxg4 Ke5
+32. Kf3 Kf6 {Bad move says Stockfish. My King was fine where it was, and I
+should have played a7-a6.} 33. Nc6 a5 34. e4 dxe4+ {Really bad move. ...Ke5
+would have been better, locking down that side of the board.} 35. Kxe4 Kg6
+36. Ne5+ Kh6 {...Kf6 loses the Bishop after Nd7+. Either way, the White
+King will now get up and close to my g-pawn, which is bound to fall.} 37.
+Kf5 {I resigned here. I can't prevent White from Nf7-Nxg5. This was another
+of those games where I quickly found myself dominated by the opponent,
+constantly on the defensive without any offensive ideas of my own. A couple
+of inaccurate moves in the opening resulted in a lost pawn, and it was all
+downhill from there. The next time I'm faced with the Moscow Variation I
+will give 3.Bd7 a try instead. Black resigns} *
+
