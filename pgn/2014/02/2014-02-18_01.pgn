@@ -1,0 +1,90 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.18"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Shredder 12"]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[Opening "Modern"]
+[Variation "3.Nc3 d6 4.Be3 c6"]
+[PlyCount "110"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. e4 {Early morning Friend Mode game as White against Shredder 12.} g6 2.
+d4 d6 3. Nc3 c6 4. Be3 Bg7 5. Qd2 {h6 is now a target.} Nd7 6. Nf3 b5 7.
+Bd3 {Maybe a2-a3 is better, taking away the b4-square from Black. But with
+the text I'm at least fully developed.} Ngf6 8. Bh6 {Again, a2-a3 is an
+alternative. So is King-side castling, getting my house completely in order
+before going on the attack.} Bxh6 9. Qxh6 Nb6 10. a4 {Not a2-a3, since that
+leaves a4 for the Black Knight. I could also have kept my nerve, and played
+Ng5.} (10. Ng5 {With Black's dark-squared Bishop off the board, this is a
+very strong position for my Knight.} Rf8 11. O-O) 10. .. b4 11. Ne2 Bg4 12.
+Ng5 a5 13. c3 {My reasoning here was that either Black will have to play
+...bxc3 or ...b3. If the former I get the pawn off the board, if the latter
+the b-pawn ends up in a weak spot. And if Black doesn't move his pawn at
+all I'll play cxb4 next move. Here f2-f3 is probably a better choice,
+chasing back the Bishop.} bxc3 14. Nxc3 {I recaptured with the wrong piece!
+bxc3 is much better, and leaves the Knight available for offensive duties
+on the King-side.} Nh5 {I'm now looking at g3. If I can move my e-pawn out
+of the way, opening up the diagonal for my Bishop, maybe there's a chance
+for something around f2 and f3?} 15. f3 (15. d5 cxd5 16. exd5 {Opens up the
+center for my Bishop. With the Queen, Knight, and Bishop all focused on the
+King-side, Black could be in trouble.} Bc8 17. O-O Nd7 18. Nxh7 Rg8 19. g4)
+15. .. Be6 16. Nxe6 {My idea was that an exchange benefits me, since it
+removes a defender of g3. But I'm not sure this is a good move in this
+situation, it's probably better to leave the Knight on the board. He is
+very strong on g5.} fxe6 17. O-O {Here I considered playing e4-e5, but
+decided against it for the wrong reasons: I figured that after 17.e4-e5
+dxe5 18.dxe5 my Bishop would be hanging to the Queen. But after 17...dxe5 I
+could play 18.Bxg6+ instead. See variation.} (17. e5 dxe5 (17. .. Rf8 18.
+Qxh7 Nf4 19. O-O-O) 18. Bxg6+ {Puts Black in a very bad spot, so
+realistically he wouldn't play 18...dxe5.} hxg6 (18. .. Kd7 19. Bxh5) 19.
+Qxh8+) 17. .. Nf6 18. Rad1 {I'm still thinking of opening up the center via
+e4-e5, but want to strengthen my d-file first.} Rf8 19. Kh1 {In one line I
+calculated Black would be able to play ...Qxd4+, so moving the King off
+that diagonal. Now I think I'm finally ready to make a move in the center.
+Stockfish says I should have played e4-e5 after all.} (19. e5 dxe5 20. dxe5
+Qxd3 21. Kh1 Ng4 22. Qxf8+ Kxf8 23. Rxd3 Nxe5) 19. .. Rf7 20. e5 Nfd5
+{Surprised me, I expected ...dxe5. But the Knight is free to move now that
+the Rook is defending h7.} (20. .. dxe5 21. dxe5 Nfd5 22. Ne4 Qb8 23. Ng5
+Qxe5 24. Nxf7 Kxf7 25. Qxh7+) 21. Ne4 {Leaves the a4-pawn hanging, but I
+felt that it was better to bring my Knight over to the attack. Exchanging
+Knights is bad here, since Black can just recapture with the b6-Knight.}
+Rf4 22. Rfe1 {Preventing ..Ne3, forking my Rooks. Stockfish tells me I
+shouldn't have worried about that, and played g2-g3 here instead.} (22. g3
+Rf5 23. Qxh7 Kd7 {Why not ...Ne3? Is it a folly for Black to go hunting
+Rooks when he should leave his Knight defending his King?} (23. .. Ne3 24.
+g4 Nxf1 (24. .. Nxd1 25. exd6 Kd7 26. gxf5 gxf5 27. Nc5+ Kc8 28. dxe7 Qe8
+29. Rxd1) 25. Qxg6+ Kd7 26. gxf5 exf5 27. Qxf5+ Kc7)) 22. .. Nxa4 23. Rb1
+{Another bad move. At this point I shouldn't be concerned about protecting
+my pawns. I should be attacking!} Qb6 24. exd6 Qxd4 25. Qxh7 {My Bishop is
+hanging, but I decided to go for attack immediately. In hindsight, maybe
+Bc2 is better here.} (25. Bc2 exd6 (25. .. Nab6 26. Qxh7 Qb4 27. Qxg6+ Kd7
+28. Rbc1 Rh8 29. h3) 26. Rbd1 Qb4 27. Bxa4 Qxa4 28. Nxd6+ Ke7 29. Ne4 Rf7
+30. Nc5 Qf4 31. Rxe6+ Kd8 32. Qxf4 Rxf4 33. Rxc6) 25. .. Qxd3 26. Qg8+ Rf8
+27. Qxe6 Ra7 28. dxe7 Nxe7 29. Nf6+ {Rd1 is better here. See variation.}
+Rxf6 30. Qxf6 Rd7 {Now White has to be careful not to be back rank mated.}
+31. Ra1 {Qg7 is more forceful, since it threatens mate on g8. I did not see
+that.} Qc2 32. Qf4 {Qg7 would still threaten mate.} Rb7 33. Rxa4 g5 34. Qe4
+{Bad move. It would have been better for me to keep the Queen, so Qg4 here
+is superior.} Qxe4 35. Rexe4 {Recaptured with the wrong Rook! Raxe4 creates
+a battering ram against e7, which limits Black's options.} Rxb2 36. h3
+{Here I was mostly concerned with making luft. But h2-h4 is better. From
+here on I made a complete mess of things. My inexperience in handling these
+types of situations was very evident.} Rb5 37. f4 gxf4 38. Rxf4 Nd5 39.
+Rfd4 Kf7 40. Ra3 Rb4 41. Rxb4 axb4 42. Rb3 {At this point White's advantage
+is completely gone, and Stockfish now evaluates Black's position to be much
+better! White's King is ruefully inactive, and White will have a hard time
+fending off the two pawns.} c5 43. Rf3+ Kg6 44. Rd3 Nc3 45. Rd6+ Kg5 46.
+Rc6 Ne4 47. Rb6 Kf4 48. Kg1 Kg3 49. Kf1 Nc3 50. Rc6 Ne4 51. Ke2 Kxg2 52.
+Ke3 Ng3 53. Rxc5 Kxh3 54. Rb5 b3 55. Rxb3 Kg4 {At this point I offered a
+draw. Shredder did not accept the offer, and we played on for 15 or so
+moves. I then offered a draw again, and this time the offer was
+accepted.
+
+Obviously a very disappointing result, seeing how I had a huge
+advantage. In key moments I played too defensively, and let the advantage
+slip away.} 1/2-1/2
+
