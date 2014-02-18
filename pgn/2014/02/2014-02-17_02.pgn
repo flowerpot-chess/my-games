@@ -1,0 +1,88 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.17"]
+[Round "2"]
+[White "Shredder 12"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "B23"]
+[Opening "Sicilian"]
+[Variation "Chameleon Variation"]
+[TimeControl "40/2400:40/2400:2400"]
+[Termination "normal"]
+[PlyCount "120"]
+[WhiteType "program"]
+[BlackType "human"]
+
+1. e4 {Friend mode game as Black against Shredder.} c5 {I want to get more
+experience with the Sicilian.} 2. Nc3 Nc6 3. Nge2 d6 {Here I can basically
+push any of the d-, e-, and g-pawns.Went for the d-pawn, for no particular
+reason to be honest.} 4. d4 cxd4 5. Nxd4 g6 6. Bb5 Bd7 7. O-O Bg7 8. Be3 a6
+9. Nxc6 bxc6 {Probably better to recapture with the Bishop. Now my a-pawn
+is isolated, and my Rook is stuck defending it.} 10. Bc4 Nf6 11. f3 {Now
+I'm concerned about White playing g2-g4. Is that a legitimate concern?} O-O
+12. Qd2 (12. g4 {What would happen is White followed up with g2-g4?} Be6
+{Nothing to be concerned about, says Stockfish.}) 12. .. a5 {To free up my
+Rook. Stockfish recommends ...Qb8 here, which was actually another move I
+was considering.} (12. .. Qb8 13. b3 Be6 14. Bxe6 fxe6 15. Na4 c5) 13. a4
+Rb8 14. b3 Re8 {Here I was running short of ideas. I can't push the e-pawn,
+since it leaves d6 hanging to the Queen. I didn't want to push the c-pawn,
+because it weakens d5. And pushing the d-pawn loses material, if I
+calculated correctly. (But I didn't! See variation.) Actually, Stockfish
+says I should push the d-pawn. Again, see variation.} (14. .. c5 15. Rad1
+Qb6 16. Nb5) (14. .. d5 15. exd5 Nxd5 {Not sure what I thought when I
+calculated the d6-d5 line. Black is fine here. Yes, the d5-square is
+attacked three times by White, but it is defended by the pawn on c6.} (15.
+.. cxd5 16. Bb5) 16. Bd4 {This is the move Stockfish recommends for White
+here.} (16. Nxd5 16. .. cxd5 17. Bxd5 Bxa1 {Hmm.}) (16. Bxd5 cxd5 17. Bd4)
+16. .. Bxd4+ 17. Qxd4 Qb6) 15. f4 c5 {Pushing the c-pawn anyway. I want to
+open up some space for my Bishop. ...d6-d5 is still a good alternative.}
+16. f5 Bc6 {I probably should have captured the f-pawn instead.} 17. fxg6
+hxg6 18. Bg5 e6 {A blunder. My idea was to block the c4-Bishop from f2, but
+the text removes a vital defender of the f6-Knight. Another option I had
+here was ...Rf8, adding back the Rook as a defender of f6. I rejected that
+on the grounds of wasting a tempo moving the Rook back and forth like that.
+Stockfish recommends ...Rb4. Not sure I understand that move.} (18. .. Rb4
+19. Qd3 Rf8) 19. e5 {White plays a weak move in return. Qf2 is better.}
+(19. Qf2 d5 20. Bd3 dxe4 21. Nxe4 Bxe4 22. Bxe4 c4 23. bxc4 Rb4 24. Bc6 Rf8
+25. Bb5) 19. .. dxe5 20. Qxd8 Rbxd8 {Capture with the e-Rook or b-Rook?
+Don't know if it matters much, but Stockfish recommended the e-Rook. It
+kind of makes sense, since that would leave both my Rook on open or
+half-open files. Over the board I didn't realize that my f6-Knight is now
+attacked twice, and only defended once.} 21. Bb5 Bxb5 (21. .. Ne4 {The move
+recommended by Stockfish here. I don't think I'd ever thought of this move
+myself: My c6-Bishop is hanging, and the move opened up for the Bxd8.} 22.
+Bxd8 Rxd8 23. Rfd1 Rb8 24. Bxc6 Nxc3 25. Rd7 {White only has a slight
+advantage in this position, says Stockfish.}) 22. axb5 Ra8 {Another
+blunder. Again, I didn't realize my Knight was in such great peril. The
+purpose of the move was to defend the a-pawn, and remove the pin on the
+Knight.} 23. Bxf6 Bxf6 24. Rxf6 {NOW the penny dropped.} Kg7 25. Ne4 Red8
+26. Rff1 {Bad move. Raf1 would have kept the pressure on.} Rd4 27. Nxc5 Rc8
+{My idea here is to win the c2-pawn. I fully expected the Knight to move
+out of the way, and did not see White's good reply c2-c3.} 28. c4 {A
+blunder. c2-c3 would have attacked my Rook, but the text loses the Knight
+instead.} Rxc5 29. Rxa5 {White is up one pawn.} f5 {Want to tuck my King
+away on f6.} 30. Ra7+ Kf6 31. b6 Rd8 {This is a losing move, says
+Stockfish. White gains a huge advantage after 32.Rc1. Recommended move here
+was ...Rd6.} (31. .. Rd6 32. Ra6 Rd2 33. b7 Rd8 34. Ra8 Rc7 35. Rxd8 Rxb7
+36. Rb1) 32. Kf2 {White blunders in return.} (32. Rc1 Rb8 33. b4 Rcc8 34.
+b7 Rc7 35. c5 e4 (35. .. Rcxb7 36. Rxb7 Rxb7 37. c6 Rb8 38. c7 Rc8 39. b5
+e4 40. b6 Rh8 41. b7 Kg5 42. b8=Q Rxb8 43. cxb8=Q) 36. c6) 32. .. Rb8 33.
+Rc7 Rxc7 34. bxc7 Rc8 35. b4 Ke7 {Want to bring my King over to help my
+Rook with those pawns.} 36. c5 Kd7 {Here I should probably have captured
+the c7-pawn instead.} 37. b5 {Bad move. Rd1+ is stronger.} Rxc7 {Better to
+capture with the King.} 38. Rd1+ Kc8 39. c6 Kb8 {Bad move says Stockfish.
+White can now play Rd6 and I'm in trouble. Better would be ...Ra7.} 40. Rd7
+{Surely a blunder.} Rxd7 41. cxd7 Kc7 42. Kf3 Kxd7 43. Ke3 Kc7 44. Kd3 Kb6
+45. Kc4 e4 46. g3 e5 47. h3 f4 48. gxf4 exf4 49. Kd4 e3 50. Kd3 Kxb5 51. h4
+Kc5 52. Ke2 Kd5 53. Kf3 Ke5 54. Ke2 Kf5 {...Ke4 is more precise.} 55. Kf3
+Ke5 56. Ke2 Kf5 {It's interesting how much clearer some things are in
+post-game analysis. Here the board is screaming for ...Ke4, but instead I
+play ...Kf5 and get awfully close to a three-fold repetition. To be honest,
+I was aware of that risk during over the board, and even though I was in a
+totally winning position here a draw somehow felt OK at the time,
+considering how badly I had played. I was very much aware that the only
+reason I was still alive at all was because of a series of bad moves from
+Black.} 57. Kd3 Kg4 58. Kc3 Kxh4 59. Kc2 Kg3 60. Kd1 Kf2 {White resigns}
+0-1
+

@@ -1,0 +1,71 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.17"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Shredder 12"]
+[Result "0-1"]
+[ECO "B88"]
+[Opening "Sicilian"]
+[Variation "Sozin-Scheveningen, 7.Bb3"]
+[TimeControl "40/2400:40/2400:2400"]
+[Termination "normal"]
+[PlyCount "72"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. e4 {Early morning Friend Mode game as White against Shredder.} c5 2. Nf3
+d6 {Considered playing the Moscow Variation that I lost against yesterday.}
+3. d4 {Decided to stick with something closer to the main line.} Nf6 4. Nc3
+cxd4 5. Nxd4 Nc6 6. Bc4 e6 7. Bb3 {Not sure I'll be playing this move
+again. The Bishop ended up not doing much at all on b3, and it's easy for
+Black to pick it off after ...Na5. Better here is to castle, or develop the
+other Bishop, e.g. to d3.
+
+On the other hand, I'm not sure what the
+future is for the Bishop on c4 either. Back it up via b2-b3? And I also
+have the option of exchanging Black's c6-Knight for my d4-Knight. That way
+the Bishop may be OK on b3, and perhaps eventually on a2, making room for
+the b2-pawn to advance.} a6 8. Be3 {See comment after previous move. Here I
+could have played Nxc6, giving my light-squared Bishop a more hopeful
+future.} Na5 9. Qe2 Qc7 10. O-O-O {Not sure why I opted to castle on the
+Queen-side, considering there's where Black is gathering his forces. From
+this point on I'm more or less stuck in permament defence.} b5 11. g4 b4
+12. Na4 {I'm already falling behind. g4-g5 would probaby have been better,
+countering Black's attack on my Knight with an attack of my own.} Be7 13.
+f3 {Here I realized that my e4-pawn was hanging, so decided to back it up.
+See variation for what Stockfish suggests instead.} (13. Nb6 Nxb3+ (13. ..
+Qxb6 {Why not ...Qxb6 here?} 14. Ba4+ Bd7 15. Nxe6 Qb7 16. Bxd7+ Qxd7 17.
+Nxg7+ Kf8 18. Nf5 {White sacrificed a Knight for two pawns, and perhaps a
+slightly better position?}) 14. Nxb3 Rb8 15. Nxc8 Rxc8) 13. .. O-O 14. g5
+{Stockfish wants me to play Kb1 instead, which I suppose is a normal move
+after having castled long.} Nd7 15. f4 {Half-hearted attempt of a pawn
+storm? Bad move that leaves the e4-pawn vulnerable again.} Nxb3+ 16. axb3
+(16. Nxb3 Qc6 {My a4-Knight is lost.}) 16. .. Bb7 17. Qd3 {Stockfish wants
+me to give up the e4-pawn, and play f4-f5 instead, something I actually
+considered. I guess that's something that comes with experience, seeing
+when it's worth defending a pawn and when it's better to just let it fall.}
+(17. f5 Bxe4 18. fxe6 {Stockfish doesn't even want me to bother saving my
+Rook!} Bxh1 19. exd7 Be4 20. Bf4 Qb7 {Backing up the hanging e4-Bishop.}
+21. c4) 17. .. Nc5 18. Nxc5 dxc5 19. Nf3 (19. Ne2 Rfd8 20. Qc4 Bc6 21. e5
+Bb5 22. Qe4 Bxe2 23. Rxd8+ Rxd8) 19. .. Rfd8 20. Qe2 Bxe4 {After all that,
+the e4-pawn falls anyway, and White's position has become much worse in the
+process.} 21. Rhf1 {Passive move. Wanted to get my Rook off h1, unpinning
+my Knight. Decided to place it on f1 so that it defends the Knight, so that
+my Queen would get more freedom to move around.} (21. Rxd8+ Rxd8 22. Rd1
+Rxd1+ 23. Qxd1) 21. .. a5 22. Nd2 {Want to get my Knight over to defend.}
+(22. Rxd8+ Rxd8 23. Ne5) 22. .. Bd5 23. h4 {A desperate attempt of getting
+something going on the King-side. I'm muh too late though.} a4 24. bxa4
+Rxa4 25. Nb3 {Nb1 would have been better. Still a hopeless situation
+though.} c4 26. Nd2 b3 27. c3 {Nb1 is better.} Ra2 {Bad move by Black, who
+should have played Ra1+ here.} 28. Nb1 Be4 29. Na3 {The idea was to trap
+the Knight. It's a terrible move on many accounts. Most of all because it
+leads to a mate in two (that Black missed, see variation). Also because I
+can't get to the Rook anyway: the King is prevented from reaching it thanks
+to the Bishop on e4. And also because the Knight can be picked off by the
+other Bishop, on e7.} Rxd1+ (29. .. Ra1+ 30. Nb1 Rxb1#) 30. Rxd1 Bxa3 31.
+Kd2 Bxb2 32. Ke1 Bxc3+ 33. Bd2 Qxf4 34. Qxc4 Rxd2 (34. .. Bxd2+ {A mate in
+three that Black missed.} 35. Rxd2 Qxd2+ 36. Kf1 Qd1#) 35. Qc8+ Rd8+ 36.
+Ke2 Rxc8 {White resigns} (36. .. Qf3# {A mate in one that Black missed!
+(White too, for that matter.)}) 0-1
+
