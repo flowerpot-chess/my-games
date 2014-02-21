@@ -23,67 +23,65 @@ cxd4 6. Nxd4 Qb6 7. Be3 {Here I completely missed that th b2-pawn is
 hanging, and was only concerned with protecting my Knight. I *was*
 considering Nb3, which would have saved the pawn, but purely to get the
 Knight to safety. I rejected that move because I preferred to have my
-Knight in the center, even though I instead had to move my Bishop
-again.
-
-However, it turns out that ...Qxb2 is bad for Black. See
-continuation.} Qxb2 {I was dismayed that I hadn't noticed the hanging pawn.
-However, this is a bad move for Black. See continuation.} 8. Ndb5 {First of
-all, Black has to be careful now not to get his Queen trapped. Also, White
-is threatening Nc7+ at some point, forking the King and Rook. That's not
+Knight in the center, even though I instead had to move my Bishop again.
+However, it turns out that ...Qxb2 is bad for Black. See continuation.}
+Qxb2 {I was dismayed that I hadn't noticed the hanging pawn. However, this
+is a bad move for Black. See continuation.} 8. Ndb5 {First of all, Black
+has to be careful now not to get his Queen trapped. Also, White is
+threatening Nc7+ at some point, forking the King and Rook. That's not
 immediately doable, since Black can counter with Qxc3+.} e5 {Blunder.
-Allows White to trap the Queen.} 9. Rb1 {The Queen has no where to go!}
-Qxb1 10. Qxb1 {Recapturing with the Queen or with the Knight? I chose the
-Queen, since I wanted my Knight to remain active in the center.} Na6 11.
-Bc4 {My idea here is to develop the Bishop, allowing me to castle, and also
-to zero in on f7 which could become a target, e.g. after Qb3 and/or Nd6 (at
-some point when the f8-Bishop is not covering d6.
+Allows White to trap the Queen.} (8. .. Qb4 {Even without blundering the
+Queen, Black is worse off than White, despite being a pawn up.} 9. e5 Ne4
+10. Qg4 {Stockfish evaluates this position to about +3 for White.} Bg7 11.
+Rb1 Qa5 12. Qxe4) 9. Rb1 {The Queen has no where to go!} Qxb1 10. Qxb1
+{Recapturing with the Queen or with the Knight? I chose the Queen, since I
+wanted my Knight to remain active in the center.} Na6 11. Bc4 {My idea here
+is to develop the Bishop, allowing me to castle, and also to zero in on f7
+which could become a target, e.g. after Qb3 and/or Nd6 .} (11. Bg5 Ng8 12.
+Qd1 h6 13. Qd5 hxg5 (13. .. Bb4 14. Qxe5+ Kf8 15. Qxh8 hxg5 16. a3) (13. ..
+d6 14. Nxd6+ Bxd6 15. Qxd6 Bd7 16. Qxe5+ Kf8 17. Bc1 Nb4 (17. .. Rh7 18.
+Ba3+ Ne7 19. Qxe7+ Kg7 20. Qxd7 Kh8 (20. .. b6 21. Nd5 h5 22. Bxa6) 21.
+Qxb7 Rb8 22. Qxa6) 18. Qxh8) 14. Qxe5+ Be7 15. Qxh8 Kf8) 11. .. Ng4 12. O-O
+{Here I considered Nd5, to be followed up by N(either one)c7+. That wasn't
+possible before since Black's Knight on f6 covered d5. I decided to castle
+instead so that my Rook would already be on the f-file should Black decide
+to exchange Bishop for Rook on e3, opening up the f-file. Nd5 is the
+stronger move. I don't think there's a way for Black to save his Rook in
+that line.} (12. Nd5 Nxe3 13. fxe3 Bc5 (13. .. Bb4+ 14. Nxb4 O-O {Removes
+the fork.} 15. Nxa6 bxa6 16. Nc7 {The Rook is trapped anyway.} Bb7 17. Nxa8
+Bxa8) 14. Ndc7+ Nxc7 15. Nxc7+ Ke7 16. Nxa8 b6) 12. .. Be7 13. Nd5 Bd8
+{Stops Nc7.} 14. Qd1 {Here I strongly considered Nd6+, forcing the King to
+move. Ultimately decided against it in favor of building up more pressure
+for a more effective attack. With the text I was hoping for Black to
+retreat his Knight to f6. See variation for what I had in mind. Either way,
+White is obviously winning. Black has lost his Queen, and White's pieces
+are all active, where as the bulk of Black's pieces are on the 8th rank.}
+(14. Nd6+ Kf8 15. h3 Nxe3 (15. .. Be7 16. Nxe7 Nxe3 17. fxe3 Kxe7 18. Nxf7)
+16. fxe3 f5 (16. .. Be7 17. Rxf7+ Kg8 18. Nxe7#) 17. exf5 g5 18. Qb2 h5 19.
+Qxe5 Rh6 20. f6) 14. .. h5 (14. .. Nf6 {This would be a bad mistake by
+Black, and is actually a mate in four (I did not see that in my over the
+board calculation).} 15. Nxf6+ {This was the line I calculated. See Nd6+
+variation for the mate in four.} (15. Nd6+ Kf8 16. Bh6+ Kg8 17. Nxf6+ Bxf6
+18. Bxf7#) 15. .. Bxf6 16. Nd6+ Kf8 (16. .. Kd8 17. Nxf7+ Ke8) 17. Qf3
+{Here I thought that the dual threat of Qxf6 and Qxf7# if Black moves his
+Bishop would be too much for Black. However, Black could play Ke7 here,
+addressing both threats. I did not see that move over the board. See
+continuation for what post-game analysis says.} Ke7 18. Bxa6 b6 (18. ..
+bxa6 19. Bc5 Bh4 20. Nxf7+ d6 21. Bxd6+ Ke6 22. Nxh8) 19. Bc4) 15. h3 {I
+was adamant of forcing that Knight to f6.} Nxe3 {Of course, the Knight
+doesn't *have* to go to f6...
 
-Bg5 is a stronger move
-here (see variation).} (11. Bg5 Ng8 12. Qd1 h6 13. Qd5 hxg5 (13. .. Bb4 14.
-Qxe5+ Kf8 15. Qxh8 hxg5 16. a3) (13. .. d6 14. Nxd6+ Bxd6 15. Qxd6 Bd7 16.
-Qxe5+ Kf8 17. Bc1 Nb4 (17. .. Rh7 18. Ba3+ Ne7 19. Qxe7+ Kg7 20. Qxd7 Kh8
-(20. .. b6 21. Nd5 h5 22. Bxa6) 21. Qxb7 Rb8 22. Qxa6) 18. Qxh8) 14. Qxe5+
-Be7 15. Qxh8 Kf8) 11. .. Ng4 12. O-O {Here I considered Nd5, to be followed
-up by N(either one)c7+. That wasn't possible before since Black's Knight on
-f6 covered d5. I decided to castle instead so that my Rook would already be
-on the f-file should Black decide to exchange Bishop for Rook on e3,
-opening up the f-file.
-
-Nd5 is the stronger move. I don't think there's a
-way for Black to save his Rook in that line.} (12. Nd5 Nxe3 13. fxe3 Bc5
-(13. .. Bb4+ 14. Nxb4 O-O {Removes the fork.} 15. Nxa6 bxa6 16. Nc7 {The
-Rook is trapped anyway.} Bb7 17. Nxa8 Bxa8) 14. Ndc7+ Nxc7 15. Nxc7+ Ke7
-16. Nxa8 b6) 12. .. Be7 13. Nd5 Bd8 {Stops Nc7.} 14. Qd1 {Here I strongly
-considered Nd6+, forcing the King to move. Ultimately decided against it in
-favor of building up more pressure for a more effective attack.
-
-With the
-text I was hoping for Black to retreat his Knight to f6. See variation for
-what I had in mind.
-
-Either way, White is obviously winning. Black has
-lost his Queen, and White's pieces are all active, where as the bulk of
-Black's pieces are on the 8th rank.} (14. Nd6+ Kf8 15. h3 Nxe3 (15. .. Be7
-16. Nxe7 Nxe3 17. fxe3 Kxe7 18. Nxf7) 16. fxe3 f5 (16. .. Be7 17. Rxf7+ Kg8
-18. Nxe7#) 17. exf5 g5 18. Qb2 h5 19. Qxe5 Rh6 20. f6) 14. .. h5 (14. ..
-Nf6 {This would be a bad mistake by Black, and is actually a mate in four
-(I did not see that in my over the board calculation).} 15. Nxf6+ {This was
-the line I calculated. See Nd6+ variation for the mate in four.} (15. Nd6+
-Kf8 16. Bh6+ Kg8 17. Nxf6+ Bxf6 18. Bxf7#) 15. .. Bxf6 16. Nd6+ Kf8 (16. ..
-Kd8 17. Nxf7+ Ke8) 17. Qf3 {Here I thought that the dual threat of Qxf6 and
-Qxf7# if Black moves his Bishop would be too much for Black. However, Black
-could play Ke7 here, addressing both threats. I did not see that move over
-the board. See continuation for what post-game analysis says.} Ke7 18. Bxa6
-b6 (18. .. bxa6 19. Bc5 Bh4 20. Nxf7+ d6 21. Bxd6+ Ke6 22. Nxh8) 19. Bc4)
-15. h3 {I was adamant of forcing that Knight to f6.} Nxe3 {Of course, the
-Knight doesn't *have* to go to f6...} 16. fxe3 O-O {Here it was clear that
-my build-up had been too slow, allowing Black to castle. Nd6+ earlier would
-have prevented that.
-
-White is still clearly winning, obvoiusly, but
-could have played sharper.} 17. Nd6 Nc5 18. Nf6+ Bxf6 19. Rxf6 Kg7 20. Qf3
-Ne6 21. Rxf7+ Rxf7 22. Qxf7+ {Mate is now unavoidable.} Kh8 {...Kh6 would
-have made White work a little harder for the mate.} 23. Qxg6 {Threatening
-Nf7#. And if Black plays ...Ng5 (covering f7) then Qg8#.} Rb8 24. Nf7# 1-0
+On the other hand, opening up the f-file
+isn't exactly helping Black in this situation.} 16. fxe3 O-O {Here it was
+clear that my build-up had been too slow, allowing Black to castle. Nd6+
+earlier would have prevented that. White is still clearly winning,
+obvoiusly, but could have played sharper.} 17. Nd6 Nc5 18. Nf6+ Bxf6 19.
+Rxf6 Kg7 20. Qf3 {White's pieces are swarming around the Black King (all
+the pices are involved in the attack!), where as Black's pieces are either
+far away from the action or ineffective. The a8-Rook and c8-Bishop are
+particularly said affairs.} Ne6 21. Rxf7+ Rxf7 22. Qxf7+ {Mate is now
+unavoidable.} Kh8 {...Kh6 would have made White work a little harder for
+the mate.} (22. .. Kh6 23. h4 b6 24. Qg8 Ng5 25. Nf5+ gxf5 26. hxg5# {To be
+honest, I wonder if I would have seen this line over the board.}) 23. Qxg6
+{Threatening Nf7#. And if Black plays ...Ng5 then Qg8#.} Rb8 24. Nf7# 1-0
 
