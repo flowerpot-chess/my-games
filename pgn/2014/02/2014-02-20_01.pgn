@@ -1,0 +1,134 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.20"]
+[Round "1"]
+[White "Critter 1.2"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Rossolimo, 3...e6 4.O-O Nge7 5.c3"]
+[TimeControl "40/2400:40/2400:2400"]
+[Termination "normal"]
+[PlyCount "84"]
+[WhiteType "program"]
+[BlackType "human"]
+[Comment "The Critter engine was set to strength \"Similar to player\"."]
+
+1. e4 {Playing Black against the Critter 1.2 engine set to strength
+"Similar to the player". Have not played against this engine for a while.}
+c5 {Decided to give the Sicilian another go.} 2. Nf3 Nc6 3. Bb5 e6 4. O-O
+Nge7 5. c3 d5 6. exd5 Qxd5 {Perhaps better to recapture with the e7-Knight?
+On the other hand, the Knight on e7 also protects the Knight on c6, so
+after ...Nxe5 Bxc6 forces me to recapture with the b-pawn, messing up my
+pawn structure.} 7. Re1 a6 8. c4 Qd6 9. Ba4 Bd7 {Unpins the Knight.} 10.
+Qe2 Nf5 {I plan to follow up with Nc6-d4, attacking the White Queen and
+discovering an attack on the White Bishop. That in itself will not win any
+material, but if the White Bishop leaves the d1-a4 diagonal I can play Nc2,
+forking the White Rooks.} 11. d3 {Now the White Queen covers c2, so my
+Knight-forking plans may have to be put on hold.} Ncd4 {Does it make a
+difference which Knight I move to d4?} 12. Bxd7+ Qxd7 13. Qe4 {Blunder,
+that allows me to for the Rooks after all.} Nc2 14. Ne5 Qc7 15. g4 Nfd4
+{The a1-Rook isn't going anywhere, so I can move my Knight to safety.} 16.
+Be3 Nxe1 {First of all, here I missed a nice tactic: ...Qxe5!. If White
+recaptures (Qxe5) I can play ...Nf3+, forking the King and Queen. That nets
+me a Knight in the exchange, and the White Rook on a1 is still
+lost.
+
+However, I didn't see that at all (shame on me). Instead I decided
+to grab a Rook, and I decided on the e1-Rook. My thinking was that after
+...Nxa1, my Knight can easily get stuck on a1. Its only escape square is
+the c2-square it came from, so if White covers that square and moves his
+Knight away my Knight will be trapped and left hanging for the Rook on
+e1.
+
+Stockfish actually agrees with me, and evaluates Black's position
+after ...Nxe1 about +3 better than after ...Nxa1. But Qxe5 is stronger
+still.
+
+So I decided to consider my Knight as good as lost anyway, and
+captured the more active Rook on e1 instead.} (16. .. Qxe5 17. Nd2 (17.
+Qxe5 Nf3+ {Forks the King, Queen, and Rook!} 18. Kf1 Nxe5 19. Rc1 Nxa1 20.
+Nd2) 17. .. Qxe4 18. dxe4 Be7 19. Bxd4 cxd4 20. Nf3 Rd8 {Notice how it's no
+rush to grab one of the Rooks - White can't save both of them anyway.}) 17.
+Bxd4 cxd4 {A blunder. Here I missed that ...Nc2 will win me the second Rook
+as well!} (17. .. Nc2 18. Bc3 Nxa1 19. Qe2 Bd6) 18. Qxe1 {The exhange,
+sloppy executed by both sides, concludes with Black winning a Rook for a
+Knight.} Bd6 {Developing the Bishop and attacking the Knight.
+
+Here I
+also considered ...f7-f6, leaving the diagonal open for the Queen. I
+thought that after Nf3 I could play ...Qf4, attacking both the Knight and
+the pawn on g4. But White can then counter with Qxe6+. So then I considered
+starting out by playing ...b2-b4 instead. After cxb4 and axb4 I could move
+my Rook to a6, protecting e6 (of course, White has a move in between there,
+which might trip up those plans). And if White instead plays c4-c5 his
+c-pawn would be hanging for my Queen. Of course, White also has the option
+of just leaving his c4-pawn be and play something else.
+
+All in all, I
+decided that Bd6 was the simpler move, with the most straight-forward
+benefit: my Bishop gets developed. An additional benefit is that h2 is now
+a target.} (18. .. b5 19. Qe4 {As I said in the comment after 18...Bd6:
+White can just ignore my b-pawn and play something else, like this move
+which activates the Queen and attacks my Rook.}) 19. Nf3 {Brings the Knight
+to safety, and defends h2.} g5 {Here I had a decision to make. On the one
+hand I don't like my King in the center (on the same file as the White
+Queen to boot!), and would like to castle. On the other hand, my Bishop and
+Queen are already zeroed in on the h2-pawn, and I wouldn't mind letting my
+h-Rook stay where it is, and open up the h-file.
+
+I decided to go for the
+attack. ...g7-g5 blocks the g4-pawn, and allows me to force open the h-file
+via ..h7-h5.
+
+Note that the pawn is technically hanging to the Knight,
+but after Nxg5 I can play ...Bxh2+. Alternatively I can still play
+...h7-h5, forcing open the h-file anyway.} 20. Qe4 {Attacks the d4-pawn.}
+(20. Nxg5 Bxh2+ 21. Kf1 h5 22. Nxe6 fxe6 23. Qxe6+ Qe7 24. Qxe7+ Kxe7 25.
+Nd2 hxg4) 20. .. h5 {Also considered setting a trap, via 20...Rd8. Then
+20.Qxd4 Bxh2+! wins the Queen.
+
+Went ahead with h7-h5 instead, to stay on
+the offensive.} 21. Qxd4 {To be honest, I didn't realize that Qxd4 would
+also attack my h8-Rook until after the move was made.} (21. gxh5 Rxh5 22.
+h4 gxh4 23. Nfd2 (23. Nxh4 Re5 24. Qh7 Re1+ 25. Kg2 O-O-O 26. Nf3 Qc6) 23.
+.. h3 24. Nf3) 21. .. O-O-O {Kills two birds in one stone: Defends h8, and
+brings the a-Rook to d8 after all. Now the White Queen is in peril.} 22.
+Kf1 {Now ...Bxh2 is not a check, so won't win the Queen.} Bf4 {Blocks the
+White Queen from g4.} (22. .. hxg4 23. Qxg4) 23. Qa7 {Did not see this move
+coming.} hxg4 {The Queen on a7 is no real threat, so decided to go ahead
+with mission h-file.} 24. Nd4 Qd7 {Here I suddenly got cold feet regarding
+the Queen on a7. So instead of playing the Rxh2 move I had been preparing I
+instead open the way for the Bishop to block a check on b8 if
+necessary.
+
+...Rxh2 is the better move.} (24. .. Rxh2 25. Nd2 (25. a4
+Rh1+ 26. Kg2 Rhh8 27. Kf1 Rh2) 25. .. Rh1+ 26. Kg2 Rxa1 27. Ne4) 25. Ne2 {A
+blunder.} Qxd3 {Wins a pawn and pins the Knight.} 26. Qc5+ Kb8 27. Nc3 Qh3+
+{Bad move. Rxh2 is a mate in five.} (27. .. Rxh2 28. f3 (28. a3 Rh1+ 29.
+Kg2 Qf3#) 28. .. Qxf3+ 29. Ke1 Rh1+ 30. Qg1 Rxg1+ 31. Nxg1 Bd2#) 28. Ke1
+Bd2+ 29. Kd1 Be3+ {Here I thought I would win the Black Queen. I eventually
+did, but at some cost. ...Bxc3+ is a stronger move, that also ends up
+winning the Queen (see variation).} (29. .. Bxc3+ 30. Kc2 Rd2+ 31. Kb3 Bd4+
+32. Ng3 Bxc5) 30. Nd4 Rxd4+ 31. Ke1 Rd1+ {Finally wins the Queen, but I
+give up my Rook in the process.
+
+Here I first considered ...Bxf2, because
+it seemed to lead to mate. But in one of the lines I calculated I couldn't
+find a way to mate White. Finally I decided to pretend I was in a real over
+the board game with time controls, meaning I didn't have the luxury to
+scrutinize each individual line for a way to mate, so I settled for the
+Queen-for-a-Rook exchange instead.
+
+It turns out that ...Bxf2 actually is
+a forced mate in five! See variations.} (31. .. Bxf2+ 32. Ke2 {This line I
+saw.} (32. Kxf2 Qxh2+ 33. Kf1 {This was the line I had problems with over
+the board.} (33. Ke1 33. .. Qg1+ 34. Ke2 Rh2#) (33. Ke3 Qd2#) 33. .. Qh1+
+34. Ke2 Qf3+ 35. Ke1 Rh1#) 32. .. Qf3+ 33. Kf1 Be3+ 34. Ke1 Bd2# (34. ..
+Qf2#)) 32. Rxd1 Bxc5 33. Ne4 Bb4+ 34. Nd2 Qxh2 {Here I missed a mate in
+four!} (34. .. Qd3 35. h4 Rxh4 36. f3 (36. a3 Rh1#) 36. .. Rh2 37. a3 Qe2#)
+35. Ke2 Qe5+ 36. Kd3 Rd8+ 37. Kc2 Qe2 38. c5 Bxd2 {Here I missed another
+mate in four!} (38. .. Qd3+ 39. Kc1 Bxd2+ 40. Rxd2 Qxd2+ 41. Kb1 Qd1#) 39.
+Rxd2 Qxd2+ 40. Kb3 Qd3+ 41. Kb4 Rd4+ 42. Ka5 Qb5# 0-1
+
