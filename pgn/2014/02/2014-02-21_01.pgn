@@ -19,10 +19,14 @@ strength "Similar to player".} c5 2. Nf3 Qa5 {The Mongoose Variation of the
 Sicilian. I've never seen that one before.} 3. Nc3 {Develops the Knight and
 unpins the d-pawn.} g6 4. d4 Nf6 5. Bd2 {Unpins the Knight, stopping
 ...Kxe4. I was also considering the more direct way of protecting e4: Bd3.}
-cxd4 6. Nxd4 Qb6 7. Be3 {Here I completely missed that th b2-pawn is
-hanging, and was only concerned with protecting my Knight. I *was*
-considering Nb3, which would have saved the pawn, but purely to get the
-Knight to safety. I rejected that move because I preferred to have my
+cxd4 6. Nxd4 (6. Nd5 {Perhaps stronger than the normal Nxd4. Discovers an
+attack on the Queen, causing Black to lose a tempo.} Qd8 7. Nxf6+ exf6 8.
+Nxd4 {Even in material, but Stockfish evaluates this position > +1 for
+White. White has developed to pieces, Black none. And Black's pawn
+structure is not ideal.}) 6. .. Qb6 7. Be3 {Here I completely missed that
+th b2-pawn is hanging, and was only concerned with protecting my Knight. I
+*was* considering Nb3, which would have saved the pawn, but purely to get
+the Knight to safety. I rejected that move because I preferred to have my
 Knight in the center, even though I instead had to move my Bishop again.
 However, it turns out that ...Qxb2 is bad for Black. See continuation.}
 Qxb2 {I was dismayed that I hadn't noticed the hanging pawn. However, this
@@ -69,9 +73,7 @@ addressing both threats. I did not see that move over the board. See
 continuation for what post-game analysis says.} Ke7 18. Bxa6 b6 (18. ..
 bxa6 19. Bc5 Bh4 20. Nxf7+ d6 21. Bxd6+ Ke6 22. Nxh8) 19. Bc4) 15. h3 {I
 was adamant of forcing that Knight to f6.} Nxe3 {Of course, the Knight
-doesn't *have* to go to f6...
-
-On the other hand, opening up the f-file
+doesn't *have* to go to f6... On the other hand, opening up the f-file
 isn't exactly helping Black in this situation.} 16. fxe3 O-O {Here it was
 clear that my build-up had been too slow, allowing Black to castle. Nd6+
 earlier would have prevented that. White is still clearly winning,
