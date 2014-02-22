@@ -8,7 +8,6 @@
 [ECO "B44"]
 [Opening "Sicilian"]
 [Variation "Taimanov, 5.c4 Nf6 6.Nc3 Bb4"]
-[TimeControl "40/2400:40/2400:2400"]
 [Termination "normal"]
 [PlyCount "50"]
 [WhiteType "program"]
