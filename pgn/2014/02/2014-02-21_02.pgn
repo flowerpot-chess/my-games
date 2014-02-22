@@ -1,0 +1,69 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.21"]
+[Round "2"]
+[White "Critter 1.2"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "B44"]
+[Opening "Sicilian"]
+[Variation "Taimanov, 5.c4 Nf6 6.Nc3 Bb4"]
+[TimeControl "40/2400:40/2400:2400"]
+[Termination "normal"]
+[PlyCount "50"]
+[WhiteType "program"]
+[BlackType "human"]
+[Comment "Critter set to strength \"Similar to player\""]
+
+1. c4 {Friday evening game as White against Critter 1.2, set to strength
+"Similar to player". Critter plays the English opening.} Nf6 2. Nc3 c5
+{After reading a little on wikipedia I went for the symmetrical line.} 3.
+e4 Nc6 4. Nge2 e6 5. d4 cxd4 6. Nxd4 Bb4 {Pinning the Knight. Black is now
+threatening ...Nxe4.} 7. f3 {Stops ...Nxe4.} O-O 8. Be3 d5 9. cxd5 exd5 10.
+Nxc6 bxc6 11. e5 Re8 {Now if White plays 12.exf6 Black can counter with
+12...Rxe3+. And also, the e5-pawn is now hanging.} 12. Qd4 c5 {I'm very
+happy I saw this move.} 13. Qd2 (13. Qf4 {If White tries to hang on to the
+e-pawn...} Nh5 {...Nh5 traps the Queen, sort of.} 14. Qg5 Qxg5 15. Bxg5
+Rxe5+ 16. Kf2 Rxg5 {Black wins a piece in the exchange, and White's King is
+on the move.}) 13. .. Rxe5 {Here I could have played ...d5-d4, forking the
+Bishop and Knight. But I decided to capture the e-pawn first, pinning the
+Bishop to the King. Then follow up with ...d5-d4 in my next move.} 14. Rd1
+{A better way for White to get his Rook to d1: castle Queen-side. That
+brings the King out of immediate danger, and unpins the Bishop.} Qe7 {Now I
+got nervous about ...d5-d4, with my Queen facing White's Queen and Rook on
+the d-file. This way I also pile on the pressure on White's King.
+
+Btw,
+note how my two pawns in the center are completely unassailable!
+
+Also
+note that my back rank is still safe. If the d-file opens up, Qd8+ is not a
+disaster, since my Queen, e-Rook, and Knight all cover e8.} 15. Kf2
+{White's King gives in under the pressure.} (15. Nxd5 Bxd2+ 16. Kf2 (16.
+Kxd2 Rxd5+ 17. Ke2 Ba6+ 18. Kf2 Rxd1 19. Bxa6 Rxh1) 16. .. Bxe3+ 17. Nxe3
+Rxe3) 15. .. d4 {Finally.
+
+Another idea here was that ...Ne4+ would fork
+the King and Queen, hadn't it been for that pesky pawn on c3. So I toyed
+with the idea of playing ...Bg4, or ...Re4, to see if White would bite. I
+decided against it, since if White *didn't* bite, and e.g. moved his King
+or Queen away, I would be left in a rather precarious situation.
+
+Along
+the same lines, I thought about playing ...Ne4+ anyway, and after cxe4
+follow up with ...Qf6+. But I couldn't find a way to make that attack pan
+out, giving back enough compensation for the Knight sacrifice.} 16. Bxd4
+cxd4 17. a3 Bc5 {...dxc3 is tempting, but the text keeps up the pressure on
+White instead.} (17. .. dxc3 18. Qd8+ Ne8 19. Qxe7 Bxe7 20. bxc3 Rb8 21.
+Rd2 Rb3) 18. Ne2 {Stockfish actually says White is better off with Qxd4.}
+(18. Qxd4 Bxd4+ 19. Rxd4 Qc5 20. Nb5 Ba6 21. b4 Qc8) 18. .. d3+ 19. Ke1
+dxe2 20. Qd8+ Ne8 21. Qxe7 exd1=Q+ {Here I thought it was clever to get the
+Rook off the board before I recapture the Queen. But this is actually a
+mistake; dxf1Q+ is even stronger, and leads to mate in seven. See
+variation.} (21. .. exf1=Q+ 22. Kd2 (22. Kxf1 Ba6+ 23. Rd3 Bxd3#) 22. ..
+Qe2+ 23. Kc3 Bxe7 24. b4 Re3+ 25. Rd3 Rxd3+ 26. Kc4 Qc2+ 27. Kb5 Rd5#) 22.
+Kxd1 Bxe7 23. Bd3 Bf5 {Decided to trade away pieces.} 24. Bxf5 Rxf5 25. Re1
+Rd8 {White resigned here. I did set up this position after the game, to see
+how I would manage to finish the game off. After flailing about for a while
+I finally managed to mate White in move 47. White resigns} 0-1
+
