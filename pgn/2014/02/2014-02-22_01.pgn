@@ -1,0 +1,95 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.22"]
+[Round "1"]
+[White "Shredder 12"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "E39"]
+[Opening "Nimzo-Indian"]
+[Variation "Classical, Pirc, 6.Nf3 Na6 7.g3"]
+[Termination "normal"]
+[PlyCount "108"]
+[WhiteType "program"]
+[BlackType "human"]
+[Comment "Friend mode, handicap -183."]
+
+1. c4 {Friend Mode game as Black against Shredder. The handicap was -183.
+Shredder plays the English Opening, just like Critter did yesterday.} Nf6
+2. d4 {Transposes into an Indian Defence.} e6 3. Nc3 Bb4 (3. .. d5 4. e3
+Be7 5. Nf3 O-O) 4. Qc2 O-O (4. .. d5 5. Nf3 O-O 6. e3 c5 7. cxd5 cxd4 8.
+exd4 exd5) 5. Nf3 c5 6. dxc5 Na6 (6. .. Bxc5 {Could also have recaptured
+with the Bishop, but prefer to leave it where it is, and develop my Knight
+instead.} 7. e3 Nc6) 7. g3 Nxc5 8. Bg2 Nce4 9. Bd2 Nxd2 10. Nxd2 {Now
+White's g2-Bishop is very annoying. White light-squared Bishop, on the
+other hand, is not very good at all.} a6 {I was considering ...d7-d5, but
+figured it would leave me with an isolated d-pawn. Having just watched Ben
+Feingold's lecture on Isolated Queen Pawns, I wasn't sure I was ready for
+that :)
+
+I was also considering something like ...Qb6, followed by
+...Ng4, for a threat on f2. But that maneuver is too slow, and White can
+just castle to make the threat go away.} (10. .. d5 11. O-O (11. cxd5 exd5
+12. O-O) 11. .. Bd7) 11. Qb3 Bxc3 {I couldn't see a good way of holding on
+to the Bishop, so exchanged it.} (11. .. Qb6 12. a3 Bc5 13. Qxb6 Bxb6 14.
+O-O) (11. .. a5 12. O-O Rb8 13. a3 Be7) 12. Qxc3 Rb8 {Allows me to move the
+b-pawn without losing my Rook. Also allows me to move my Bishop (after the
+d-pawn moves) without losing my b-pawn.} (12. .. d5 13. O-O Bd7 14. cxd5
+Nxd5 15. Qe5 Rc8) 13. O-O b6 {White's bishop is very powerful, my Bishop is
+kind of pathetic. Therefore it's in my interest to exchange them!} 14. Ne4
+Nxe4 15. Bxe4 f5 {I'm starting to like opening up the f-file, and here was
+a good opportunity. Once the Bishops are traded off I'm thinking to play
+Qg5 followed by f4, if possible. If Black interjects with f2-f4 I can move
+my Queen to the h-file, then double up on the h-file via Rf8-f6-h6.} 16.
+Bg2 Bb7 17. Bxb7 Rxb7 18. Qa3 a5 {Almost played ...Rb7-c7, thinking that if
+the White Queen captures on a6 my Rook can capture on c4. Then I realized
+that the White Queen on a6 defends c4. D'oh.} 19. Rfd1 {Now my plan of
+moving my Queen to g5 looks risky. My Queen had better stay around
+defending.} f4 20. Rd4 {Attacks my f-pawn a second time.} fxg3 {Figured I
+might as well open up things about around the White King.} (20. .. Qf6 21.
+Rxf4 {D'oh! Turns out the Queen isn't defending the pawn at all!}) (20. ..
+b5 {This is the move recommended by Stockfish. I didn't consider this at
+all.} 21. c5 (21. cxb5 fxg3 22. fxg3 Rxb5) 21. .. b4 22. Qb3 Rc7 23. Rad1
+fxg3 24. hxg3 Qc8) 21. Qxg3 {I was assuming White would recapture with one
+of his pawns, but this move makes sense too. All of a sudden there's an
+attack building up against my King.} Qf6 (21. .. b5 {Again, Stockfish
+recommends I push the b-pawn.} 22. b3 bxc4 23. Rxc4 Qf6 24. Rd1 d5) 22.
+Rad1 d5 23. cxd5 exd5 24. Rxd5 Qxb2 {This was the line I had calculated
+before playing 22...d5. The exchange has also opened up the 7th rank,
+giving my b2-Rook access to the King-side, e.g. ...Rbf7.} 25. R5d2 Qb5
+{Threatening e2, so White can't move his d2-Rook.} 26. Qb3+ {Forces a Queen
+exchange.} Qxb3 27. axb3 b5 28. Ra1 Ra7 {More or less forced (the other
+alternative being Rf8-a8 - not sure if it makes a practical difference). If
+either pawn moves, White will win a pawn in the exchange.} 29. Rd5 Rb8
+{Also forced, unless I want to lose a pawn.} 30. h4 a4 {Safe now that my
+Rooks are backing up.} 31. Ra3 {This move surprised me.} Kf7 {Wasn't really
+sure what to do about the situation on the a- and b-files. I kind of want
+to play ...b5-b4, but after Rxa4 White wins a pawn in the exchange. On the
+other hand, I'll have a passed pawn on the 4th rank. So will Black, of
+course, but my pawn has a shorter path to promotion.
+
+Long story short, I
+postponed a decision by activating my King.} 32. e4 b4 {Decided to go for
+the exchange.} 33. Rxa4 Rxa4 34. bxa4 Ke6 {Decided to bring my King even
+closer to the action before starting pushing the b-pawn.} 35. Rd1 Ke5 36.
+f3 b3 37. Rb1 Kd4 {Now White is in trouble. His King is too far away to
+help.} 38. a5 Kc3 {The b-pawn is safe. My Rook can now take care of White's
+a-pawn.} 39. a6 Ra8 {I could have played Kc2 first, but chickened out.
+Didn't want to take any risks with that a-pawn.} 40. Rc1+ {This is the
+price I pay for not playing Kc2.} Kb4 {...Kd3 would have been better.} 41.
+Ra1 {Here I was anticipating Rc6, followed by Rb6+. I had calculated the
+lines and wasn't concerned.} (41. Rc6 b2 42. Rb6+ Ka3 43. Kf2 Ka2 44. e5
+b1=Q 45. Rxb1 Kxb1 46. Ke3 Rxa6) 41. .. b2 42. Rb1 Kb3 43. Re1 Rxa6 44. Kh2
+Ka2 {Here I considered Ra6-a1, but saw a line where that would just drag
+things out a little (I would still win the Rook), so I went with this
+instead.} (44. .. Ra1 45. Re3+ Ka2 {This was the line I calculated, that
+stopped me from playing Ra6-a1. But the King can go to c4 here, which is
+the better move.} (45. .. Kc4 46. Re2 b1=Q) 46. Re2 Rc1 47. Kg3 Ka1 48.
+Rxb2 Kxb2) 45. Kg3 b1=Q 46. Rxb1 Kxb1 47. Kg4 Kc2 48. e5 Kd3 49. f4 Ke4
+{Stops White in his tracks. If either of the f- or e-pawns move, the e-pawn
+falls.} 50. h5 h6 51. Kg3 {Any other move, and one of the White pawns will
+fall.} Kf5 (51. .. g6 52. hxg6 (52. f5 gxf5 53. Kf2 Kxe5) 52. .. Rxg6+ 53.
+Kf2 Kxf4) 52. Kf3 {Again, the only move that keeps all pawns alive.} Ra3+
+53. Kg2 {The White King is forced away from the f-pawn.} Kxf4 54. e6 Re3
+{White resigned here. White resigns} 0-1
+
