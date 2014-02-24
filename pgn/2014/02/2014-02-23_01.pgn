@@ -1,0 +1,57 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.23"]
+[Round "?"]
+[White "Critter 1.2"]
+[Black "Zethson, Torgil"]
+[Result "1-0"]
+[ECO "A48"]
+[Opening "Neo-King's Indian"]
+[Variation "Torre Attack, 2..g6 3.Bg5 Bg7 4.Nbd2 O-O 5.c3 d6"]
+[Termination "normal"]
+[PlyCount "67"]
+[WhiteType "program"]
+[BlackType "human"]
+[Comment "Critter strength set to \"Somewhat better [than player]\""]
+
+1. d4 {Sunday afternoon game as Black against Critter 1.2, set to strength
+"Somewhat better [than player]".} Nf6 2. c3 g6 3. Nf3 Bg7 4. Bg5 O-O {Here
+...Ne4 seems a good alternative, forcing White to move his Bishop again if
+he wants to keep it.} (4. .. Ne4 5. Bf4) 5. Nbd2 d6 {Perhaps d5 is better.}
+6. a4 a5 {Not sure if this is necessary. Maybe better to move a center pawn
+and let White take a5 is he wants?} 7. e4 c5 8. dxc5 dxc5 9. Be3 Qc7
+{Debated over the best way of defending the c-pawn. The alternatives: the
+text, ...b7-b6, or one of the Knights to d7.} 10. h3 Nc6 {Incredibly, I
+immediately forgot that the Queen is defending the c-pawn...} 11. Bb5
+{White was nice to not notice the hanging c-pawn. Maybe he was just being
+nice.} b6 12. Qc2 Bb7 {Connects the two rooks.} 13. Rd1 Rad8 {Getting a
+Rook to the open file. Is this the right Rook to move?} 14. O-O Ne5 15.
+Nxe5 Qxe5 16. f4 Qe6 {Did not want to retreat the Queen back to the square
+she came from. Further, the d-file is a little too hot for my liking, and
+not sure the Queen would be very useful on h5. Leaves e6 :)} 17. e5 Nd5
+{Threatening capture on e3, forking the Queen and both Rooks.} 18. Nc4 f6
+19. Bd2 Nc7 {Discovers an attack on the c4-Knight, and also attacks the
+b5-Bishop, which is the only piece defending the Knight.} 20. exf6 Bxf6
+{...Be4 first, then capture, is stronger.} (20. .. Be4 21. Qb3 Bxf6) 21.
+Rfe1 Qf7 {I still want to attack the Knight, so keep the Queen on that
+diagonal.} 22. Nxb6 Rd6 {Mistake. I should have captured the Bishop here.
+This was the beginning of the end.} (22. .. Nxb5 23. axb5 Rd6 24. Na4 {Only
+square available to the Knight.} Qc4 25. b6 Bc6 26. b3 Bxa4 27. bxa4 Rxb6
+28. Re4 Rb2 29. Rxc4 Rxc2) 23. Bc4 {Dang. The danger of placing your Queen
+on the same diagonal as the King.} Ne6 {The losing move. Don't know why I
+didn't just play ...e7-e6 to block the attack. The Knight is practically a
+hanging piece, nothing stops Black from just picking it off right away.}
+24. Qb3 {Now three pieces are attacking e6, but I only have two defenders.
+And ...Bc8 does not help, since White can just capture it with the Knight.}
+Kg7 {Accepting loss of a piece, moving the King off the diagonal.} 25. Rxe6
+Ba6 26. Bd5 (26. Bxa6 {This is what I'm hoping for.} 26. .. Qxe6 27. Bc4
+Qe4) (26. Rxd6 Bxc4 27. Nxc4 exd6) 26. .. Bb7 {The next blunder. Thought
+that offering up the Bishop again could do the trick. Because if White goes
+back to c4 I'll just go back to a6.} 27. Rxd6 {D'oh.} Bxd5 28. Rxd5 e6 29.
+Rxc5 Qb7 {Another mistake. Should have used the Rook instead, since the
+text leaves the e-pawn hanging.
+
+Not that it matters much at this point.}
+30. Qxe6 Rf7 31. Nd5 Qa7 32. Be3 Qd7 33. Rc6 Qxe6 34. Rxe6 {I resigned
+here. Black resigns} 1-0
+
