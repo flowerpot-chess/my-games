@@ -1,0 +1,103 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.02.25"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Shredder 12"]
+[Result "1-0"]
+[ECO "C60"]
+[Opening "Spanish"]
+[Variation "Cozio, 4.O-O"]
+[Termination "normal"]
+[PlyCount "99"]
+[WhiteType "human"]
+[BlackType "program"]
+[Comment "Friend Mode game, with handicap -201."]
+
+1. e4 {Friend Mode game as White against Shredder 12. Handicap was -201 (or
+something like that).} e5 2. Nf3 Nc6 3. Bb5 {Next time I play White I
+should try something else than the Ruy Lopez.} Nge7 {Don't think I've ever
+played against this defense in the Ruy Lopez.} 4. c3 {Also not sure if I've
+ever played c3 in the Ruy Lopez before.} a6 5. Ba4 d6 6. O-O {Inconcistent?
+After 4.c3 it is perhaps more natural to play 5.d4 directly? Or is it OK to
+castle first?} Bd7 7. d4 Ng6 (7. .. exd4 8. cxd4 Ng6 9. Nc3) 8. Re1 {Maybe
+8.d5 is better here.} Be7 9. Nbd2 {Again, d4-d5 is probably better. Here I
+was concerned about developing my pieces. Also considered Be3 (which is
+probably better than the text).} O-O 10. Nf1 {I've seen this in a couple of
+openings and wanted to try it. Also gets the Knight out of the way of the
+Bishop.
+
+In hindsight I'm not very happy with this move. The Knight
+became a non-issue on f1 for a long time, and I struggled with finding
+anything useful for it to do.
+
+Again, d4-d5 here would have been better.}
+exd4 11. cxd4 Nh4 12. Nxh4 Bxh4 {Here I became concerned about Black
+playing Bh3, and if gxh3 the Black Queen could swoop in with a check.} 13.
+d5 {Finally I play d4-d5. Of course, now it's not as good as it would have
+been before, since the e5-square is open for the Knight. And again I'm
+inconsistent - before I was eager to develop my pieces (9.Nbd2), but here I
+leave the Bishop on c1. Be3 would have been a good option.} Ne5 14. Bxd7
+{Now I don't have to worry about ...Bh3 (not sure that was much of a threat
+to begin with).} Qxd7 15. Bf4 {Kind of shortsighted move. The Bishop does
+not have a good home on f4, since it's difficult to defend it there. On the
+other hand, the Black Knight is strong on e4, and it doesn't hurt to evict
+it from there.} Ng6 16. Qf3 {Another shortsighted move. Do I really want my
+Queen to be stuck defending my Bishop? Better to just retreat the Bishop to
+g3, and a possible exchange.} f5 17. e5 dxe5 18. Bxe5 Nxe5 19. Rxe5 {I'm
+left with an isolated d-pawn.} Bf6 20. Re2 {Defends b2.} Rae8 21. Rxe8 Rxe8
+22. Qb3 Qb5 23. Qxb5 axb5 24. Rc1 {Now if Black plays ...Bxb2 I can counter
+with Rxc7.} Re7 25. b3 {Moving out of the way of the Bishop.} Bd4 26. Rd1
+(26. Ng3 g6 27. Kf1 Bb6 28. Ne2 Rd7 29. Rd1 Kf7) 26. .. Bc5 27. Rd2 {To
+prevent ...Re2.} Re1 28. g3 {To allow Kg2, unpinning the Knight.} Kf7 29.
+Kg2 Ke7 {Heading for my d5-pawn. Not much I can do about that.} 30. h4 {By
+vacating h2 I provide my Knight an outlet, e.g. Nh2-f3. My King also has a
+fairly safe home, immune to the Black Bishop. On the other hand, we're
+entering the end game, so I should perhaps be better off making my King
+more active, as Black is currently doing.} Kd6 31. Nh2 Re5 32. Nf3 Rxd5 33.
+Re2 {I do NOT want to trade off Rooks here, being a pawn down.} h6 34. Re8
+{Heading for new hunting grounds on the 8th rank.} Bb4 35. Rg8 {The only
+way for Black to safe a pawn here is to play ...Bc3. If ...g7-g5 White can
+play Rg6+, winning the h-pawn.
+
+I also considered Rd8+, but couldn't see
+anything concrete coming out of that.
+
+Another option here would have
+been to play Kf1, making my King more active.} Bc3 {Necessary to save a
+pawn.} 36. h5 {To allow Nh4.} Kc5 37. Nh4 f4 38. g4 Rd2 39. Ng6 {Another
+alternative would have been Nf5-Nxg7.} Rxa2 40. Nxf4 c6 41. Ne6+ {Forks the
+King and the g7-pawn.} Kb4 42. Nxg7 Be1 43. Rf8 {To defend f2. Stockfish
+says this is a mistake, and that I should have played g4-g5 here. (I did
+that next move instead.)} Kxb3 44. g5 {Here I saw a glimmer of hope. I'm
+guaranteed to end up with a passed pawn here.} hxg5 45. h6 {Here I thought
+I was in great shape. Black's pieces are far away. Especially the Rook has
+no easy way to prevent my pawn from promoting.} Bc3 {Aha. Stops the pawn in
+its tracks.} 46. Rg8 {Not sure what else to do. Considered playing
+something like Nf5 or Nh5.} Bxg7 {A terrible blunder that loses the game
+for Black.} 47. hxg7 {Now Black can't stop my pawn from promotion. 
+
+If
+Black's g-pawn had been on another file Black could at least play Ra4-Rg4.
+Then after the pawn promotes Black could give up his Rook for the newly
+promoted Queen. White would then be left with a Rook and a pawn, against
+four pawns.
+
+Note that capturing with the Rook would have been a mistake,
+as it would allow the Black Rook entrance on the 8th rank.} Ra4 48. Re8 c5
+49. g8=Q+ c4 50. Re5 {Black resigned here. I continued the line in Lucas
+Chess against Critter, and ended up mating Black after another 10+ moves or
+so.
+
+This was another game where I played too passively. Throughout the
+entire game I didn't have a single attacking plan on my own, but ended up
+reacting to Black's move instead. Ended up with an isolated pawn that I
+then lost. Black had a winning advantage, but threw it all away with the
+46...Bxg7 move.
+
+On the plus side, I don't think I made any horrible
+blunders this time, like leaving any pieces hanging. 
+And I think I made some decent decisions in the end game.
+
+Black resigns} 1-0
+
