@@ -1,0 +1,61 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.03.01"]
+[Round "?"]
+[White "Zethson, Torgil"]
+[Black "Critter 1.2"]
+[Result "1-0"]
+[ECO "C31"]
+[Opening "KGD"]
+[Variation "Falkbeer, 3.exd5"]
+[TimeControl "40/2400:40/2400:2400"]
+[Termination "normal"]
+[PlyCount "79"]
+[WhiteType "human"]
+[BlackType "program"]
+[Comment "Critter set to strength \"Somewhat better\"."]
+
+1. e4 {Saturday evening game as White against Critter 1.2, set to strength
+"Somewhat better".} e5 2. f4 {I wanted to try the King's Gambit.} d5 {The
+Falkbeer Countergambit.} 3. exd5 Qxd5 4. Nc3 Qe6 5. fxe5 Qxe5+ 6. Be2
+{White has developed two pieces, Black only one, and its his Queen to
+boot.} Nf6 7. Nf3 Qf4 8. d4 {Discovering an attack on the Queen.} Qd6 9.
+O-O Nc6 10. Nb5 {Attack the Queen, and, depending on where the Queen moves,
+will possibly allow for Ne5, or, if Black blunders, Nc7+, forking the King
+and Rook.} Qe7 11. Re1 {The Black is in a precarious spot on e7, right in
+front of her Queen. Moving my Rook to the e-file, threatening pinning the
+Queen.} (11. Bf4 {This is what Stockfish suggests. Adds a second attacker
+on c7.} Nd5 12. Bg5 f6 13. Bc4 Be6 (13. .. fxg5 14. Bxd5 Kd8 15. Qd2 Qd7
+16. Nc3 Be7 17. Bxc6 bxc6 18. Ne5 Qe8 19. Nf7+ Kd7 20. Nxh8 Qxh8 21. Rf7
+Qg8 (21. .. Rb8 22. Qxg5 Qe8 23. Qxg7 c5 24. Re1) 22. Rxe7+ Kxe7 23. Qxg5+)
+14. Bxd5 Bxd5 15. Re1 Be4 16. Nc3 O-O-O 17. Rxe4 Qd7 18. Bh4 g5 19. Bf2)
+11. .. a6 {...Bc8-e6 is stronger, breaking the pin in the making.} 12. Bc4
+Be6 13. Bxe6 axb5 14. Bxf7+ {Wins the Queen but gives up a Bishop and a
+Rook in the process.} (14. Bf5 {This is Stockfish's suggestion, which is
+indeed a stronger line. It wins the Queen with less collateral damage.} h6
+(14. .. Rd8 15. Bg5 Rd6 16. Rxe7+ Bxe7 17. Bf4 O-O (17. .. Rd5 18. Bc8 Na5
+19. Qe2 O-O 20. Qxe7) 18. Bxd6 Bxd6) 15. Rxe7+ Bxe7 16. Qe2 O-O 17. Qxb5)
+14. .. Kxf7 15. Rxe7+ Bxe7 16. Ng5+ Kg8 17. Qe2 Kf8 18. Ne6+ (18. Qxb5 Nd8
+19. Bd2 h6 20. Nf3 Kg8 21. Re1) 18. .. Kf7 19. Nxc7 {A bad move. I was
+thinking that Black's Rook must move, and then I can follow up with Nxb5,
+winning two more pawns.} (19. Bf4 h6 20. Rf1 Rae8 21. Nxc7 Nxd4 22. Qe5
+Ne2+ 23. Kh1 (23. Qxe2 {This line would have been worse.} Bc5+ 24. Be3
+Bxe3+ 25. Kh1 Re5 26. Qd3) 23. .. Nxf4 24. Nxe8 Rxe8 25. Qxf4) 19. .. Nxd4
+{Did not see this move.} 20. Qd3 Rac8 21. c3 Rxc7 22. cxd4 (22. Qxd4
+{Recapturing with the Queen would have been bad...} Bc5 {...because of
+this.} 23. Be3 (23. Qxc5 Rxc5 24. Be3 Re5 25. Bd4 Re7) 23. .. Bxd4 24.
+Bxd4) 22. .. Rd8 {Attacks the d-pawn. The Queen can't recapture, because of
+...Bc5, pinning the Queen to the King.} 23. Be3 {Defends the pawn.} Nd5 24.
+Bf2 {At this point I suddenly became aware of my weak back rank. I must
+tread carefully.} Kg8 25. Qxb5 Bb4 26. a3 Bd2 27. Bh4 Be3+ 28. Kh1 g5 29.
+Bg3 Rc2 30. Qxb7 Bxd4 31. Bd6 {Blocks the defender of the d5-Knight. And If
+Black plays ...Rxd6 White can counter with Qb8+, forking the King and the
+Rook.} Ne3 (31. .. Rxd6 32. Qb8+ Kg7 33. Qxd6 Rxb2 34. Rf1) 32. Qe7 Rxd6
+(32. .. Rdc8 33. Qxg5+ Kf7 34. Qe7+ Kg8 35. Qe6+ Kg7 36. Be5+ Kf8 37. Qf6+
+Ke8 38. Rg1) (32. .. Ra8 33. Qe6+ Kg7 34. Be5+ Bxe5 35. Qxe5+ Kg8 36. Qxg5+
+Kh8 37. Qe5+ Kg8 38. Qxe3) 33. Qxd6 Bxb2 34. Rb1 Kf7 35. Qd3 Bc1 (35. ..
+Rc1+ 36. Rxc1 Bxc1 37. Qd7+ Kf6 38. Qc6+ Ke5 39. Qxc1) (35. .. Rc3 36.
+Qxh7+ Kf8 37. Qe4 Rc1+ 38. Rxc1 Bxc1 39. Qb4+ Ke8 40. Qb5+ Kd8 41. Qxg5+
+Kd7 42. Qc5 Bxa3 43. Qa7+ Ke8 44. Qxa3) 36. Qd7+ Kf6 37. Rb6+ Ke5 38. Re6+
+Kf5 39. Qf7+ Kg4 40. Re4# 1-0
+

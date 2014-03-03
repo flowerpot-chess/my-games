@@ -1,0 +1,45 @@
+[Event "Computer chess game"]
+[Site "Home"]
+[Date "2014.03.02"]
+[Round "2"]
+[White "Zethson, Torgil"]
+[Black "Stockfish-dd-64-modern"]
+[Result "1-0"]
+[ECO "C36"]
+[Opening "KGA"]
+[Variation "Scandinavian, 4.exd5"]
+[TimeControl "300+20"]
+[Termination "normal"]
+[PlyCount "57"]
+[WhiteType "human"]
+[BlackType "Program"]
+[Comment "Stockfish playing on level 5"]
+
+1. e4 {Quick Sunday night game as White against Stockfish (level 5). Played
+on the computer only, using Blitz 5/20 mode.} e5 {I wanted to play the
+King's Gambit, so I forced Stockfish to play e5.} 2. f4 exf4 3. Nf3 d5 4.
+exd5 Qxd5 5. Nc3 Qd8 6. d4 Bd6 7. Bc4 Be6 8. Qe2 {Pinning the Bishop.} Kf8
+{...Qe7 would have been better for Black.} 9. Bxe6 fxe6 10. O-O Nc6 {Again,
+...Qe7 would have been better, this time to back up the hanging pawn.} 11.
+Qxe6 Qf6 12. Qc4 {I'm not interested in trading Queens here.} Nh6 13. Ne4
+Qf5 14. Nxd6 Qg6 {Another bad move. Why not recapture the Knight on d6?}
+15. d5 {Perhaps not the best move here. Nxb7, for example, is simpler,
+saving the Knight and grabbing another pawn.} cxd6 {This was the move I was
+planning on, but Black could also have recaptured with his Queen, which is
+something I didn't consider.} 16. dxc6 bxc6 17. Qxc6 {This was the line I
+calculated before playing 15.d5.} Rd8 18. Bxf4 (18. Ng5 {This is what
+Stockfish recommends here.} d5 (18. .. Qxg5 19. Bxf4 Qg6 20. Bxh6+ Qf6 (20.
+.. Kg8 21. Qd5+ Qe6 22. Qxe6#) 21. Rxf6+ Ke7 22. Re1+ Kxf6 23. Qf3+ Kg6 24.
+Re6#) 19. Ne6+ Kg8 20. Nxd8 Qxc6 21. Nxc6) 18. .. Qe8 19. Qc3 a5 20. Bxh6
+{If ...gxh6 White wins the Rook on h8.} Qe7 (20. .. gxh6 21. Qxh8+ {This is
+what I would have played had Black played ...gxh6.} (21. Nh4+ {But this is
+the stronger line, with a mate in four.}) 21. .. Ke7 22. Qxh7+) 21. Bg5
+{Skewering the Queen and Rook. The Bishop itself is protected by the
+Knight.} (21. Rae1 {This is what Stockfish recommends. (For good reasons -
+it's a mate in six.)}) 21. .. Qf7 22. Bxd8 Kg8 23. Bxa5 {Not to win the
+pawn, as much as to clear the 8th rank for my Queen to attack the King.}
+(23. Ng5 Qa7+ 24. Kh1 Qb7 25. Be7 Qa8 (25. .. Qxe7 26. Qc8+ Qd8 27. Qxd8#)
+26. Qc4+ d5 27. Qxd5+ Qxd5 28. Rf8#) 23. .. h6 24. Rae1 Qf6 25. Re8+ Kf7
+26. Rxh8 Qf4 27. Ng5+ {Checks the King and discovers a pin on the Queen.
+Nifty!} Ke7 28. Qxg7+ Qf7 29. Qxf7# 1-0
+
