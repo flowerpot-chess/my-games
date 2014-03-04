@@ -1,0 +1,36 @@
+[Event "AI Factory's Chess"]
+[Site "Office Bathroom"]
+[Date "2014.03.03"]
+[Round "1"]
+[White "Zethson, Torgil"]
+[Black "Android Free Chess (Level 4)"]
+[Result "1-0"]
+[ECO "C31"]
+[Opening "KGD"]
+[Variation "Falkbeer, 3.exd5"]
+[Termination "normal"]
+[PlyCount "57"]
+[WhiteType "human"]
+[BlackType "program"]
+[Comment "Free Chess set to level 4"]
+
+1. e4 {Quick game as White against my phone, while taking a dump.} e5 2. f4
+d5 3. exd5 Qxd5 4. Nc3 Qc5 5. Nf3 exf4 6. d4 Qb6 7. Bc4 Be6 8. Qe2 {Same
+move as against Stockfish yesterday, pinning the Bishop.} Nd7 {Bad move.
+...Bf8-e7 would have unpinned the Bishop. Now the Bishop will fall to my
+pawn.} 9. d5 Nc5 10. dxe6 fxe6 11. Nd5 {Taking advantage of the pawn now
+being pinned.} Qc6 {Blunder, that allows the Queen to be pinned to the
+King...} 12. Bxf4 {...but I completely missed that and developed my other
+Bishop instead. Here I should have played Bc4-b5, pinning, and winning, the
+Queen. (Ditto for the next couple of moves.)} Bd6 13. Bxd6 cxd6 14. O-O
+O-O-O {Goodbye, pin-that-I-missed.} 15. Nc3 e5 16. Nb5 a6 17. Na7+ {But I
+win the Queen anyway!} Kd7 18. Nxc6 Kxc6 19. Rad1 e4 20. Ne5+ {Taking
+advantage of another pin.} dxe5 {...but Black doesn't realize (or care)
+that the pawn is pinned.} 21. Rxd8 h6 22. Bxg8 {Here I missed a mate in
+five (see variation). But winning a piece is not so bad.} (22. Rc8+ Kb6 23.
+Qe3 Ka5 24. Qd2+ Ka4 (24. .. Kb6 25. Qd8+ Ka7 26. Ra8#) 25. Rxc5 e3 26.
+Bb3#) 22. .. h5 23. Bd5+ {Wins the other Rook too. (Again, however, Rc8+ is
+the start of a mating sequence.)} Kc7 24. Rxh8 g6 25. Rh7+ Kd6 26. Bxe4
+(26. Rf6+ Kxd5 27. c4+ Kd4 28. Rd6#) 26. .. Ke6 (26. .. Nxe4 27. Qxe4 g5
+28. Rf6+ Kc5 29. Rxb7 a5 30. Rc6#) 27. Qc4+ Kd6 28. Rd1+ Nd3 29. Rxd3# 1-0
+
