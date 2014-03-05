@@ -5,16 +5,13 @@
 [White "Zethson, Torgil"]
 [Black "Rybka 2.3.2a 32-bit"]
 [Result "1-0"]
-[BlackElo "2400"]
 [ECO "C25"]
 [Opening "Vienna"]
 [Variation "2...Nc6 3.f4 exf4 4.Nf3"]
-[WhiteElo "2400"]
-[TimeControl "300+20"]
 [Termination "normal"]
 [PlyCount "81"]
 [WhiteType "human"]
-[BlackType "human"]
+[BlackType "program"]
 [Comment "Rybka set to strength \"Somewhat better\""]
 
 1. e4 {Monday evening game as White against Rybka, set to strength
@@ -28,27 +25,28 @@ kindly allows me to fork him anyway.} c4 {...c5xd4 would have been better.}
 Black has a three pawn advantage. Stockfish evaluates this position to
 about +3 for White.}) 10. Be2 b5 11. exd6 b4 12. Na4 (12. Nb5 Bb7 13. Nc7
 Rc8 14. Bxf4) 12. .. Nd5 13. Ne5 f6 14. Bf3 {Now if ...fxe5 White can
-counter with Bxd5+, forking the King and the Rook.} Bb7 15. Nc5 Nb6
-{Strange move, that leaves the b7-Bishop hanging.} 16. Bxb7 f5 {Another
-strange move, that allows me to win the Rook for my Bishop.} 17. Bxa8 Qxa8
-18. Bxf4 Qc8 19. Qf3 Nc6 20. Nxc6 {Exchanging Knights is good for White,
-who is already up a lot of material.} dxc6 21. a3 bxa3 22. Rxa3
-{Threatening Rxa7, getting the Rook onto the 7th rank.} Rf7 23. Re3 {I plan
-to follow up with Rfe1, for an attack on e8.} Nd5 24. Re5 Qf8 25. Rfe1 (25.
-d7 Nf6 26. Ne6 Nxd7 27. Nxf8 Rxf8 28. Qxc6 Nf6 29. Qxc4+) 25. .. a6 26. Re8
-{Pinning the Queen.} Nxf4 27. Qxf4 {The pin isn't going away, so I can
-simply recapture.} a5 28. Rxf8+ Rxf8 29. Re7 {Getting the Rook onto the 7th
-rank after all. This is a mate in four, but I'm not aware of that.} h6 30.
-Qe5 {This was actually the correct move, and it is now mate in three. I
-made it for the wrong reasons though. My plan was to work around the pawn,
-and get my Queen to g6, alternatively to e6 depending on what Black plays.}
-Rf6 31. Re8+ {The mate in three has now turned into mate in six (it'll
-become even worse).} (31. Qxf6! {Sacrifices the Queen for a quick mate.}
-gxf6 32. d7 {I hadn't exactly forgotten about the pawn, but thought I could
-mate Black without an extra Queen. That's true, of course, but sometimes
-getting that extra Queen is a faster way to mate - good to remember.} c3
-33. d8=R#) 31. .. Kh7 32. Qe7 Rxd6 33. Qxd6 a4 34. Qf8 (34. Re7 a3 35. Qg3
-axb2 36. Qxg7#) 34. .. Kg6 35. Re7 Kh5 36. Qxf5+ g5 37. Re6 (37. Re3 a3 38.
-Rh3#) 37. .. c3 38. Qf3+ {Missing Qh3#!} (38. Qh3#) 38. .. g4 39. Qf5+ Kh4
-40. g3+ {Missing Rxh6#!} (40. Rxh6#) 40. .. Kh3 41. Qh5# {Finally.} 1-0
+counter with Bxd5+, forking the King and the Rook.} Bb7 15. Nc5 Nb6 16.
+Bxb7 f5 {Strange move, that, apart from the piece I just won, also allows
+me to win the Rook for my Bishop. Black should simply have recaptured with
+the Knight.} 17. Bxa8 Qxa8 18. Bxf4 Qc8 19. Qf3 Nc6 20. Nxc6 {Exchanging
+Knights is good for White, who is already up a lot of material.} dxc6 21.
+a3 bxa3 22. Rxa3 {Threatening Rxa7, getting the Rook onto the 7th rank.}
+Rf7 23. Re3 {I plan to follow up with Rfe1, for an attack on e8.} Nd5 24.
+Re5 Qf8 25. Rfe1 (25. d7 Nf6 26. Ne6 Nxd7 27. Nxf8 Rxf8 28. Qxc6 Nf6 29.
+Qxc4+) 25. .. a6 26. Re8 {Pinning the Queen.} Nxf4 27. Qxf4 {The pin isn't
+going away, so I can simply recapture.} a5 28. Rxf8+ Rxf8 29. Re7 {Getting
+the Rook onto the 7th rank after all. This is a mate in four, but I'm not
+aware of that.} h6 30. Qe5 {This was actually the correct move, and it is
+now mate in three. I made it for the wrong reasons though. My plan was to
+work around the pawn, and get my Queen to g6, alternatively to e6 depending
+on what Black plays.} Rf6 31. Re8+ {The mate in three has now turned into
+mate in six (it'll become even worse).} (31. Qxf6! {Sacrifices the Queen
+for a quick mate.} gxf6 32. d7 {I hadn't exactly forgotten about the pawn,
+but thought I could mate Black without an extra Queen. That's true, of
+course, but sometimes getting that extra Queen is a faster way to mate -
+good to remember.} c3 33. d8=R#) 31. .. Kh7 32. Qe7 Rxd6 33. Qxd6 a4 34.
+Qf8 (34. Re7 a3 35. Qg3 axb2 36. Qxg7#) 34. .. Kg6 35. Re7 Kh5 36. Qxf5+ g5
+37. Re6 (37. Re3 a3 38. Rh3#) 37. .. c3 38. Qf3+ {Missing Qh3#!} (38. Qh3#)
+38. .. g4 39. Qf5+ Kh4 40. g3+ {Missing Rxh6#!} (40. Rxh6#) 40. .. Kh3 41.
+Qh5# {Finally.} 1-0
 
