@@ -1,0 +1,78 @@
+[Event "Lucas Chess"]
+[Site "Home"]
+[Date "2014.03.06"]
+[Round "2"]
+[White "Toga II 1.4.1SE JA"]
+[Black "Zethson, Torgil"]
+[Result "0-1"]
+[ECO "A00"]
+[Opening "Polish (Sokolsky-Orangutan) Opening"]
+[Variation "Taimanov Variation, 1...e5 2.Bb2 d6"]
+[Termination "normal"]
+[PlyCount "98"]
+[WhiteType "program"]
+[BlackType "human"]
+[Comment "Toga set to strength \"Somewhat better\". The game started on the evening of the 6th, and was finished early morning on the 7th."]
+
+1. b4 {Game as Black against the Toga engine, set to strength "Somewhat
+better". Toga plays the Polish ("Sokolosky") Opening. I don't think I've
+ever faced that.} e5 {1...e5 and 1...d5 seems to be the most common
+replies.} 2. Bb2 {Immediately threatens the e-pawn. The usual defence of
+...Nc6 won't work here because of b4-b5.} d6 3. e3 Nf6 4. Nf3 g6 5. Be2 Bg7
+6. d4 e4 {I didn't want to capture on d4, because I didn't like the
+prospect of the White Knight on d4. (How do I get rid of it?)} 7. Ng5
+{Probably the wrong square to go to. Nfd2 had been better.} h6 8. Nh3 {The
+only available square for the Knight.} Bxh3 {Exchange the Knight for my
+Bishop, with the advantage of messing up White's King-side pawn structure.}
+9. gxh3 O-O {Also considered ...d6-d5 or ...c7-c6, but decided it was more
+important to get my King tucked away.} (9. .. d5 10. c4 dxc4 (10. .. c6 11.
+Nc3 O-O 12. cxd5 cxd5) 11. Nc3) 10. Rg1 Nc6 {Developing my Knight. I fully
+expected White to play b4-b5, upon which I plan to play Ne7. From there the
+Knight could continue to f5.} 11. b5 Ne7 12. Nc3 Qd7 {Develops the Queen,
+connecting the Rooks, and threatening Qxh3.} 13. h4 h5 14. Qd2 Qh3 15.
+O-O-O Qxh2 {Grabbing the pawn. Stockfish says that this is a blunder, and
+that White is better off after playing Rh1. I calculated that line over the
+board and wasn't overly concerned about it. See variation.} (15. .. Nf5
+{This is the move suggested by Stockfish. I considered this move, but
+rejected it since I didn't want to block the h3-c8 diagonal, which serves
+as an exit route for the Queen. I also didn't know that to do with the
+Knight next. At the moment it takes away the g3-square from the White Rook,
+is that a good enough reason?}) (15. .. Qxh4 {This is the other obvious
+choice in this position.}) 16. Bc4 {Pinning the f7-pawn. As long as my
+Knight on e7 protects g6 I'm fine.} (16. Rh1 Qg2 {Only available square.}
+17. Rdg1 Qxf2 18. Rf1 Qg3 {On the other hand, here if White plays Rfg1 I
+have to move back to f2, and White can force a draw. So in hindsight, Qxh2
+wasn't the best of ideas.} 19. Rxf6 {I didn't calculate this move though.
+It was shown to me by Stockfish.} Bxf6 20. Nxe4 {Forks my Queen and Bishop!
+I can't defend both pieces.} Qxh4 21. Rxh4 Bxh4) 16. .. Qxh4 17. Ba3 Rad8
+18. Kb1 Rfe8 {Getting the Rook off the dark f8-squared, which is under
+pressure from the Bishop on a3. Allows me to play d6-d5 without pinning my
+Knight.} 19. Ka1 d5 20. Rh1 Qg4 21. Rdg1 Qf5 22. Bb3 c6 23. Bc5 Nd7 {Now if
+Bxa7, ...Nc8 traps the Bishop. I also considered ...Nc8 to back up the
+pawn, but rejected it because I didn't want the Knight to get stuck on
+defensive duties on c8. ...a7-a6 weakens the b6-square, and ...b7-b6, while
+chasing away the Bishop, weakens the c6-pawn.} 24. Bb4 c5 {Since White
+placed his King on the a1-h8 diagonal, where I have my Bishop, opening up
+that diagonal is good for Black. It also pins White's Knight.} 25. dxc5 Rc8
+26. c6 bxc6 27. Ba4 Nb6 28. Bb3 cxb5 {Wins a pawn, and opens up the c-file
+for my Rook. Now the Knight on c3 becomes a primary target, especially with
+the King still on a1. If I could get White's dark-squared Bishop away from
+the e1-a5 diagonal, ...Bxc3+ would win White's Queen.} 29. Rh4 Nc6 {Chases
+away the Bishop, but unfortunately also blocks the c8-Rook, making ...Bxc3
+ineffective.} (29. .. Na4 {This was another line I considered.} 30. Bxa4
+bxa4 31. a3 Rb8 32. Kb1 Qc8) 30. Bd6 b4 {Wins the Knight, since it can't
+move.} 31. Kb1 Bxc3 {Capturing with the Bishop, to keep the diagonal open.}
+(31. .. bxc3 32. Qc1 Nc4 33. Bxc4 dxc4) 32. Qe2 Bg7 {Retreating the Bishop
+back to g7, to unpin the g6-pawn. Also, this way I can create a strong
+threat along the diagonal, by playing ...Qf6.} (32. .. Qf6 {This was
+another move I considered, attacking both the Rook and the Bishop. Black
+can play ...Bg3 though, or the Qxh5 move shown in this variation.} 33. Qxh5
+(33. Bg3 Na5 34. Rh3 Nbc4) 33. .. Qxd6 34. Qh7+ Kf8 35. Qh6+ Ke7 {Here
+Black's attack has run out, and White is up two Knights and two pawns.})
+33. Rf4 Qe6 34. Bc5 Qe5 {Threatening ...Qb2#.} 35. c3 Qxc3 36. Rc1 Qa1+ 37.
+Kc2 Nd4+ {Taking advantage of the pin on the c5-Bishop.} 38. exd4 Qxd4 39.
+Qd2 Rxc5+ 40. Kd1 Rxc1+ 41. Ke2 {Here I was expecting Kxc1, but Stockfish
+tells me that is a mate in six.} Qc5 42. Qe3 Qb5+ 43. Kd2 Nc4+ 44. Bxc4
+Qxc4 45. Qb3 Qf1 46. Rxe4 Rxe4 47. Qc2 Qe1+ 48. Kd3 Rd1+ {Here I missed
+...Rd4#.} 49. Qd2 Qxd2# 0-1
+
